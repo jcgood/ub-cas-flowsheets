@@ -170,10 +170,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Calculus Sequence 1 of 2 (choose 1 of 2 sequences)",
-                            "alternatives": [
+                            "courses": [
+                              "MTH 121LR - Survey of Calculus and Its Applications I",
                               "MTH 122LR - Survey of Calculus and Its Applications II"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -210,10 +211,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Calculus Sequence 2 of 2 (choose 1 of 2 sequences)",
-                            "alternatives": [
+                            "courses": [
+                              "MTH 141LR - College Calculus I",
                               "MTH 142LR - College Calculus 2"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -442,10 +444,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Calculus Sequence 1 of 2 (choose 1 of 2 sequences)",
-                            "alternatives": [
-                              "MTH 121LR - Survey of Calculus and Its Applications I"
+                            "courses": [
+                              "MTH 121LR - Survey of Calculus and Its Applications I",
+                              "MTH 122LR - Survey of Calculus and Its Applications II"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -483,10 +486,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Calculus Sequence 2 of 2 (choose 1 of 2 sequences)",
-                            "alternatives": [
-                              "MTH 141LR - College Calculus I"
+                            "courses": [
+                              "MTH 141LR - College Calculus I",
+                              "MTH 142LR - College Calculus 2"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -619,12 +623,13 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Physics Sequence 1 of 2 (choose 1 of 2 sequences)",
-                            "alternatives": [
+                            "courses": [
+                              "PHY 101LR - College Physics",
                               "PHY 151LAB - College Physics I Lab",
                               "PHY 102LR - College Physics II",
                               "PHY 152LAB - College Physics II Lab"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -665,12 +670,13 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Physics Sequence 1 of 2 (choose 1 of 2 sequences)",
-                            "alternatives": [
+                            "courses": [
                               "PHY 101LR - College Physics",
+                              "PHY 151LAB - College Physics I Lab",
                               "PHY 102LR - College Physics II",
                               "PHY 152LAB - College Physics II Lab"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -832,12 +838,13 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Physics Sequence 1 of 2 (choose 1 of 2 sequences)",
-                            "alternatives": [
+                            "courses": [
                               "PHY 101LR - College Physics",
                               "PHY 151LAB - College Physics I Lab",
+                              "PHY 102LR - College Physics II",
                               "PHY 152LAB - College Physics II Lab"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -878,12 +885,13 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Physics Sequence 1 of 2 (choose 1 of 2 sequences)",
-                            "alternatives": [
+                            "courses": [
                               "PHY 101LR - College Physics",
                               "PHY 151LAB - College Physics I Lab",
-                              "PHY 102LR - College Physics II"
+                              "PHY 102LR - College Physics II",
+                              "PHY 152LAB - College Physics II Lab"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -1111,10 +1119,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Physical Chemistry (choose 1 of 2)",
-                            "alternatives": [
+                            "courses": [
+                              "CHE 319LEC - Physical Chemistry",
                               "CHE 349LEC - Physical Chemistry for Life Sciences"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -1153,10 +1162,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Physical Chemistry (choose 1 of 2)",
-                            "alternatives": [
-                              "CHE 319LEC - Physical Chemistry"
+                            "courses": [
+                              "CHE 319LEC - Physical Chemistry",
+                              "CHE 349LEC - Physical Chemistry for Life Sciences"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -2168,10 +2178,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Discrete Structures / Data Structures (choose 1 of 2)",
-                            "alternatives": [
+                            "courses": [
+                              "CSE 191LR - Introduction to Discrete Structures",
                               "CSE 250LR - Data Structures"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -2355,10 +2366,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "General/Honors Physics III (choose 1 of 2)",
-                            "alternatives": [
+                            "courses": [
+                              "PHY 207LR - General Physics III",
                               "PHY 217 - Honors Physics III (if offered)"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -2827,10 +2839,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Numerical Methods (choose 1 of 2)",
-                            "alternatives": [
-                              "MTH 437LR - Introduction to Numerical Analysis I"
+                            "courses": [
+                              "MTH 437LR - Introduction to Numerical Analysis I",
+                              "PHY 410LEC - Computational Physics I"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -2869,10 +2882,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Numerical Methods (choose 1 of 2)",
-                            "alternatives": [
+                            "courses": [
+                              "MTH 437LR - Introduction to Numerical Analysis I",
                               "PHY 410LEC - Computational Physics I"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -3072,10 +3086,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Advanced Laboratory (choose 1 of 2)",
-                            "alternatives": [
-                              "PHY 407LAB - Advanced Laboratory"
+                            "courses": [
+                              "PHY 407LAB - Advanced Laboratory",
+                              "PHY 408LAB - Advanced Laboratory"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -3122,10 +3137,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Probability/Statistics Requirement (choose 1 of 2)",
-                            "alternatives": [
+                            "courses": [
+                              "EAS 305LR - Applied Probability and Statistics",
                               "MTH 411LR - Introduction to Probability Theory"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -3162,10 +3178,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Probability/Statistics Requirement (choose 1 of 2)",
-                            "alternatives": [
-                              "EAS 305LR - Applied Probability and Statistics"
+                            "courses": [
+                              "EAS 305LR - Applied Probability and Statistics",
+                              "MTH 411LR - Introduction to Probability Theory"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -3893,7 +3910,7 @@
                           {
                             "requirement_type": "elective",
                             "group": "Seven LIN Electives (choose 7 of 38)",
-                            "alternatives": [
+                            "courses": [
                               "LIN 104LEC - Writing Systems",
                               "LIN 106LEC - Languages of the World",
                               "LIN 108LEC - Roots of English",
@@ -3910,7 +3927,7 @@
                               "LIN 410LEC - Morphology",
                               "LIN 414SEM - History of the English Language"
                             ],
-                            "alternatives_truncated": true
+                            "courses_truncated": true
                           }
                         ]
                       },
@@ -3953,22 +3970,23 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "One Culture and Meaning course (choose 1 of 9)",
-                            "alternatives": [
+                            "courses": [
                               "LIN 315LEC - Language in Its Social Setting",
                               "LIN 333LEC - Introduction to Linguistic Meaning",
                               "LIN 356LEC - An Introduction to Contemporary Theories of Metaphor",
                               "LIN 405LEC - Bilingualism and Language Contact",
                               "LIN 417LEC - Psycholinguistics",
+                              "LIN 421LEC - Linguistic Anthropology",
                               "LIN 438LEC - Semantics",
                               "LIN 455LEC - Language Acquisition",
                               "LIN 493LEC - Sociolinguistics"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           },
                           {
                             "requirement_type": "elective",
                             "group": "Seven LIN Electives (choose 7 of 38)",
-                            "alternatives": [
+                            "courses": [
                               "LIN 104LEC - Writing Systems",
                               "LIN 106LEC - Languages of the World",
                               "LIN 108LEC - Roots of English",
@@ -3985,7 +4003,7 @@
                               "LIN 410LEC - Morphology",
                               "LIN 414SEM - History of the English Language"
                             ],
-                            "alternatives_truncated": true
+                            "courses_truncated": true
                           }
                         ]
                       },
@@ -4107,7 +4125,7 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "One Culture and Meaning course (choose 1 of 9)",
-                            "alternatives": [
+                            "courses": [
                               "LIN 315LEC - Language in Its Social Setting",
                               "LIN 333LEC - Introduction to Linguistic Meaning",
                               "LIN 356LEC - An Introduction to Contemporary Theories of Metaphor",
@@ -4115,14 +4133,15 @@
                               "LIN 417LEC - Psycholinguistics",
                               "LIN 421LEC - Linguistic Anthropology",
                               "LIN 438LEC - Semantics",
+                              "LIN 455LEC - Language Acquisition",
                               "LIN 493LEC - Sociolinguistics"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           },
                           {
                             "requirement_type": "elective",
                             "group": "Seven LIN Electives (choose 7 of 38)",
-                            "alternatives": [
+                            "courses": [
                               "LIN 104LEC - Writing Systems",
                               "LIN 106LEC - Languages of the World",
                               "LIN 108LEC - Roots of English",
@@ -4139,7 +4158,7 @@
                               "LIN 410LEC - Morphology",
                               "LIN 414SEM - History of the English Language"
                             ],
-                            "alternatives_truncated": true
+                            "courses_truncated": true
                           }
                         ]
                       },
@@ -4176,9 +4195,10 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "One Culture and Meaning course (choose 1 of 9)",
-                            "alternatives": [
+                            "courses": [
                               "LIN 315LEC - Language in Its Social Setting",
                               "LIN 333LEC - Introduction to Linguistic Meaning",
+                              "LIN 356LEC - An Introduction to Contemporary Theories of Metaphor",
                               "LIN 405LEC - Bilingualism and Language Contact",
                               "LIN 417LEC - Psycholinguistics",
                               "LIN 421LEC - Linguistic Anthropology",
@@ -4186,12 +4206,12 @@
                               "LIN 455LEC - Language Acquisition",
                               "LIN 493LEC - Sociolinguistics"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           },
                           {
                             "requirement_type": "elective",
                             "group": "Seven LIN Electives (choose 7 of 38)",
-                            "alternatives": [
+                            "courses": [
                               "LIN 104LEC - Writing Systems",
                               "LIN 106LEC - Languages of the World",
                               "LIN 108LEC - Roots of English",
@@ -4202,13 +4222,13 @@
                               "LIN 315LEC - Language in Its Social Setting",
                               "LIN 342LEC - Introduction to Cognitive Science: Concepts of the Mind",
                               "LIN 345LEC - Artificial Intelligence and Natural Language",
+                              "LIN 356LEC - An Introduction to Contemporary Theories of Metaphor",
                               "LIN 404LEC - Discourse-Pragmatics",
                               "LIN 405LEC - Bilingualism and Language Contact",
                               "LIN 410LEC - Morphology",
-                              "LIN 414SEM - History of the English Language",
-                              "LIN 415LEC - Syntax I"
+                              "LIN 414SEM - History of the English Language"
                             ],
-                            "alternatives_truncated": true
+                            "courses_truncated": true
                           }
                         ]
                       },
@@ -4323,7 +4343,7 @@
                           {
                             "requirement_type": "elective",
                             "group": "Seven LIN Electives (choose 7 of 38)",
-                            "alternatives": [
+                            "courses": [
                               "LIN 104LEC - Writing Systems",
                               "LIN 106LEC - Languages of the World",
                               "LIN 108LEC - Roots of English",
@@ -4340,7 +4360,7 @@
                               "LIN 410LEC - Morphology",
                               "LIN 414SEM - History of the English Language"
                             ],
-                            "alternatives_truncated": true
+                            "courses_truncated": true
                           }
                         ]
                       },
@@ -4382,8 +4402,10 @@
                           {
                             "requirement_type": "elective",
                             "group": "Seven LIN Electives (choose 7 of 38); may count only once, for 3 credits",
-                            "alternatives": [],
-                            "alternatives_truncated": false
+                            "courses": [
+                              "LIN 496TUT - Internship"
+                            ],
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -4420,7 +4442,7 @@
                           {
                             "requirement_type": "elective",
                             "group": "Seven LIN Electives (choose 7 of 38)",
-                            "alternatives": [
+                            "courses": [
                               "LIN 104LEC - Writing Systems",
                               "LIN 106LEC - Languages of the World",
                               "LIN 108LEC - Roots of English",
@@ -4430,14 +4452,14 @@
                               "LIN 313LEC - Linguistics Topic",
                               "LIN 315LEC - Language in Its Social Setting",
                               "LIN 342LEC - Introduction to Cognitive Science: Concepts of the Mind",
+                              "LIN 345LEC - Artificial Intelligence and Natural Language",
                               "LIN 356LEC - An Introduction to Contemporary Theories of Metaphor",
                               "LIN 404LEC - Discourse-Pragmatics",
                               "LIN 405LEC - Bilingualism and Language Contact",
                               "LIN 410LEC - Morphology",
-                              "LIN 414SEM - History of the English Language",
-                              "LIN 415LEC - Syntax I"
+                              "LIN 414SEM - History of the English Language"
                             ],
-                            "alternatives_truncated": true
+                            "courses_truncated": true
                           }
                         ]
                       },
@@ -4563,7 +4585,8 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "One Culture and Meaning course (choose 1 of 9)",
-                            "alternatives": [
+                            "courses": [
+                              "LIN 315LEC - Language in Its Social Setting",
                               "LIN 333LEC - Introduction to Linguistic Meaning",
                               "LIN 356LEC - An Introduction to Contemporary Theories of Metaphor",
                               "LIN 405LEC - Bilingualism and Language Contact",
@@ -4573,12 +4596,12 @@
                               "LIN 455LEC - Language Acquisition",
                               "LIN 493LEC - Sociolinguistics"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           },
                           {
                             "requirement_type": "elective",
                             "group": "Seven LIN Electives (choose 7 of 38)",
-                            "alternatives": [
+                            "courses": [
                               "LIN 104LEC - Writing Systems",
                               "LIN 106LEC - Languages of the World",
                               "LIN 108LEC - Roots of English",
@@ -4586,16 +4609,16 @@
                               "LIN 207LEC - Language, Society, and the Individual",
                               "LIN 275LEC - Indigenous Languages and Cultures of the Americas",
                               "LIN 313LEC - Linguistics Topic",
+                              "LIN 315LEC - Language in Its Social Setting",
                               "LIN 342LEC - Introduction to Cognitive Science: Concepts of the Mind",
                               "LIN 345LEC - Artificial Intelligence and Natural Language",
                               "LIN 356LEC - An Introduction to Contemporary Theories of Metaphor",
                               "LIN 404LEC - Discourse-Pragmatics",
                               "LIN 405LEC - Bilingualism and Language Contact",
                               "LIN 410LEC - Morphology",
-                              "LIN 414SEM - History of the English Language",
-                              "LIN 415LEC - Syntax I"
+                              "LIN 414SEM - History of the English Language"
                             ],
-                            "alternatives_truncated": true
+                            "courses_truncated": true
                           }
                         ]
                       },
@@ -4736,19 +4759,20 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "One Structure of Language course (choose 1 of 6)",
-                            "alternatives": [
+                            "courses": [
                               "ASL 411LEC - American Sign Language Linguistics",
                               "GER 408LEC - The Structure of Modern German Grammar",
                               "JPN 411LEC - Introduction to Japanese Linguistics",
                               "KOR 411LEC - Introduction to Korean Linguistics",
-                              "LIN 427SEM - Undergraduate Field Methods"
+                              "LIN 427SEM - Undergraduate Field Methods",
+                              "LIN 460SEM - Structure of a Particular Language"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           },
                           {
                             "requirement_type": "elective",
                             "group": "Seven LIN Electives (choose 7 of 38)",
-                            "alternatives": [
+                            "courses": [
                               "LIN 104LEC - Writing Systems",
                               "LIN 106LEC - Languages of the World",
                               "LIN 108LEC - Roots of English",
@@ -4765,7 +4789,7 @@
                               "LIN 410LEC - Morphology",
                               "LIN 414SEM - History of the English Language"
                             ],
-                            "alternatives_truncated": true
+                            "courses_truncated": true
                           }
                         ]
                       },
@@ -5038,14 +5062,15 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "First-Year Chinese sequence (choose one of 3 options: 101+102, 111+112, or 104/114)",
-                            "alternatives": [
+                            "courses": [
                               "CHI 101LEC - First-Year Chinese",
                               "CHI 102LEC - First-Year Chinese",
+                              "CHI 111DIS - First-Year Chinese 1st Semester",
                               "CHI 112DIS - First-Year Chinese 2nd Semester",
                               "CHI 104LEC - First-Year Chinese for Heritage Learners",
                               "CHI 114DIS - First-Year Chinese for Heritage Learners"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -5224,14 +5249,15 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "First-Year Chinese sequence (choose one of 3 options: 101+102, 111+112, or 104/114)",
-                            "alternatives": [
+                            "courses": [
                               "CHI 101LEC - First-Year Chinese",
                               "CHI 102LEC - First-Year Chinese",
                               "CHI 111DIS - First-Year Chinese 1st Semester",
+                              "CHI 112DIS - First-Year Chinese 2nd Semester",
                               "CHI 104LEC - First-Year Chinese for Heritage Learners",
                               "CHI 114DIS - First-Year Chinese for Heritage Learners"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -5357,11 +5383,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Second-Year Chinese sequence (choose one of 2 options: 201+202, or 204)",
-                            "alternatives": [
+                            "courses": [
+                              "CHI 201LEC - Second-Year Chinese",
                               "CHI 202LEC - Second-Year Chinese",
                               "CHI 204DIS - Second-Year Chinese for Heritage Learners"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -5546,11 +5573,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Second-Year Chinese sequence (choose one of 2 options: 201+202, or 204)",
-                            "alternatives": [
+                            "courses": [
                               "CHI 201LEC - Second-Year Chinese",
+                              "CHI 202LEC - Second-Year Chinese",
                               "CHI 204DIS - Second-Year Chinese for Heritage Learners"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -6268,10 +6296,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Japanese Language and Linguistics Core - First-Year Japanese 1st Semester (choose 1 of 2)",
-                            "alternatives": [
-                              "JPN 101LEC - First-Year Japanese"
+                            "courses": [
+                              "JPN 101LEC - First-Year Japanese",
+                              "JPN 111DIS - First-Year Japanese 1st Semester"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -6449,10 +6478,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Japanese Language and Linguistics Core - First-Year Japanese 2nd Semester (choose 1 of 2)",
-                            "alternatives": [
-                              "JPN 102LEC - First-Year Japanese"
+                            "courses": [
+                              "JPN 102LEC - First-Year Japanese",
+                              "JPN 112DIS - First-Year Japanese 2nd Semester"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -6793,10 +6823,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Japanese Language and Linguistics Core (choose 1 of 2)",
-                            "alternatives": [
+                            "courses": [
+                              "JPN 411LEC - Introduction to Japanese Linguistics",
                               "JPN 421LEC - Japanese Language and Culture"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -6829,10 +6860,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Japanese Language and Linguistics Core (choose 1 of 2)",
-                            "alternatives": [
-                              "JPN 411LEC - Introduction to Japanese Linguistics"
+                            "courses": [
+                              "JPN 411LEC - Introduction to Japanese Linguistics",
+                              "JPN 421LEC - Japanese Language and Culture"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -8809,10 +8841,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Prerequisite Courses (choose 1 of 2)",
-                            "alternatives": [
+                            "courses": [
+                              "TH 135LAB - Production Practicum",
                               "TH 136LAB - Production Practicum"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -8847,10 +8880,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Prerequisite Courses (choose 1 of 2)",
-                            "alternatives": [
-                              "TH 135LAB - Production Practicum"
+                            "courses": [
+                              "TH 135LAB - Production Practicum",
+                              "TH 136LAB - Production Practicum"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -9365,10 +9399,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core - TH Practicum (choose 236LAB or 336LAB each time; complete 3 times)",
-                            "alternatives": [
+                            "courses": [
+                              "TH 236LAB - Production Practicum",
                               "TH 336LAB - Production Practicum"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -9401,10 +9436,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core - TH Practicum (choose 236LAB or 336LAB each time; complete 3 times)",
-                            "alternatives": [
-                              "TH 236LAB - Production Practicum"
+                            "courses": [
+                              "TH 236LAB - Production Practicum",
+                              "TH 336LAB - Production Practicum"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -9798,11 +9834,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core (choose 1 of 3) - Movement/Somatic",
-                            "alternatives": [
+                            "courses": [
+                              "DAC 350LEC - Introduction to Movement Analysis and Somatic Practice",
                               "DAC 415SEM - Mind-Body Integration",
                               "DAC 445SEM - Advanced Choreographic Projects"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -9835,11 +9872,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core (choose 1 of 3) - Movement/Somatic",
-                            "alternatives": [
+                            "courses": [
                               "DAC 350LEC - Introduction to Movement Analysis and Somatic Practice",
+                              "DAC 415SEM - Mind-Body Integration",
                               "DAC 445SEM - Advanced Choreographic Projects"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -9950,12 +9988,13 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core (choose 1 of 4) - Level 6 Technique",
-                            "alternatives": [
+                            "courses": [
                               "DAC 311SEM - Tap Dance 4",
                               "DAC 411SEM - Modern Dance 6",
+                              "DAC 418LEC - Jazz Dance 6",
                               "DAC 422SEM - Ballet 6"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -9996,12 +10035,13 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core (choose 1 of 4) - Level 6 Technique",
-                            "alternatives": [
+                            "courses": [
                               "DAC 311SEM - Tap Dance 4",
                               "DAC 411SEM - Modern Dance 6",
-                              "DAC 418LEC - Jazz Dance 6"
+                              "DAC 418LEC - Jazz Dance 6",
+                              "DAC 422SEM - Ballet 6"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10040,12 +10080,13 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core (choose 1 of 4) - Level 6 Technique",
-                            "alternatives": [
+                            "courses": [
+                              "DAC 311SEM - Tap Dance 4",
                               "DAC 411SEM - Modern Dance 6",
                               "DAC 418LEC - Jazz Dance 6",
                               "DAC 422SEM - Ballet 6"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10084,11 +10125,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Studio Performance Courses (select courses totaling 3 courses; repeatable; Zodiaque requires minimum 3 credits)",
-                            "alternatives": [
+                            "courses": [
+                              "DAC 337SEM - Dance Studio - Zodiaque",
                               "DAC 338SEM - Dance Studio - Zodiaque",
                               "DAC 340SEM - Dance Studio"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10145,11 +10187,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core (choose 1 of 3) - Capstone Studies",
-                            "alternatives": [
+                            "courses": [
+                              "DAC 381SEM - Social Dance Forms 1",
                               "DAC 442SLB - Choreography 2",
                               "DAC 454SEM - Teaching Methods in Dance"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10182,11 +10225,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core (choose 1 of 3) - Capstone Studies",
-                            "alternatives": [
+                            "courses": [
                               "DAC 381SEM - Social Dance Forms 1",
+                              "DAC 442SLB - Choreography 2",
                               "DAC 454SEM - Teaching Methods in Dance"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10221,11 +10265,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core (choose 1 of 3) - Capstone Studies",
-                            "alternatives": [
+                            "courses": [
                               "DAC 381SEM - Social Dance Forms 1",
-                              "DAC 442SLB - Choreography 2"
+                              "DAC 442SLB - Choreography 2",
+                              "DAC 454SEM - Teaching Methods in Dance"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10262,10 +10307,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core - TH Practicum (choose 236LAB or 336LAB each time; complete 3 times)",
-                            "alternatives": [
+                            "courses": [
+                              "TH 236LAB - Production Practicum",
                               "TH 336LAB - Production Practicum"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10298,10 +10344,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core - TH Practicum (choose 236LAB or 336LAB each time; complete 3 times)",
-                            "alternatives": [
-                              "TH 236LAB - Production Practicum"
+                            "courses": [
+                              "TH 236LAB - Production Practicum",
+                              "TH 336LAB - Production Practicum"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10373,11 +10420,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Studio Performance Courses (select courses totaling 3 courses; repeatable; Zodiaque requires minimum 3 credits)",
-                            "alternatives": [
+                            "courses": [
+                              "DAC 337SEM - Dance Studio - Zodiaque",
                               "DAC 338SEM - Dance Studio - Zodiaque",
                               "DAC 340SEM - Dance Studio"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10540,10 +10588,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core - TH Practicum (choose 236LAB or 336LAB each time; complete 3 times)",
-                            "alternatives": [
+                            "courses": [
+                              "TH 236LAB - Production Practicum",
                               "TH 336LAB - Production Practicum"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10576,10 +10625,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core - TH Practicum (choose 236LAB or 336LAB each time; complete 3 times)",
-                            "alternatives": [
-                              "TH 236LAB - Production Practicum"
+                            "courses": [
+                              "TH 236LAB - Production Practicum",
+                              "TH 336LAB - Production Practicum"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10622,11 +10672,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Studio Performance Courses (select courses totaling 3 courses; repeatable; Zodiaque requires minimum 3 credits)",
-                            "alternatives": [
+                            "courses": [
                               "DAC 337SEM - Dance Studio - Zodiaque",
+                              "DAC 338SEM - Dance Studio - Zodiaque",
                               "DAC 340SEM - Dance Studio"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10683,11 +10734,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core (choose 1 of 3) - Capstone Studies",
-                            "alternatives": [
+                            "courses": [
+                              "DAC 381SEM - Social Dance Forms 1",
                               "DAC 442SLB - Choreography 2",
                               "DAC 454SEM - Teaching Methods in Dance"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10720,11 +10772,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core (choose 1 of 3) - Capstone Studies",
-                            "alternatives": [
+                            "courses": [
                               "DAC 381SEM - Social Dance Forms 1",
+                              "DAC 442SLB - Choreography 2",
                               "DAC 454SEM - Teaching Methods in Dance"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10759,11 +10812,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core (choose 1 of 3) - Capstone Studies",
-                            "alternatives": [
+                            "courses": [
                               "DAC 381SEM - Social Dance Forms 1",
-                              "DAC 442SLB - Choreography 2"
+                              "DAC 442SLB - Choreography 2",
+                              "DAC 454SEM - Teaching Methods in Dance"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10830,10 +10884,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core (choose 1 of 2)",
-                            "alternatives": [
-                              "TH 108LEC - Acting I"
+                            "courses": [
+                              "TH 108LEC - Acting I",
+                              "TH 203LEC - Visual Imagination"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -10868,10 +10923,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Dance Core (choose 1 of 2)",
-                            "alternatives": [
+                            "courses": [
+                              "TH 108LEC - Acting I",
                               "TH 203LEC - Visual Imagination"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -11323,11 +11379,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Math Core (choose 1 of 3)",
-                            "alternatives": [
+                            "courses": [
                               "MTH 121LR - Survey of Calculus and Its Applications I",
-                              "MTH 131LR - Mathematical Analysis for Management"
+                              "MTH 131LR - Mathematical Analysis for Management",
+                              "MTH 141LR - College Calculus I"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -13769,14 +13826,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Math Requirement (choose 1 of 6)",
-                                "alternatives": [
+                                "courses": [
+                                  "MTH 114LEC - Precalculus",
                                   "MTH 113LEC - Precalculus without Trigonometry",
                                   "MTH 116LEC - Precalculus for Engineering and Applied Sciences",
                                   "MTH 121LR - Survey of Calculus and Its Applications I",
                                   "MTH 131LR - Mathematical Analysis for Management",
                                   "MTH 141LR - College Calculus I"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -13815,14 +13873,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Japanese (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
+                                  "JPN 101LEC - First-Year Japanese",
                                   "JPN 102LEC - First-Year Japanese",
                                   "JPN 201LEC - Second-Year Japanese",
                                   "JPN 202LEC - Second-Year Japanese",
                                   "JPN 301LEC - Third-Year Japanese",
                                   "JPN 302LEC - Third-Year Japanese"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -13929,14 +13988,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Japanese (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "JPN 101LEC - First-Year Japanese",
+                                  "JPN 102LEC - First-Year Japanese",
                                   "JPN 201LEC - Second-Year Japanese",
                                   "JPN 202LEC - Second-Year Japanese",
                                   "JPN 301LEC - Third-Year Japanese",
                                   "JPN 302LEC - Third-Year Japanese"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -14096,14 +14156,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Japanese (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "JPN 101LEC - First-Year Japanese",
                                   "JPN 102LEC - First-Year Japanese",
+                                  "JPN 201LEC - Second-Year Japanese",
                                   "JPN 202LEC - Second-Year Japanese",
                                   "JPN 301LEC - Third-Year Japanese",
                                   "JPN 302LEC - Third-Year Japanese"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -14261,14 +14322,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Japanese (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "JPN 101LEC - First-Year Japanese",
                                   "JPN 102LEC - First-Year Japanese",
                                   "JPN 201LEC - Second-Year Japanese",
+                                  "JPN 202LEC - Second-Year Japanese",
                                   "JPN 301LEC - Third-Year Japanese",
                                   "JPN 302LEC - Third-Year Japanese"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -14430,14 +14492,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Japanese (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "JPN 101LEC - First-Year Japanese",
                                   "JPN 102LEC - First-Year Japanese",
                                   "JPN 201LEC - Second-Year Japanese",
                                   "JPN 202LEC - Second-Year Japanese",
+                                  "JPN 301LEC - Third-Year Japanese",
                                   "JPN 302LEC - Third-Year Japanese"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -14618,14 +14681,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Japanese (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "JPN 101LEC - First-Year Japanese",
                                   "JPN 102LEC - First-Year Japanese",
                                   "JPN 201LEC - Second-Year Japanese",
                                   "JPN 202LEC - Second-Year Japanese",
-                                  "JPN 301LEC - Third-Year Japanese"
+                                  "JPN 301LEC - Third-Year Japanese",
+                                  "JPN 302LEC - Third-Year Japanese"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -14753,10 +14817,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "AI for Language and Intercultural Competence Core (choose 1 of 2)",
-                                "alternatives": [
+                                "courses": [
+                                  "LIN 424LEC - Corpus Linguistics",
                                   "LIN 469LEC - Quantitative Methods for Linguistics and Language Studies using R"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -14912,10 +14977,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Japanese electives (choose 1 of 2)",
-                                "alternatives": [
+                                "courses": [
+                                  "JPN 411LEC - Introduction to Japanese Linguistics",
                                   "JPN 421LEC - Japanese Language and Culture"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -14948,10 +15014,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Japanese electives (choose 1 of 2)",
-                                "alternatives": [
-                                  "JPN 411LEC - Introduction to Japanese Linguistics"
+                                "courses": [
+                                  "JPN 411LEC - Introduction to Japanese Linguistics",
+                                  "JPN 421LEC - Japanese Language and Culture"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -15159,14 +15226,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Math Requirement (choose 1 of 6)",
-                                "alternatives": [
+                                "courses": [
+                                  "MTH 114LEC - Precalculus",
                                   "MTH 113LEC - Precalculus without Trigonometry",
                                   "MTH 116LEC - Precalculus for Engineering and Applied Sciences",
                                   "MTH 121LR - Survey of Calculus and Its Applications I",
                                   "MTH 131LR - Mathematical Analysis for Management",
                                   "MTH 141LR - College Calculus I"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -15205,14 +15273,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: German (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
+                                  "GER 101LEC - Elementary German 1st Semester",
                                   "GER 102LEC - Elementary German 2nd Semester",
                                   "GER 151LEC - Intermediate German I",
                                   "GER 152LEC - Intermediate German II",
                                   "GER 301LEC - Survey of German Cultural History I",
                                   "GER 302LEC - Survey of German Cultural History II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -15319,14 +15388,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: German (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "GER 101LEC - Elementary German 1st Semester",
+                                  "GER 102LEC - Elementary German 2nd Semester",
                                   "GER 151LEC - Intermediate German I",
                                   "GER 152LEC - Intermediate German II",
                                   "GER 301LEC - Survey of German Cultural History I",
                                   "GER 302LEC - Survey of German Cultural History II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -15486,14 +15556,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: German (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "GER 101LEC - Elementary German 1st Semester",
                                   "GER 102LEC - Elementary German 2nd Semester",
+                                  "GER 151LEC - Intermediate German I",
                                   "GER 152LEC - Intermediate German II",
                                   "GER 301LEC - Survey of German Cultural History I",
                                   "GER 302LEC - Survey of German Cultural History II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -15651,14 +15722,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: German (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "GER 101LEC - Elementary German 1st Semester",
                                   "GER 102LEC - Elementary German 2nd Semester",
                                   "GER 151LEC - Intermediate German I",
+                                  "GER 152LEC - Intermediate German II",
                                   "GER 301LEC - Survey of German Cultural History I",
                                   "GER 302LEC - Survey of German Cultural History II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -15820,14 +15892,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: German (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "GER 101LEC - Elementary German 1st Semester",
                                   "GER 102LEC - Elementary German 2nd Semester",
                                   "GER 151LEC - Intermediate German I",
                                   "GER 152LEC - Intermediate German II",
+                                  "GER 301LEC - Survey of German Cultural History I",
                                   "GER 302LEC - Survey of German Cultural History II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -16006,14 +16079,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: German (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "GER 101LEC - Elementary German 1st Semester",
                                   "GER 102LEC - Elementary German 2nd Semester",
                                   "GER 151LEC - Intermediate German I",
                                   "GER 152LEC - Intermediate German II",
-                                  "GER 301LEC - Survey of German Cultural History I"
+                                  "GER 301LEC - Survey of German Cultural History I",
+                                  "GER 302LEC - Survey of German Cultural History II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -16139,10 +16213,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "AI for Language and Intercultural Competence Core (choose 1 of 2)",
-                                "alternatives": [
+                                "courses": [
+                                  "LIN 424LEC - Corpus Linguistics",
                                   "LIN 469LEC - Quantitative Methods for Linguistics and Language Studies using R"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -16298,11 +16373,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: German electives (choose 1 of 3)",
-                                "alternatives": [
+                                "courses": [
+                                  "GER 408LEC - The Structure of Modern German Grammar",
                                   "GER 414SEM - History of the English Language",
                                   "GER 415LEC - History of the German Language"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -16335,11 +16411,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: German electives (choose 1 of 3)",
-                                "alternatives": [
+                                "courses": [
                                   "GER 408LEC - The Structure of Modern German Grammar",
+                                  "GER 414SEM - History of the English Language",
                                   "GER 415LEC - History of the German Language"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -16372,11 +16449,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: German electives (choose 1 of 3)",
-                                "alternatives": [
+                                "courses": [
                                   "GER 408LEC - The Structure of Modern German Grammar",
-                                  "GER 414SEM - History of the English Language"
+                                  "GER 414SEM - History of the English Language",
+                                  "GER 415LEC - History of the German Language"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -16579,14 +16657,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Math Requirement (choose 1 of 6)",
-                                "alternatives": [
+                                "courses": [
+                                  "MTH 114LEC - Precalculus",
                                   "MTH 113LEC - Precalculus without Trigonometry",
                                   "MTH 116LEC - Precalculus for Engineering and Applied Sciences",
                                   "MTH 121LR - Survey of Calculus and Its Applications I",
                                   "MTH 131LR - Mathematical Analysis for Management",
                                   "MTH 141LR - College Calculus I"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -16625,14 +16704,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Korean (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
+                                  "KOR 101LEC - First-Year Korean",
                                   "KOR 102LEC - First-Year Korean",
                                   "KOR 201LEC - Second-Year Korean",
                                   "KOR 202LEC - Second-Year Korean",
                                   "KOR 301LEC - Third-Year Korean",
                                   "KOR 302LEC - Third-Year Korean"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -16744,14 +16824,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Korean (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "KOR 101LEC - First-Year Korean",
+                                  "KOR 102LEC - First-Year Korean",
                                   "KOR 201LEC - Second-Year Korean",
                                   "KOR 202LEC - Second-Year Korean",
                                   "KOR 301LEC - Third-Year Korean",
                                   "KOR 302LEC - Third-Year Korean"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -16917,14 +16998,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Korean (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "KOR 101LEC - First-Year Korean",
                                   "KOR 102LEC - First-Year Korean",
+                                  "KOR 201LEC - Second-Year Korean",
                                   "KOR 202LEC - Second-Year Korean",
                                   "KOR 301LEC - Third-Year Korean",
                                   "KOR 302LEC - Third-Year Korean"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -17089,14 +17171,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Korean (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "KOR 101LEC - First-Year Korean",
                                   "KOR 102LEC - First-Year Korean",
                                   "KOR 201LEC - Second-Year Korean",
+                                  "KOR 202LEC - Second-Year Korean",
                                   "KOR 301LEC - Third-Year Korean",
                                   "KOR 302LEC - Third-Year Korean"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -17265,14 +17348,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Korean (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "KOR 101LEC - First-Year Korean",
                                   "KOR 102LEC - First-Year Korean",
                                   "KOR 201LEC - Second-Year Korean",
                                   "KOR 202LEC - Second-Year Korean",
+                                  "KOR 301LEC - Third-Year Korean",
                                   "KOR 302LEC - Third-Year Korean"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -17459,14 +17543,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Korean (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "KOR 101LEC - First-Year Korean",
                                   "KOR 102LEC - First-Year Korean",
                                   "KOR 201LEC - Second-Year Korean",
                                   "KOR 202LEC - Second-Year Korean",
-                                  "KOR 301LEC - Third-Year Korean"
+                                  "KOR 301LEC - Third-Year Korean",
+                                  "KOR 302LEC - Third-Year Korean"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -17599,10 +17684,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "AI for Language and Intercultural Competence Core (choose 1 of 2)",
-                                "alternatives": [
+                                "courses": [
+                                  "LIN 424LEC - Corpus Linguistics",
                                   "LIN 469LEC - Quantitative Methods for Linguistics and Language Studies using R"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -17758,10 +17844,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Korean electives (choose 1 of 2)",
-                                "alternatives": [
+                                "courses": [
+                                  "KOR 411LEC - Introduction to Korean Linguistics",
                                   "KOR 421LEC - Korean Language and Culture"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -17794,10 +17881,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Korean electives (choose 1 of 2)",
-                                "alternatives": [
-                                  "KOR 411LEC - Introduction to Korean Linguistics"
+                                "courses": [
+                                  "KOR 411LEC - Introduction to Korean Linguistics",
+                                  "KOR 421LEC - Korean Language and Culture"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -18020,14 +18108,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Math Requirement (choose 1 of 6)",
-                                "alternatives": [
+                                "courses": [
+                                  "MTH 114LEC - Precalculus",
                                   "MTH 113LEC - Precalculus without Trigonometry",
                                   "MTH 116LEC - Precalculus for Engineering and Applied Sciences",
                                   "MTH 121LR - Survey of Calculus and Its Applications I",
                                   "MTH 131LR - Mathematical Analysis for Management",
                                   "MTH 141LR - College Calculus I"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -18066,12 +18155,13 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Chinese - Non-Heritage Track (choose 1 of 2 tracks; sequence is choose 1 of 8)",
-                                "alternatives": [
+                                "courses": [
+                                  "CHI 101LEC - First-Year Chinese",
                                   "CHI 102LEC - First-Year Chinese",
                                   "CHI 201LEC - Second-Year Chinese",
                                   "CHI 202LEC - Second-Year Chinese"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -18184,12 +18274,13 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Chinese - Non-Heritage Track (choose 1 of 2 tracks; sequence is choose 1 of 8)",
-                                "alternatives": [
+                                "courses": [
                                   "CHI 101LEC - First-Year Chinese",
+                                  "CHI 102LEC - First-Year Chinese",
                                   "CHI 201LEC - Second-Year Chinese",
                                   "CHI 202LEC - Second-Year Chinese"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -18356,12 +18447,13 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Chinese - Non-Heritage Track (choose 1 of 2 tracks; sequence is choose 1 of 8)",
-                                "alternatives": [
+                                "courses": [
                                   "CHI 101LEC - First-Year Chinese",
                                   "CHI 102LEC - First-Year Chinese",
+                                  "CHI 201LEC - Second-Year Chinese",
                                   "CHI 202LEC - Second-Year Chinese"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -18527,12 +18619,13 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Chinese - Non-Heritage Track (choose 1 of 2 tracks; sequence is choose 1 of 8)",
-                                "alternatives": [
+                                "courses": [
                                   "CHI 101LEC - First-Year Chinese",
                                   "CHI 102LEC - First-Year Chinese",
-                                  "CHI 201LEC - Second-Year Chinese"
+                                  "CHI 201LEC - Second-Year Chinese",
+                                  "CHI 202LEC - Second-Year Chinese"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -18702,10 +18795,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Chinese (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
+                                  "CHI 301LEC - Third-Year Chinese",
                                   "CHI 302LEC - Third-Year Chinese"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -18894,10 +18988,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Chinese (choose 1 of 8 language sequences)",
-                                "alternatives": [
-                                  "CHI 301LEC - Third-Year Chinese"
+                                "courses": [
+                                  "CHI 301LEC - Third-Year Chinese",
+                                  "CHI 302LEC - Third-Year Chinese"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -19032,10 +19127,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "AI for Language and Intercultural Competence Core (choose 1 of 2)",
-                                "alternatives": [
+                                "courses": [
+                                  "LIN 424LEC - Corpus Linguistics",
                                   "LIN 469LEC - Quantitative Methods for Linguistics and Language Studies using R"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -19191,10 +19287,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Chinese electives (choose 1 of 2)",
-                                "alternatives": [
+                                "courses": [
+                                  "CHI 410LEC - Introduction to Chinese Linguistics",
                                   "CHI 421SEM - Language and Culture of China"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -19425,14 +19522,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Math Requirement (choose 1 of 6)",
-                                "alternatives": [
+                                "courses": [
+                                  "MTH 114LEC - Precalculus",
                                   "MTH 113LEC - Precalculus without Trigonometry",
                                   "MTH 116LEC - Precalculus for Engineering and Applied Sciences",
                                   "MTH 121LR - Survey of Calculus and Its Applications I",
                                   "MTH 131LR - Mathematical Analysis for Management",
                                   "MTH 141LR - College Calculus I"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -19471,7 +19569,8 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: American Sign Language (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
+                                  "ASL 111DIS - First-Year American Sign Language 1st Semester",
                                   "ASL 112DIS - First-Year American Sign Language 2nd Semester",
                                   "ASL 203LEC - Second-Year American Sign Language 1st Semester",
                                   "ASL 204LEC - Second-Year American Sign Language 2nd Semester",
@@ -19480,7 +19579,7 @@
                                   "ASL 306LEC - Third-Year American Sign Language 2nd Semester",
                                   "ASL 411LEC - American Sign Language Linguistics"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -19593,8 +19692,9 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: American Sign Language (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "ASL 111DIS - First-Year American Sign Language 1st Semester",
+                                  "ASL 112DIS - First-Year American Sign Language 2nd Semester",
                                   "ASL 203LEC - Second-Year American Sign Language 1st Semester",
                                   "ASL 204LEC - Second-Year American Sign Language 2nd Semester",
                                   "ASL 211LEC - Introduction to Deaf Studies",
@@ -19602,7 +19702,7 @@
                                   "ASL 306LEC - Third-Year American Sign Language 2nd Semester",
                                   "ASL 411LEC - American Sign Language Linguistics"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -19762,16 +19862,17 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: American Sign Language (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "ASL 111DIS - First-Year American Sign Language 1st Semester",
                                   "ASL 112DIS - First-Year American Sign Language 2nd Semester",
+                                  "ASL 203LEC - Second-Year American Sign Language 1st Semester",
                                   "ASL 204LEC - Second-Year American Sign Language 2nd Semester",
                                   "ASL 211LEC - Introduction to Deaf Studies",
                                   "ASL 305LEC - Third-Year American Sign Language 1st Semester",
                                   "ASL 306LEC - Third-Year American Sign Language 2nd Semester",
                                   "ASL 411LEC - American Sign Language Linguistics"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -19935,16 +20036,17 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: American Sign Language (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "ASL 111DIS - First-Year American Sign Language 1st Semester",
                                   "ASL 112DIS - First-Year American Sign Language 2nd Semester",
                                   "ASL 203LEC - Second-Year American Sign Language 1st Semester",
+                                  "ASL 204LEC - Second-Year American Sign Language 2nd Semester",
                                   "ASL 211LEC - Introduction to Deaf Studies",
                                   "ASL 305LEC - Third-Year American Sign Language 1st Semester",
                                   "ASL 306LEC - Third-Year American Sign Language 2nd Semester",
                                   "ASL 411LEC - American Sign Language Linguistics"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -20113,16 +20215,17 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: American Sign Language (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "ASL 111DIS - First-Year American Sign Language 1st Semester",
                                   "ASL 112DIS - First-Year American Sign Language 2nd Semester",
                                   "ASL 203LEC - Second-Year American Sign Language 1st Semester",
                                   "ASL 204LEC - Second-Year American Sign Language 2nd Semester",
                                   "ASL 211LEC - Introduction to Deaf Studies",
+                                  "ASL 305LEC - Third-Year American Sign Language 1st Semester",
                                   "ASL 306LEC - Third-Year American Sign Language 2nd Semester",
                                   "ASL 411LEC - American Sign Language Linguistics"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -20308,16 +20411,17 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: American Sign Language (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "ASL 111DIS - First-Year American Sign Language 1st Semester",
                                   "ASL 112DIS - First-Year American Sign Language 2nd Semester",
                                   "ASL 203LEC - Second-Year American Sign Language 1st Semester",
                                   "ASL 204LEC - Second-Year American Sign Language 2nd Semester",
                                   "ASL 211LEC - Introduction to Deaf Studies",
                                   "ASL 305LEC - Third-Year American Sign Language 1st Semester",
+                                  "ASL 306LEC - Third-Year American Sign Language 2nd Semester",
                                   "ASL 411LEC - American Sign Language Linguistics"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -20449,10 +20553,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "AI for Language and Intercultural Competence Core (choose 1 of 2)",
-                                "alternatives": [
+                                "courses": [
+                                  "LIN 424LEC - Corpus Linguistics",
                                   "LIN 469LEC - Quantitative Methods for Linguistics and Language Studies using R"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -20489,16 +20594,17 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: American Sign Language (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "ASL 111DIS - First-Year American Sign Language 1st Semester",
                                   "ASL 112DIS - First-Year American Sign Language 2nd Semester",
                                   "ASL 203LEC - Second-Year American Sign Language 1st Semester",
                                   "ASL 204LEC - Second-Year American Sign Language 2nd Semester",
+                                  "ASL 211LEC - Introduction to Deaf Studies",
                                   "ASL 305LEC - Third-Year American Sign Language 1st Semester",
                                   "ASL 306LEC - Third-Year American Sign Language 2nd Semester",
                                   "ASL 411LEC - American Sign Language Linguistics"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -20632,16 +20738,17 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: American Sign Language (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "ASL 111DIS - First-Year American Sign Language 1st Semester",
                                   "ASL 112DIS - First-Year American Sign Language 2nd Semester",
                                   "ASL 203LEC - Second-Year American Sign Language 1st Semester",
                                   "ASL 204LEC - Second-Year American Sign Language 2nd Semester",
                                   "ASL 211LEC - Introduction to Deaf Studies",
                                   "ASL 305LEC - Third-Year American Sign Language 1st Semester",
-                                  "ASL 306LEC - Third-Year American Sign Language 2nd Semester"
+                                  "ASL 306LEC - Third-Year American Sign Language 2nd Semester",
+                                  "ASL 411LEC - American Sign Language Linguistics"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -20904,14 +21011,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Math Requirement (choose 1 of 6)",
-                                "alternatives": [
+                                "courses": [
+                                  "MTH 114LEC - Precalculus",
                                   "MTH 113LEC - Precalculus without Trigonometry",
                                   "MTH 116LEC - Precalculus for Engineering and Applied Sciences",
                                   "MTH 121LR - Survey of Calculus and Its Applications I",
                                   "MTH 131LR - Mathematical Analysis for Management",
                                   "MTH 141LR - College Calculus I"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -20950,12 +21058,13 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Spanish (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
+                                  "SPA 111DIS - Elementary Spanish I",
                                   "SPA 112DIS - Elementary Spanish II",
                                   "SPA 201DIS - Intermediate Spanish I",
                                   "SPA 202DIS - Intermediate Spanish II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -21069,12 +21178,13 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Spanish (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "SPA 111DIS - Elementary Spanish I",
+                                  "SPA 112DIS - Elementary Spanish II",
                                   "SPA 201DIS - Intermediate Spanish I",
                                   "SPA 202DIS - Intermediate Spanish II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -21242,12 +21352,13 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Spanish (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "SPA 111DIS - Elementary Spanish I",
                                   "SPA 112DIS - Elementary Spanish II",
+                                  "SPA 201DIS - Intermediate Spanish I",
                                   "SPA 202DIS - Intermediate Spanish II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -21414,12 +21525,13 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Spanish (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "SPA 111DIS - Elementary Spanish I",
                                   "SPA 112DIS - Elementary Spanish II",
-                                  "SPA 201DIS - Intermediate Spanish I"
+                                  "SPA 201DIS - Intermediate Spanish I",
+                                  "SPA 202DIS - Intermediate Spanish II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -21613,11 +21725,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Spanish electives (choose 2 of 3)",
-                                "alternatives": [
+                                "courses": [
+                                  "SPA 207LEC - Spanish Conversation and Language Workshop",
                                   "SPA 208LEC - Spanish Composition and Language Workshop",
                                   "SPA 210LEC - How to Read a Spanish Text"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -21656,11 +21769,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Spanish electives (choose 2 of 3)",
-                                "alternatives": [
+                                "courses": [
                                   "SPA 207LEC - Spanish Conversation and Language Workshop",
+                                  "SPA 208LEC - Spanish Composition and Language Workshop",
                                   "SPA 210LEC - How to Read a Spanish Text"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -21699,11 +21813,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Spanish electives (choose 2 of 3)",
-                                "alternatives": [
+                                "courses": [
                                   "SPA 207LEC - Spanish Conversation and Language Workshop",
-                                  "SPA 208LEC - Spanish Composition and Language Workshop"
+                                  "SPA 208LEC - Spanish Composition and Language Workshop",
+                                  "SPA 210LEC - How to Read a Spanish Text"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -21882,11 +21997,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Spanish electives (choose 2 of 3)",
-                                "alternatives": [
+                                "courses": [
+                                  "SPA 207LEC - Spanish Conversation and Language Workshop",
                                   "SPA 208LEC - Spanish Composition and Language Workshop",
                                   "SPA 210LEC - How to Read a Spanish Text"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -21925,11 +22041,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Spanish electives (choose 2 of 3)",
-                                "alternatives": [
+                                "courses": [
                                   "SPA 207LEC - Spanish Conversation and Language Workshop",
+                                  "SPA 208LEC - Spanish Composition and Language Workshop",
                                   "SPA 210LEC - How to Read a Spanish Text"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -21968,11 +22085,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Spanish electives (choose 2 of 3)",
-                                "alternatives": [
+                                "courses": [
                                   "SPA 207LEC - Spanish Conversation and Language Workshop",
-                                  "SPA 208LEC - Spanish Composition and Language Workshop"
+                                  "SPA 208LEC - Spanish Composition and Language Workshop",
+                                  "SPA 210LEC - How to Read a Spanish Text"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -22122,10 +22240,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "AI for Language and Intercultural Competence Core (choose 1 of 2)",
-                                "alternatives": [
+                                "courses": [
+                                  "LIN 424LEC - Corpus Linguistics",
                                   "LIN 469LEC - Quantitative Methods for Linguistics and Language Studies using R"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -22496,14 +22615,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Math Requirement (choose 1 of 6)",
-                                "alternatives": [
+                                "courses": [
+                                  "MTH 114LEC - Precalculus",
                                   "MTH 113LEC - Precalculus without Trigonometry",
                                   "MTH 116LEC - Precalculus for Engineering and Applied Sciences",
                                   "MTH 121LR - Survey of Calculus and Its Applications I",
                                   "MTH 131LR - Mathematical Analysis for Management",
                                   "MTH 141LR - College Calculus I"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -22542,14 +22662,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Italian (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
+                                  "ITA 111DIS - Elementary Italian I",
                                   "ITA 112DIS - Elementary Italian II",
                                   "ITA 201DIS - Intermediate Italian I",
                                   "ITA 202DIS - Intermediate Italian II",
                                   "ITA 207LEC - Italian Conversation & Composition",
                                   "ITA 322SEM - Advanced Communication for Students of Italian"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -22660,14 +22781,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Italian (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "ITA 111DIS - Elementary Italian I",
+                                  "ITA 112DIS - Elementary Italian II",
                                   "ITA 201DIS - Intermediate Italian I",
                                   "ITA 202DIS - Intermediate Italian II",
                                   "ITA 207LEC - Italian Conversation & Composition",
                                   "ITA 322SEM - Advanced Communication for Students of Italian"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -22832,14 +22954,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Italian (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "ITA 111DIS - Elementary Italian I",
                                   "ITA 112DIS - Elementary Italian II",
+                                  "ITA 201DIS - Intermediate Italian I",
                                   "ITA 202DIS - Intermediate Italian II",
                                   "ITA 207LEC - Italian Conversation & Composition",
                                   "ITA 322SEM - Advanced Communication for Students of Italian"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -23003,14 +23126,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Italian (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "ITA 111DIS - Elementary Italian I",
                                   "ITA 112DIS - Elementary Italian II",
                                   "ITA 201DIS - Intermediate Italian I",
+                                  "ITA 202DIS - Intermediate Italian II",
                                   "ITA 207LEC - Italian Conversation & Composition",
                                   "ITA 322SEM - Advanced Communication for Students of Italian"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -23177,14 +23301,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Italian (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "ITA 111DIS - Elementary Italian I",
                                   "ITA 112DIS - Elementary Italian II",
                                   "ITA 201DIS - Intermediate Italian I",
                                   "ITA 202DIS - Intermediate Italian II",
+                                  "ITA 207LEC - Italian Conversation & Composition",
                                   "ITA 322SEM - Advanced Communication for Students of Italian"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -23369,14 +23494,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: Italian (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "ITA 111DIS - Elementary Italian I",
                                   "ITA 112DIS - Elementary Italian II",
                                   "ITA 201DIS - Intermediate Italian I",
                                   "ITA 202DIS - Intermediate Italian II",
-                                  "ITA 207LEC - Italian Conversation & Composition"
+                                  "ITA 207LEC - Italian Conversation & Composition",
+                                  "ITA 322SEM - Advanced Communication for Students of Italian"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -23526,10 +23652,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "AI for Language and Intercultural Competence Core (choose 1 of 2)",
-                                "alternatives": [
+                                "courses": [
+                                  "LIN 424LEC - Corpus Linguistics",
                                   "LIN 469LEC - Quantitative Methods for Linguistics and Language Studies using R"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -23909,14 +24036,15 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Math Requirement (choose 1 of 6)",
-                                "alternatives": [
+                                "courses": [
+                                  "MTH 114LEC - Precalculus",
                                   "MTH 113LEC - Precalculus without Trigonometry",
                                   "MTH 116LEC - Precalculus for Engineering and Applied Sciences",
                                   "MTH 121LR - Survey of Calculus and Its Applications I",
                                   "MTH 131LR - Mathematical Analysis for Management",
                                   "MTH 141LR - College Calculus I"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -23955,12 +24083,13 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: French (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
+                                  "FR 111DIS - Elementary French I",
                                   "FR 112DIS - Elementary French II",
                                   "FR 201DIS - Intermediate French I",
                                   "FR 202DIS - Intermediate French II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -24076,12 +24205,13 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: French (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "FR 111DIS - Elementary French I",
+                                  "FR 112DIS - Elementary French II",
                                   "FR 201DIS - Intermediate French I",
                                   "FR 202DIS - Intermediate French II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -24251,12 +24381,13 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: French (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "FR 111DIS - Elementary French I",
                                   "FR 112DIS - Elementary French II",
+                                  "FR 201DIS - Intermediate French I",
                                   "FR 202DIS - Intermediate French II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -24425,12 +24556,13 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: French (choose 1 of 8 language sequences)",
-                                "alternatives": [
+                                "courses": [
                                   "FR 111DIS - Elementary French I",
                                   "FR 112DIS - Elementary French II",
-                                  "FR 201DIS - Intermediate French I"
+                                  "FR 201DIS - Intermediate French I",
+                                  "FR 202DIS - Intermediate French II"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -24602,11 +24734,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: French electives (choose 2 of 3)",
-                                "alternatives": [
+                                "courses": [
+                                  "FR 211LEC - Languages, Texts, and Contexts of the French-Speaking World I",
                                   "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II",
                                   "FR 213LEC - Languages, Texts, and Contexts of the French-Speaking World III"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -24645,11 +24778,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: French electives (choose 2 of 3)",
-                                "alternatives": [
+                                "courses": [
                                   "FR 211LEC - Languages, Texts, and Contexts of the French-Speaking World I",
+                                  "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II",
                                   "FR 213LEC - Languages, Texts, and Contexts of the French-Speaking World III"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -24688,11 +24822,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: French electives (choose 2 of 3)",
-                                "alternatives": [
+                                "courses": [
                                   "FR 211LEC - Languages, Texts, and Contexts of the French-Speaking World I",
-                                  "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II"
+                                  "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II",
+                                  "FR 213LEC - Languages, Texts, and Contexts of the French-Speaking World III"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -24877,11 +25012,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: French electives (choose 2 of 3)",
-                                "alternatives": [
+                                "courses": [
+                                  "FR 211LEC - Languages, Texts, and Contexts of the French-Speaking World I",
                                   "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II",
                                   "FR 213LEC - Languages, Texts, and Contexts of the French-Speaking World III"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -24920,11 +25056,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: French electives (choose 2 of 3)",
-                                "alternatives": [
+                                "courses": [
                                   "FR 211LEC - Languages, Texts, and Contexts of the French-Speaking World I",
+                                  "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II",
                                   "FR 213LEC - Languages, Texts, and Contexts of the French-Speaking World III"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -24963,11 +25100,12 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "Language Sequence: French electives (choose 2 of 3)",
-                                "alternatives": [
+                                "courses": [
                                   "FR 211LEC - Languages, Texts, and Contexts of the French-Speaking World I",
-                                  "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II"
+                                  "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II",
+                                  "FR 213LEC - Languages, Texts, and Contexts of the French-Speaking World III"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -25123,10 +25261,11 @@
                               {
                                 "requirement_type": "choice_required",
                                 "group": "AI for Language and Intercultural Competence Core (choose 1 of 2)",
-                                "alternatives": [
+                                "courses": [
+                                  "LIN 424LEC - Corpus Linguistics",
                                   "LIN 469LEC - Quantitative Methods for Linguistics and Language Studies using R"
                                 ],
-                                "alternatives_truncated": false
+                                "courses_truncated": false
                               }
                             ]
                           },
@@ -26995,14 +27134,15 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Math Requirement (choose 1 of 6)",
-                            "alternatives": [
+                            "courses": [
+                              "MTH 114LEC - Precalculus",
                               "MTH 113LEC - Precalculus without Trigonometry",
                               "MTH 116LEC - Precalculus for Engineering and Applied Sciences",
                               "MTH 121LR - Survey of Calculus and Its Applications I",
                               "MTH 131LR - Mathematical Analysis for Management",
                               "MTH 141LR - College Calculus I"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -28425,11 +28565,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Math Core (choose 1 of 3)",
-                            "alternatives": [
+                            "courses": [
+                              "MTH 121LR - Survey of Calculus and Its Applications I",
                               "MTH 131LR - Mathematical Analysis for Management",
                               "MTH 141LR - College Calculus I"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -28465,11 +28606,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Math Core (choose 1 of 3)",
-                            "alternatives": [
+                            "courses": [
                               "MTH 121LR - Survey of Calculus and Its Applications I",
+                              "MTH 131LR - Mathematical Analysis for Management",
                               "MTH 141LR - College Calculus I"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -28505,11 +28647,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Math Core (choose 1 of 3)",
-                            "alternatives": [
+                            "courses": [
                               "MTH 121LR - Survey of Calculus and Its Applications I",
-                              "MTH 131LR - Mathematical Analysis for Management"
+                              "MTH 131LR - Mathematical Analysis for Management",
+                              "MTH 141LR - College Calculus I"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -28694,10 +28837,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "AI & Philosophy, Politics and Economics Core (choose 1 of 2)",
-                            "alternatives": [
+                            "courses": [
+                              "PSC 200LEC - Empirical Political Science",
                               "PSC 408LLB - Basic Statistics for Social Science"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -28730,10 +28874,11 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "AI & Philosophy, Politics and Economics Core (choose 1 of 2)",
-                            "alternatives": [
-                              "PSC 200LEC - Empirical Political Science"
+                            "courses": [
+                              "PSC 200LEC - Empirical Political Science",
+                              "PSC 408LLB - Basic Statistics for Social Science"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -29684,14 +29829,15 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Math Core (choose 1 of 6)",
-                            "alternatives": [
+                            "courses": [
+                              "MTH 114LEC - Precalculus",
                               "MTH 113LEC - Precalculus without Trigonometry",
                               "MTH 116LEC - Precalculus for Engineering and Applied Sciences",
                               "MTH 121LR - Survey of Calculus and Its Applications I",
                               "MTH 131LR - Mathematical Analysis for Management",
                               "MTH 141LR - College Calculus I"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -30902,14 +31048,15 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "Math Core (choose 1 of 6)",
-                            "alternatives": [
+                            "courses": [
+                              "MTH 114LEC - Precalculus",
                               "MTH 113LEC - Precalculus without Trigonometry",
                               "MTH 116LEC - Precalculus for Engineering and Applied Sciences",
                               "MTH 121LR - Survey of Calculus and Its Applications I",
                               "MTH 131LR - Mathematical Analysis for Management",
                               "MTH 141LR - College Calculus I"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -31504,11 +31651,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "AI & Responsible Communication Core - Integrative Courses (choose 2 of 3)",
-                            "alternatives": [
+                            "courses": [
                               "COM 360LEC - Social Network Analysis",
-                              "COM 458SEM - Artificial Intelligence as a Medium and Communicator"
+                              "COM 458SEM - Artificial Intelligence as a Medium and Communicator",
+                              "COM 250LEC - Media Literacy in the Age of AI"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -31637,13 +31785,14 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "AI & Responsible Communication Core - Research Methods (choose 1 of 5)",
-                            "alternatives": [
+                            "courses": [
+                              "COM 205LEC - Research Methods",
                               "PSC 200LEC - Empirical Political Science",
                               "PSY 350LEC - Scientific Inquiry in Psychology",
                               "SOC 293LEC - Social Research Methods",
                               "SSC 213LEC - Social Research Methods"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
@@ -31763,11 +31912,12 @@
                           {
                             "requirement_type": "choice_required",
                             "group": "AI & Responsible Communication Core - Integrative Courses (choose 2 of 3)",
-                            "alternatives": [
+                            "courses": [
                               "COM 360LEC - Social Network Analysis",
+                              "COM 458SEM - Artificial Intelligence as a Medium and Communicator",
                               "COM 250LEC - Media Literacy in the Age of AI"
                             ],
-                            "alternatives_truncated": false
+                            "courses_truncated": false
                           }
                         ]
                       },
