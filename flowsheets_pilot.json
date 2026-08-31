@@ -18,7 +18,9 @@
                     {
                       "label": "UB Seminar",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-0-0"
                     }
                   ]
                 },
@@ -27,7 +29,9 @@
                     {
                       "label": "BIO 200LLB - Evolutionary Biology",
                       "credits": "5",
-                      "note": null
+                      "note": null,
+                      "course_key": "BIO 200",
+                      "id": "box-0-1-0"
                     }
                   ]
                 },
@@ -36,7 +40,9 @@
                     {
                       "label": "CHE 101LR - General Chemistry",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHE 101",
+                      "id": "box-0-2-0"
                     }
                   ]
                 },
@@ -45,7 +51,9 @@
                     {
                       "label": "CHE 113LAB - General Chemistry",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHE 113",
+                      "id": "box-0-3-0"
                     }
                   ]
                 },
@@ -54,12 +62,16 @@
                     {
                       "label": "MTH 121LR - Survey of Calculus and Its Applications I",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "MTH 121",
+                      "id": "box-0-4-0"
                     },
                     {
                       "label": "MTH 141LR - College Calculus I",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "MTH 141",
+                      "id": "box-0-4-1"
                     }
                   ]
                 }
@@ -74,7 +86,9 @@
                     {
                       "label": "BIO 201LEC - Cell Biology",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "BIO 201",
+                      "id": "box-1-0-0"
                     }
                   ]
                 },
@@ -83,7 +97,9 @@
                     {
                       "label": "BIO 211LAB - Cell Biology Lab",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "BIO 211",
+                      "id": "box-1-1-0"
                     }
                   ]
                 },
@@ -92,7 +108,9 @@
                     {
                       "label": "CHE 102LR - General Chemistry",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHE 102",
+                      "id": "box-1-2-0"
                     }
                   ]
                 },
@@ -101,7 +119,9 @@
                     {
                       "label": "CHE 114LAB - General Chemistry",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHE 114",
+                      "id": "box-1-3-0"
                     }
                   ]
                 },
@@ -110,7 +130,9 @@
                     {
                       "label": "ENG 105LEC - Writing and Rhetoric",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "ENG 105",
+                      "id": "box-1-4-0"
                     }
                   ]
                 },
@@ -119,12 +141,16 @@
                     {
                       "label": "MTH 122LR - Survey of Calculus and Its Applications II",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "MTH 122",
+                      "id": "box-1-5-0"
                     },
                     {
                       "label": "MTH 142LR - College Calculus 2",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "MTH 142",
+                      "id": "box-1-5-1"
                     }
                   ]
                 }
@@ -144,7 +170,9 @@
                     {
                       "label": "CHE 203LR - Organic Chemistry",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHE 203",
+                      "id": "box-2-0-0"
                     }
                   ]
                 },
@@ -153,7 +181,9 @@
                     {
                       "label": "CHE 205LAB - Organic Chemistry 1 LAB",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHE 205",
+                      "id": "box-2-1-0"
                     }
                   ]
                 },
@@ -162,7 +192,9 @@
                     {
                       "label": "PHY 101LR - College Physics",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 101",
+                      "id": "box-2-2-0"
                     }
                   ]
                 },
@@ -171,7 +203,9 @@
                     {
                       "label": "PHY 151LAB - College Physics I Lab",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 151",
+                      "id": "box-2-3-0"
                     }
                   ]
                 },
@@ -180,7 +214,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-4-0"
                     }
                   ]
                 },
@@ -189,7 +225,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-5-0"
                     }
                   ]
                 }
@@ -204,7 +242,9 @@
                     {
                       "label": "CHE 204LR - Organic Chemistry",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHE 204",
+                      "id": "box-3-0-0"
                     }
                   ]
                 },
@@ -213,7 +253,9 @@
                     {
                       "label": "CHE 206LAB - Organic Chemistry 2 LAB",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHE 206",
+                      "id": "box-3-1-0"
                     }
                   ]
                 },
@@ -222,7 +264,9 @@
                     {
                       "label": "PHY 102LR - College Physics II",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 102",
+                      "id": "box-3-2-0"
                     }
                   ]
                 },
@@ -231,7 +275,9 @@
                     {
                       "label": "PHY 152LAB - College Physics II Lab",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 152",
+                      "id": "box-3-3-0"
                     }
                   ]
                 },
@@ -240,7 +286,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-4-0"
                     }
                   ]
                 },
@@ -249,7 +297,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-5-0"
                     }
                   ]
                 }
@@ -269,7 +319,9 @@
                     {
                       "label": "BCH 401LEC - Introduction to Life Science Research",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "BCH 401",
+                      "id": "box-4-0-0"
                     }
                   ]
                 },
@@ -278,7 +330,9 @@
                     {
                       "label": "BCH 403LEC - Biochemical Principles",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "BCH 403",
+                      "id": "box-4-1-0"
                     }
                   ]
                 },
@@ -287,7 +341,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-2-0"
                     }
                   ]
                 },
@@ -296,7 +352,9 @@
                     {
                       "label": "Communication Literacy 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-3-0"
                     }
                   ]
                 },
@@ -305,12 +363,16 @@
                     {
                       "label": "CHE 319LEC - Physical Chemistry",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHE 319",
+                      "id": "box-4-4-0"
                     },
                     {
                       "label": "CHE 349LEC - Physical Chemistry for Life Sciences",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHE 349",
+                      "id": "box-4-4-1"
                     }
                   ]
                 }
@@ -325,7 +387,9 @@
                     {
                       "label": "BCH 404SEM - Research Topics in Biochemistry I",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "BCH 404",
+                      "id": "box-5-0-0"
                     }
                   ]
                 },
@@ -334,7 +398,9 @@
                     {
                       "label": "BCH 498TUT - Undergraduate Research Participation in Biochemistry",
                       "credits": "1-8",
-                      "note": "complete for 2 credits"
+                      "note": "complete for 2 credits",
+                      "course_key": "BCH 498",
+                      "id": "box-5-1-0"
                     }
                   ]
                 },
@@ -343,7 +409,9 @@
                     {
                       "label": "BCH 410LEC - Biomedical Genetics",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "BCH 410",
+                      "id": "box-5-2-0"
                     }
                   ]
                 },
@@ -352,7 +420,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-3-0"
                     }
                   ]
                 },
@@ -361,7 +431,9 @@
                     {
                       "label": "UBC 399MNT - UB Curriculum Capstone",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "UBC 399",
+                      "id": "box-5-4-0"
                     }
                   ]
                 }
@@ -381,7 +453,9 @@
                     {
                       "label": "BCH 405SEM - Research Topics in Biochemistry II",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "BCH 405",
+                      "id": "box-6-0-0"
                     }
                   ]
                 },
@@ -390,7 +464,9 @@
                     {
                       "label": "BCH 498TUT - Undergraduate Research Participation in Biochemistry",
                       "credits": "1-8",
-                      "note": "complete for 3 credits"
+                      "note": "complete for 3 credits",
+                      "course_key": "BCH 498",
+                      "id": "box-6-1-0"
                     }
                   ]
                 },
@@ -399,7 +475,9 @@
                     {
                       "label": "Restricted Chemistry Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-2-0"
                     }
                   ]
                 },
@@ -408,7 +486,9 @@
                     {
                       "label": "Upper Division Restricted Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-3-0"
                     }
                   ]
                 },
@@ -417,7 +497,9 @@
                     {
                       "label": "Upper Division Restricted Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-4-0"
                     }
                   ]
                 }
@@ -432,7 +514,9 @@
                     {
                       "label": "BCH 407SEM - Research Seminar Evaluations",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "BCH 407",
+                      "id": "box-7-0-0"
                     }
                   ]
                 },
@@ -441,7 +525,9 @@
                     {
                       "label": "BCH 498TUT - Undergraduate Research Participation in Biochemistry",
                       "credits": "1-8",
-                      "note": "complete for 3 credits"
+                      "note": "complete for 3 credits",
+                      "course_key": "BCH 498",
+                      "id": "box-7-1-0"
                     }
                   ]
                 },
@@ -450,7 +536,9 @@
                     {
                       "label": "Upper Division Restricted Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-2-0"
                     }
                   ]
                 },
@@ -459,7 +547,9 @@
                     {
                       "label": "Upper Division Restricted Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-3-0"
                     }
                   ]
                 },
@@ -468,7 +558,9 @@
                     {
                       "label": "Upper Division Restricted Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-4-0"
                     }
                   ]
                 }
@@ -476,6 +568,178 @@
               "total_credits_raw": "120"
             }
           ]
+        }
+      ],
+      "edges": [
+        {
+          "from": "box-0-2-0",
+          "to": "box-0-3-0",
+          "type": "coreq"
+        },
+        {
+          "from": "box-1-0-0",
+          "to": "box-1-1-0",
+          "type": "coreq"
+        },
+        {
+          "from": "box-0-2-0",
+          "to": "box-1-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-2-0",
+          "to": "box-1-3-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-2-0",
+          "to": "box-1-3-0",
+          "type": "coreq"
+        },
+        {
+          "from": "box-0-4-0",
+          "to": "box-1-5-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-4-1",
+          "to": "box-1-5-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-4-1",
+          "to": "box-1-5-1",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-2-0",
+          "to": "box-2-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-2-0",
+          "to": "box-2-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-3-0",
+          "to": "box-2-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-0-0",
+          "to": "box-2-1-0",
+          "type": "coreq"
+        },
+        {
+          "from": "box-2-2-0",
+          "to": "box-2-3-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-0-0",
+          "to": "box-3-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-0-0",
+          "to": "box-3-1-0",
+          "type": "coreq"
+        },
+        {
+          "from": "box-2-2-0",
+          "to": "box-3-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-2-0",
+          "to": "box-3-3-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-2-0",
+          "to": "box-3-3-0",
+          "type": "coreq"
+        },
+        {
+          "from": "box-4-1-0",
+          "to": "box-4-0-0",
+          "type": "coreq"
+        },
+        {
+          "from": "box-0-1-0",
+          "to": "box-4-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-0-0",
+          "to": "box-4-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-0-0",
+          "to": "box-4-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-2-0",
+          "to": "box-4-4-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-4-1",
+          "to": "box-4-4-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-5-1",
+          "to": "box-4-4-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-5-0",
+          "to": "box-4-4-1",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-5-1",
+          "to": "box-4-4-1",
+          "type": "prereq"
+        },
+        {
+          "from": "box-4-0-0",
+          "to": "box-5-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-4-1-0",
+          "to": "box-5-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-5-1-0",
+          "to": "box-5-0-0",
+          "type": "coreq"
+        },
+        {
+          "from": "box-6-1-0",
+          "to": "box-5-0-0",
+          "type": "coreq"
+        },
+        {
+          "from": "box-7-1-0",
+          "to": "box-5-0-0",
+          "type": "coreq"
+        },
+        {
+          "from": "box-4-1-0",
+          "to": "box-5-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-5-0-0",
+          "to": "box-6-0-0",
+          "type": "prereq"
         }
       ]
     },
@@ -496,7 +760,9 @@
                     {
                       "label": "UB Seminar",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-0-0"
                     }
                   ]
                 },
@@ -505,7 +771,9 @@
                     {
                       "label": "CSE 115LLR - Introduction to Computer Science I",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "CSE 115",
+                      "id": "box-0-1-0"
                     }
                   ]
                 },
@@ -514,7 +782,9 @@
                     {
                       "label": "MTH 141LR - College Calculus I",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "MTH 141",
+                      "id": "box-0-2-0"
                     }
                   ]
                 },
@@ -523,7 +793,9 @@
                     {
                       "label": "Physics Sequence 1",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-3-0"
                     }
                   ]
                 }
@@ -538,7 +810,9 @@
                     {
                       "label": "CSE 116LLB - Introduction to Computer Science II",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "CSE 116",
+                      "id": "box-1-0-0"
                     }
                   ]
                 },
@@ -547,7 +821,9 @@
                     {
                       "label": "MTH 142LR - College Calculus 2",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "MTH 142",
+                      "id": "box-1-1-0"
                     }
                   ]
                 },
@@ -556,7 +832,9 @@
                     {
                       "label": "Physics Sequence 1",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-2-0"
                     }
                   ]
                 },
@@ -565,7 +843,9 @@
                     {
                       "label": "PHY 158LAB - General Physics II Lab",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 158",
+                      "id": "box-1-3-0"
                     }
                   ]
                 },
@@ -574,7 +854,9 @@
                     {
                       "label": "ENG 105LEC - Writing and Rhetoric",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "ENG 105",
+                      "id": "box-1-4-0"
                     }
                   ]
                 }
@@ -594,7 +876,9 @@
                     {
                       "label": "CSE 191LR - Introduction to Discrete Structures",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "CSE 191",
+                      "id": "box-2-0-0"
                     }
                   ]
                 },
@@ -603,7 +887,9 @@
                     {
                       "label": "MTH 241LR - College Calculus 3",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "MTH 241",
+                      "id": "box-2-1-0"
                     }
                   ]
                 },
@@ -612,7 +898,9 @@
                     {
                       "label": "MTH 306LR - Introduction to Differential Equations",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "MTH 306",
+                      "id": "box-2-2-0"
                     }
                   ]
                 },
@@ -621,7 +909,9 @@
                     {
                       "label": "PHY 208LEC - General Physics IV",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 208",
+                      "id": "box-2-3-0"
                     }
                   ]
                 },
@@ -630,7 +920,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-4-0"
                     }
                   ]
                 }
@@ -645,7 +937,9 @@
                     {
                       "label": "PHY 207LR - General Physics III",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 207",
+                      "id": "box-3-0-0"
                     }
                   ]
                 },
@@ -654,7 +948,9 @@
                     {
                       "label": "PHY 257LAB - General Physics III Lab",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 257",
+                      "id": "box-3-1-0"
                     }
                   ]
                 },
@@ -663,7 +959,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-2-0"
                     }
                   ]
                 },
@@ -672,7 +970,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-3-0"
                     }
                   ]
                 },
@@ -681,7 +981,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-4-0"
                     }
                   ]
                 }
@@ -701,7 +1003,9 @@
                     {
                       "label": "CSE 442LR - Software Engineering",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "CSE 442",
+                      "id": "box-4-0-0"
                     }
                   ]
                 },
@@ -710,7 +1014,9 @@
                     {
                       "label": "PHY 301LEC - Intermediate Mechanics I",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 301",
+                      "id": "box-4-1-0"
                     }
                   ]
                 },
@@ -719,7 +1025,9 @@
                     {
                       "label": "PHY 401LEC - Quantum Mechanics I - Fundamentals",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 401",
+                      "id": "box-4-2-0"
                     }
                   ]
                 },
@@ -728,7 +1036,9 @@
                     {
                       "label": "Communication Literacy 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-3-0"
                     }
                   ]
                 }
@@ -743,7 +1053,9 @@
                     {
                       "label": "MTH 309LR - Introductory Linear Algebra",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "MTH 309",
+                      "id": "box-5-0-0"
                     }
                   ]
                 },
@@ -752,7 +1064,9 @@
                     {
                       "label": "PHY 307LAB - Modern Physics Lab",
                       "credits": "2",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 307",
+                      "id": "box-5-1-0"
                     }
                   ]
                 },
@@ -761,7 +1075,9 @@
                     {
                       "label": "CSE 305LR - Introduction to Programming Languages",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "CSE 305",
+                      "id": "box-5-2-0"
                     }
                   ]
                 },
@@ -770,7 +1086,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-3-0"
                     }
                   ]
                 }
@@ -790,7 +1108,9 @@
                     {
                       "label": "PHY 403LEC - Electricity and Magnetism I",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 403",
+                      "id": "box-6-0-0"
                     }
                   ]
                 },
@@ -799,12 +1119,16 @@
                     {
                       "label": "PHY 410LEC - Computational Physics I",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 410",
+                      "id": "box-6-1-0"
                     },
                     {
                       "label": "MTH 437LR - Introduction to Numerical Analysis I",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "MTH 437",
+                      "id": "box-6-1-1"
                     }
                   ]
                 },
@@ -813,7 +1137,9 @@
                     {
                       "label": "PHY 405LEC - Thermal and Statistical Physics I",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 405",
+                      "id": "box-6-2-0"
                     }
                   ]
                 },
@@ -822,7 +1148,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-3-0"
                     }
                   ]
                 },
@@ -831,7 +1159,9 @@
                     {
                       "label": "Elective",
                       "credits": "2",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-4-0"
                     }
                   ]
                 },
@@ -840,7 +1170,9 @@
                     {
                       "label": "UBC 399MNT - UB Curriculum Capstone",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "UBC 399",
+                      "id": "box-6-5-0"
                     }
                   ]
                 }
@@ -855,7 +1187,9 @@
                     {
                       "label": "PHY 411LEC - Computational Physics II",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 411",
+                      "id": "box-7-0-0"
                     }
                   ]
                 },
@@ -864,7 +1198,9 @@
                     {
                       "label": "PHY 408LAB - Advanced Laboratory",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "PHY 408",
+                      "id": "box-7-1-0"
                     }
                   ]
                 },
@@ -873,12 +1209,16 @@
                     {
                       "label": "EAS 305LR - Applied Probability and Statistics",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "EAS 305",
+                      "id": "box-7-2-0"
                     },
                     {
                       "label": "MTH 411LR - Introduction to Probability Theory",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "MTH 411",
+                      "id": "box-7-2-1"
                     }
                   ]
                 },
@@ -887,7 +1227,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-3-0"
                     }
                   ]
                 },
@@ -896,7 +1238,9 @@
                     {
                       "label": "Elective",
                       "credits": "2",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-4-0"
                     }
                   ]
                 }
@@ -904,6 +1248,153 @@
               "total_credits_raw": "120"
             }
           ]
+        }
+      ],
+      "edges": [
+        {
+          "from": "box-0-1-0",
+          "to": "box-1-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-2-0",
+          "to": "box-1-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-1-0",
+          "to": "box-2-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-2-0",
+          "to": "box-2-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-1-0",
+          "to": "box-2-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-1-0",
+          "to": "box-2-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-2-0",
+          "to": "box-4-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-2-0",
+          "to": "box-4-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-0-0",
+          "to": "box-4-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-3-0",
+          "to": "box-4-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-1-0",
+          "to": "box-5-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-0-0",
+          "to": "box-5-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-1-0",
+          "to": "box-5-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-1-0",
+          "to": "box-6-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-2-0",
+          "to": "box-6-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-1-0",
+          "to": "box-6-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-4-2-0",
+          "to": "box-6-1-0",
+          "type": "coreq"
+        },
+        {
+          "from": "box-0-1-0",
+          "to": "box-6-1-1",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-1-0",
+          "to": "box-6-1-1",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-2-0",
+          "to": "box-6-1-1",
+          "type": "prereq"
+        },
+        {
+          "from": "box-5-0-0",
+          "to": "box-6-1-1",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-2-0",
+          "to": "box-6-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-3-0",
+          "to": "box-6-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-4-1-0",
+          "to": "box-6-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-6-1-0",
+          "to": "box-7-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-5-1-0",
+          "to": "box-7-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-4-2-0",
+          "to": "box-7-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-1-0",
+          "to": "box-7-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-1-0",
+          "to": "box-7-2-1",
+          "type": "prereq"
         }
       ]
     },
@@ -924,7 +1415,9 @@
                     {
                       "label": "UB Seminar",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-0-0"
                     }
                   ]
                 },
@@ -933,7 +1426,9 @@
                     {
                       "label": "Math & Quantitative Reasoning",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-1-0"
                     }
                   ]
                 },
@@ -942,7 +1437,9 @@
                     {
                       "label": "Scientific Literacy 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-2-0"
                     }
                   ]
                 },
@@ -951,7 +1448,9 @@
                     {
                       "label": "Scientific Lab",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-3-0"
                     }
                   ]
                 },
@@ -960,12 +1459,16 @@
                     {
                       "label": "ENG 105LEC - Writing and Rhetoric",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "ENG 105",
+                      "id": "box-0-4-0"
                     },
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-4-1"
                     }
                   ]
                 }
@@ -980,7 +1483,9 @@
                     {
                       "label": "LIN 205LEC - Introduction to Linguistic Analysis",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 205",
+                      "id": "box-1-0-0"
                     }
                   ]
                 },
@@ -989,12 +1494,16 @@
                     {
                       "label": "ENG 105LEC - Writing and Rhetoric",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "ENG 105",
+                      "id": "box-1-1-0"
                     },
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-1-1"
                     }
                   ]
                 },
@@ -1003,7 +1512,9 @@
                     {
                       "label": "Scientific Literacy 1",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-2-0"
                     }
                   ]
                 },
@@ -1012,7 +1523,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-3-0"
                     }
                   ]
                 },
@@ -1021,7 +1534,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-4-0"
                     }
                   ]
                 }
@@ -1041,7 +1556,9 @@
                     {
                       "label": "LIN 301LEC - Structure of English: The Sound System",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 301",
+                      "id": "box-2-0-0"
                     }
                   ]
                 },
@@ -1050,7 +1567,9 @@
                     {
                       "label": "LIN 302LEC - Structure of English: Grammar and Lexicon",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 302",
+                      "id": "box-2-1-0"
                     }
                   ]
                 },
@@ -1059,7 +1578,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-2-0"
                     }
                   ]
                 },
@@ -1068,7 +1589,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-3-0"
                     }
                   ]
                 },
@@ -1077,7 +1600,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-4-0"
                     }
                   ]
                 }
@@ -1092,7 +1617,9 @@
                     {
                       "label": "LIN 432LEC - Phonology I",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 432",
+                      "id": "box-3-0-0"
                     }
                   ]
                 },
@@ -1101,7 +1628,9 @@
                     {
                       "label": "LIN 421LEC - Linguistic Anthropology",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 421",
+                      "id": "box-3-1-0"
                     }
                   ]
                 },
@@ -1110,7 +1639,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-2-0"
                     }
                   ]
                 },
@@ -1119,7 +1650,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-3-0"
                     }
                   ]
                 },
@@ -1128,7 +1661,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-4-0"
                     }
                   ]
                 }
@@ -1148,7 +1683,9 @@
                     {
                       "label": "LIN 455LEC - Language Acquisition",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 455",
+                      "id": "box-4-0-0"
                     }
                   ]
                 },
@@ -1157,7 +1694,9 @@
                     {
                       "label": "LIN 356LEC - An Introduction to Contemporary Theories of Metaphor",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 356",
+                      "id": "box-4-1-0"
                     }
                   ]
                 },
@@ -1166,7 +1705,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-2-0"
                     }
                   ]
                 },
@@ -1175,7 +1716,9 @@
                     {
                       "label": "Liberal Arts Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-3-0"
                     }
                   ]
                 },
@@ -1184,7 +1727,9 @@
                     {
                       "label": "Liberal Arts Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-4-0"
                     }
                   ]
                 }
@@ -1199,7 +1744,9 @@
                     {
                       "label": "LIN 439LEC - Historical Linguistics",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 439",
+                      "id": "box-5-0-0"
                     }
                   ]
                 },
@@ -1208,7 +1755,9 @@
                     {
                       "label": "LIN 496TUT - Internship",
                       "credits": "2-6",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 496",
+                      "id": "box-5-1-0"
                     }
                   ]
                 },
@@ -1217,7 +1766,9 @@
                     {
                       "label": "LIN 345LEC - Artificial Intelligence and Natural Language",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 345",
+                      "id": "box-5-2-0"
                     }
                   ]
                 },
@@ -1226,7 +1777,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-3-0"
                     }
                   ]
                 },
@@ -1235,7 +1788,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-4-0"
                     }
                   ]
                 },
@@ -1244,7 +1799,9 @@
                     {
                       "label": "UBC 399MNT - UB Curriculum Capstone",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "UBC 399",
+                      "id": "box-5-5-0"
                     }
                   ]
                 }
@@ -1264,7 +1821,9 @@
                     {
                       "label": "LIN 315LEC - Language in Its Social Setting",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 315",
+                      "id": "box-6-0-0"
                     }
                   ]
                 },
@@ -1273,7 +1832,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-1-0"
                     }
                   ]
                 },
@@ -1282,7 +1843,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-2-0"
                     }
                   ]
                 },
@@ -1291,7 +1854,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-3-0"
                     }
                   ]
                 },
@@ -1300,7 +1865,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-4-0"
                     }
                   ]
                 }
@@ -1315,7 +1882,9 @@
                     {
                       "label": "LIN 460SEM - Structure of a Particular Language",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 460",
+                      "id": "box-7-0-0"
                     }
                   ]
                 },
@@ -1324,7 +1893,9 @@
                     {
                       "label": "Elective 300/400 Level",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-1-0"
                     }
                   ]
                 },
@@ -1333,7 +1904,9 @@
                     {
                       "label": "Elective 300/400 Level",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-2-0"
                     }
                   ]
                 },
@@ -1342,7 +1915,9 @@
                     {
                       "label": "Elective",
                       "credits": "2",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-3-0"
                     }
                   ]
                 },
@@ -1351,7 +1926,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-4-0"
                     }
                   ]
                 }
@@ -1359,6 +1936,48 @@
               "total_credits_raw": "120"
             }
           ]
+        }
+      ],
+      "edges": [
+        {
+          "from": "box-1-0-0",
+          "to": "box-2-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-0-0",
+          "to": "box-2-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-0-0",
+          "to": "box-3-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-0-0",
+          "to": "box-3-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-0-0",
+          "to": "box-5-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-0-0",
+          "to": "box-6-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-0-0",
+          "to": "box-7-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-1-0",
+          "to": "box-7-0-0",
+          "type": "prereq"
         }
       ]
     },
@@ -1379,7 +1998,9 @@
                     {
                       "label": "UB Seminar",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-0-0"
                     }
                   ]
                 },
@@ -1388,12 +2009,16 @@
                     {
                       "label": "ENG 105LEC - Writing and Rhetoric",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "ENG 105",
+                      "id": "box-0-1-0"
                     },
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-1-1"
                     }
                   ]
                 },
@@ -1402,7 +2027,9 @@
                     {
                       "label": "CHI 111DIS - First-Year Chinese 1st Semester",
                       "credits": "6",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHI 111",
+                      "id": "box-0-2-0"
                     }
                   ]
                 },
@@ -1411,7 +2038,9 @@
                     {
                       "label": "LIN 205LEC - Introduction to Linguistic Analysis",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 205",
+                      "id": "box-0-3-0"
                     }
                   ]
                 }
@@ -1426,7 +2055,9 @@
                     {
                       "label": "Scientific Literacy 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-0-0"
                     }
                   ]
                 },
@@ -1435,7 +2066,9 @@
                     {
                       "label": "Scientific Lab",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-1-0"
                     }
                   ]
                 },
@@ -1444,12 +2077,16 @@
                     {
                       "label": "ENG 105LEC - Writing and Rhetoric",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "ENG 105",
+                      "id": "box-1-2-0"
                     },
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-2-1"
                     }
                   ]
                 },
@@ -1458,7 +2095,9 @@
                     {
                       "label": "CHI 112DIS - First-Year Chinese 2nd Semester",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHI 112",
+                      "id": "box-1-3-0"
                     }
                   ]
                 },
@@ -1467,7 +2106,9 @@
                     {
                       "label": "LIN Any Level Course",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-4-0"
                     }
                   ]
                 }
@@ -1487,7 +2128,9 @@
                     {
                       "label": "Scientific Literacy 1",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-0-0"
                     }
                   ]
                 },
@@ -1496,7 +2139,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-1-0"
                     }
                   ]
                 },
@@ -1505,7 +2150,9 @@
                     {
                       "label": "CHI 201LEC - Second-Year Chinese",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHI 201",
+                      "id": "box-2-2-0"
                     }
                   ]
                 },
@@ -1514,7 +2161,9 @@
                     {
                       "label": "LIN 301LEC - Structure of English: The Sound System",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 301",
+                      "id": "box-2-3-0"
                     }
                   ]
                 },
@@ -1523,7 +2172,9 @@
                     {
                       "label": "LIN 302LEC - Structure of English: Grammar and Lexicon",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 302",
+                      "id": "box-2-4-0"
                     }
                   ]
                 }
@@ -1538,7 +2189,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-0-0"
                     }
                   ]
                 },
@@ -1547,7 +2200,9 @@
                     {
                       "label": "Math & Quantitative Reasoning",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-1-0"
                     }
                   ]
                 },
@@ -1556,7 +2211,9 @@
                     {
                       "label": "Communication Literacy 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-2-0"
                     }
                   ]
                 },
@@ -1565,7 +2222,9 @@
                     {
                       "label": "CHI 202LEC - Second-Year Chinese",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHI 202",
+                      "id": "box-3-3-0"
                     }
                   ]
                 }
@@ -1585,7 +2244,9 @@
                     {
                       "label": "300/400 Level LIN Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-0-0"
                     }
                   ]
                 },
@@ -1594,7 +2255,9 @@
                     {
                       "label": "Specialization Language Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-1-0"
                     }
                   ]
                 },
@@ -1603,7 +2266,9 @@
                     {
                       "label": "LIN Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-2-0"
                     }
                   ]
                 },
@@ -1612,7 +2277,9 @@
                     {
                       "label": "LIN Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-3-0"
                     }
                   ]
                 },
@@ -1621,7 +2288,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-4-0"
                     }
                   ]
                 },
@@ -1630,7 +2299,9 @@
                     {
                       "label": "UBC 399MNT - UB Curriculum Capstone",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "UBC 399",
+                      "id": "box-4-5-0"
                     }
                   ]
                 }
@@ -1645,7 +2316,9 @@
                     {
                       "label": "Specialization Language",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-0-0"
                     }
                   ]
                 },
@@ -1654,7 +2327,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-1-0"
                     }
                   ]
                 },
@@ -1663,7 +2338,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-2-0"
                     }
                   ]
                 },
@@ -1672,7 +2349,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-3-0"
                     }
                   ]
                 },
@@ -1681,7 +2360,9 @@
                     {
                       "label": "CHI 410LEC - Introduction to Chinese Linguistics",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHI 410",
+                      "id": "box-5-4-0"
                     }
                   ]
                 }
@@ -1701,7 +2382,9 @@
                     {
                       "label": "Specialization Language Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-0-0"
                     }
                   ]
                 },
@@ -1710,7 +2393,9 @@
                     {
                       "label": "Specialization Language Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-1-0"
                     }
                   ]
                 },
@@ -1719,7 +2404,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-2-0"
                     }
                   ]
                 },
@@ -1728,7 +2415,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-3-0"
                     }
                   ]
                 },
@@ -1737,7 +2426,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-4-0"
                     }
                   ]
                 }
@@ -1752,7 +2443,9 @@
                     {
                       "label": "Specialization Language Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-0-0"
                     }
                   ]
                 },
@@ -1761,7 +2454,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-1-0"
                     }
                   ]
                 },
@@ -1770,7 +2465,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-2-0"
                     }
                   ]
                 },
@@ -1779,7 +2476,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-3-0"
                     }
                   ]
                 },
@@ -1788,7 +2487,9 @@
                     {
                       "label": "CHI 494TUT - Senior Capstone Course",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "CHI 494",
+                      "id": "box-7-4-0"
                     }
                   ]
                 }
@@ -1796,6 +2497,33 @@
               "total_credits_raw": "120"
             }
           ]
+        }
+      ],
+      "edges": [
+        {
+          "from": "box-0-2-0",
+          "to": "box-1-3-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-3-0",
+          "to": "box-2-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-3-0",
+          "to": "box-2-3-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-3-0",
+          "to": "box-2-4-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-2-0",
+          "to": "box-3-3-0",
+          "type": "prereq"
         }
       ]
     },
@@ -1816,7 +2544,9 @@
                     {
                       "label": "UB Seminar",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-0-0"
                     }
                   ]
                 },
@@ -1825,12 +2555,16 @@
                     {
                       "label": "ENG 105LEC - Writing and Rhetoric",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "ENG 105",
+                      "id": "box-0-1-0"
                     },
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-1-1"
                     }
                   ]
                 },
@@ -1839,7 +2573,9 @@
                     {
                       "label": "JPN 111DIS - First-Year Japanese 1st Semester",
                       "credits": "6",
-                      "note": null
+                      "note": null,
+                      "course_key": "JPN 111",
+                      "id": "box-0-2-0"
                     }
                   ]
                 },
@@ -1848,7 +2584,9 @@
                     {
                       "label": "LIN 205LEC - Introduction to Linguistic Analysis",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 205",
+                      "id": "box-0-3-0"
                     }
                   ]
                 }
@@ -1863,7 +2601,9 @@
                     {
                       "label": "Scientific Literacy 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-0-0"
                     }
                   ]
                 },
@@ -1872,7 +2612,9 @@
                     {
                       "label": "Scientific Lab",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-1-0"
                     }
                   ]
                 },
@@ -1881,12 +2623,16 @@
                     {
                       "label": "ENG 105LEC - Writing and Rhetoric",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "ENG 105",
+                      "id": "box-1-2-0"
                     },
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-2-1"
                     }
                   ]
                 },
@@ -1895,7 +2641,9 @@
                     {
                       "label": "JPN 112DIS - First-Year Japanese 2nd Semester",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "JPN 112",
+                      "id": "box-1-3-0"
                     }
                   ]
                 },
@@ -1904,7 +2652,9 @@
                     {
                       "label": "LIN Any Level Course",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-4-0"
                     }
                   ]
                 }
@@ -1924,7 +2674,9 @@
                     {
                       "label": "Scientific Literacy 1",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-0-0"
                     }
                   ]
                 },
@@ -1933,7 +2685,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-1-0"
                     }
                   ]
                 },
@@ -1942,7 +2696,9 @@
                     {
                       "label": "JPN 201LEC - Second-Year Japanese",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "JPN 201",
+                      "id": "box-2-2-0"
                     }
                   ]
                 },
@@ -1951,7 +2707,9 @@
                     {
                       "label": "LIN 301LEC - Structure of English: The Sound System",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 301",
+                      "id": "box-2-3-0"
                     }
                   ]
                 },
@@ -1960,7 +2718,9 @@
                     {
                       "label": "LIN 302LEC - Structure of English: Grammar and Lexicon",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 302",
+                      "id": "box-2-4-0"
                     }
                   ]
                 }
@@ -1975,7 +2735,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-0-0"
                     }
                   ]
                 },
@@ -1984,7 +2746,9 @@
                     {
                       "label": "Math & Quantitative Reasoning",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-1-0"
                     }
                   ]
                 },
@@ -1993,7 +2757,9 @@
                     {
                       "label": "Communication Literacy 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-2-0"
                     }
                   ]
                 },
@@ -2002,7 +2768,9 @@
                     {
                       "label": "JPN 202LEC - Second-Year Japanese",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "JPN 202",
+                      "id": "box-3-3-0"
                     }
                   ]
                 }
@@ -2022,12 +2790,16 @@
                     {
                       "label": "JPN 411LEC - Introduction to Japanese Linguistics",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "JPN 411",
+                      "id": "box-4-0-0"
                     },
                     {
                       "label": "JPN 421LEC - Japanese Language and Culture",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "JPN 421",
+                      "id": "box-4-0-1"
                     }
                   ]
                 },
@@ -2036,7 +2808,9 @@
                     {
                       "label": "Specialization Language Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-1-0"
                     }
                   ]
                 },
@@ -2045,7 +2819,9 @@
                     {
                       "label": "LIN Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-2-0"
                     }
                   ]
                 },
@@ -2054,7 +2830,9 @@
                     {
                       "label": "LIN Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-3-0"
                     }
                   ]
                 },
@@ -2063,7 +2841,9 @@
                     {
                       "label": "Elective",
                       "credits": "2",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-4-0"
                     }
                   ]
                 },
@@ -2072,7 +2852,9 @@
                     {
                       "label": "UBC 399MNT - UB Curriculum Capstone",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "UBC 399",
+                      "id": "box-4-5-0"
                     }
                   ]
                 }
@@ -2087,7 +2869,9 @@
                     {
                       "label": "LIN 410LEC - Morphology",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "LIN 410",
+                      "id": "box-5-0-0"
                     }
                   ]
                 },
@@ -2096,7 +2880,9 @@
                     {
                       "label": "Specialization Language Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-1-0"
                     }
                   ]
                 },
@@ -2105,7 +2891,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-2-0"
                     }
                   ]
                 },
@@ -2114,7 +2902,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-3-0"
                     }
                   ]
                 },
@@ -2123,7 +2913,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-4-0"
                     }
                   ]
                 }
@@ -2143,7 +2935,9 @@
                     {
                       "label": "Specialization Language Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-0-0"
                     }
                   ]
                 },
@@ -2152,7 +2946,9 @@
                     {
                       "label": "Specialization Language Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-1-0"
                     }
                   ]
                 },
@@ -2161,7 +2957,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-2-0"
                     }
                   ]
                 },
@@ -2170,7 +2968,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-3-0"
                     }
                   ]
                 },
@@ -2179,7 +2979,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-4-0"
                     }
                   ]
                 }
@@ -2194,7 +2996,9 @@
                     {
                       "label": "JPN 494TUT - Senior Capstone Course",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "JPN 494",
+                      "id": "box-7-0-0"
                     }
                   ]
                 },
@@ -2203,7 +3007,9 @@
                     {
                       "label": "Specialization Language Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-1-0"
                     }
                   ]
                 },
@@ -2212,7 +3018,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-2-0"
                     }
                   ]
                 },
@@ -2221,7 +3029,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-3-0"
                     }
                   ]
                 },
@@ -2230,7 +3040,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-4-0"
                     }
                   ]
                 }
@@ -2238,6 +3050,33 @@
               "total_credits_raw": "120"
             }
           ]
+        }
+      ],
+      "edges": [
+        {
+          "from": "box-0-2-0",
+          "to": "box-1-3-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-3-0",
+          "to": "box-2-3-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-3-0",
+          "to": "box-2-4-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-2-0",
+          "to": "box-3-3-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-4-0",
+          "to": "box-5-0-0",
+          "type": "prereq"
         }
       ]
     },
@@ -2258,7 +3097,9 @@
                     {
                       "label": "UB Seminar",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-0-0"
                     }
                   ]
                 },
@@ -2267,7 +3108,9 @@
                     {
                       "label": "ART 120LAB - 3D Foundations",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 120",
+                      "id": "box-0-1-0"
                     }
                   ]
                 },
@@ -2276,7 +3119,9 @@
                     {
                       "label": "ART 108LAB - Time Based Foundations",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 108",
+                      "id": "box-0-2-0"
                     }
                   ]
                 },
@@ -2285,7 +3130,9 @@
                     {
                       "label": "ART 150LEC - Art Theory and Criticism",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 150",
+                      "id": "box-0-3-0"
                     }
                   ]
                 },
@@ -2294,12 +3141,16 @@
                     {
                       "label": "ENG 105LEC - Writing and Rhetoric",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "ENG 105",
+                      "id": "box-0-4-0"
                     },
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-4-1"
                     }
                   ]
                 }
@@ -2314,7 +3165,9 @@
                     {
                       "label": "Math & Quantitative Reasoning",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-0-0"
                     }
                   ]
                 },
@@ -2323,7 +3176,9 @@
                     {
                       "label": "ART 105LAB - 2D Foundations",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 105",
+                      "id": "box-1-1-0"
                     }
                   ]
                 },
@@ -2332,7 +3187,9 @@
                     {
                       "label": "ART 111LAB - Drawing Foundations",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 111",
+                      "id": "box-1-2-0"
                     }
                   ]
                 },
@@ -2341,12 +3198,16 @@
                     {
                       "label": "ENG 105LEC - Writing and Rhetoric",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "ENG 105",
+                      "id": "box-1-3-0"
                     },
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-3-1"
                     }
                   ]
                 },
@@ -2355,7 +3216,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-4-0"
                     }
                   ]
                 }
@@ -2375,7 +3238,9 @@
                     {
                       "label": "ART 207LAB - Drawing II: Concepts",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 207",
+                      "id": "box-2-0-0"
                     }
                   ]
                 },
@@ -2384,7 +3249,9 @@
                     {
                       "label": "AHI 101LEC - Survey of Art History: Egypt to Northern Renaissance",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "AHI 101",
+                      "id": "box-2-1-0"
                     }
                   ]
                 },
@@ -2393,7 +3260,9 @@
                     {
                       "label": "Scientific Literacy and Inquiry 1",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-2-0"
                     }
                   ]
                 },
@@ -2402,7 +3271,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-3-0"
                     }
                   ]
                 },
@@ -2411,7 +3282,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-4-0"
                     }
                   ]
                 }
@@ -2426,7 +3299,9 @@
                     {
                       "label": "ART 301LAB - Introduction to Painting",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 301",
+                      "id": "box-3-0-0"
                     }
                   ]
                 },
@@ -2435,7 +3310,9 @@
                     {
                       "label": "AHI 102LR - Survey of Art History: Italian Renaissance to Present",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "AHI 102",
+                      "id": "box-3-1-0"
                     }
                   ]
                 },
@@ -2444,7 +3321,9 @@
                     {
                       "label": "Scientific Literacy and Inquiry 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-2-0"
                     }
                   ]
                 },
@@ -2453,7 +3332,9 @@
                     {
                       "label": "Scientific Literacy and Inquiry Lab",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-3-0"
                     }
                   ]
                 },
@@ -2462,7 +3343,9 @@
                     {
                       "label": "ART Course at 300/400 level",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-4-0"
                     }
                   ]
                 },
@@ -2471,7 +3354,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-5-0"
                     }
                   ]
                 }
@@ -2491,7 +3376,9 @@
                     {
                       "label": "ART 200LEC - Department of Art Speakers Series",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 200",
+                      "id": "box-4-0-0"
                     }
                   ]
                 },
@@ -2500,7 +3387,9 @@
                     {
                       "label": "ART 310LAB - Painting & Popular Culture",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 310",
+                      "id": "box-4-1-0"
                     }
                   ]
                 },
@@ -2509,7 +3398,9 @@
                     {
                       "label": "ART Course at 300/400 level",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-2-0"
                     }
                   ]
                 },
@@ -2518,7 +3409,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-3-0"
                     }
                   ]
                 },
@@ -2527,7 +3420,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-4-0"
                     }
                   ]
                 }
@@ -2542,7 +3437,9 @@
                     {
                       "label": "ART 311LAB - Alternative Painting Strategies",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 311",
+                      "id": "box-5-0-0"
                     }
                   ]
                 },
@@ -2551,7 +3448,9 @@
                     {
                       "label": "Art History Elective at 300/400 level",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-1-0"
                     }
                   ]
                 },
@@ -2560,7 +3459,9 @@
                     {
                       "label": "ART Course at 300/400 level",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-2-0"
                     }
                   ]
                 },
@@ -2569,7 +3470,9 @@
                     {
                       "label": "AHI or ART LEC or ART SEM at 300/400 level",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-3-0"
                     }
                   ]
                 },
@@ -2578,7 +3481,9 @@
                     {
                       "label": "Communication Literacy 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-4-0"
                     }
                   ]
                 }
@@ -2598,7 +3503,9 @@
                     {
                       "label": "ART 200LEC - Department of Art Speakers Series",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 200",
+                      "id": "box-6-0-0"
                     }
                   ]
                 },
@@ -2607,7 +3514,9 @@
                     {
                       "label": "ART 494LAB - Senior Thesis",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 494",
+                      "id": "box-6-1-0"
                     }
                   ]
                 },
@@ -2616,7 +3525,9 @@
                     {
                       "label": "ART 312LAB - Self-Initiated Painting",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 312",
+                      "id": "box-6-2-0"
                     }
                   ]
                 },
@@ -2625,7 +3536,9 @@
                     {
                       "label": "UBC 399MNT - UB Curriculum Capstone",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "UBC 399",
+                      "id": "box-6-3-0"
                     }
                   ]
                 },
@@ -2634,7 +3547,9 @@
                     {
                       "label": "ART course, any level",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-4-0"
                     }
                   ]
                 },
@@ -2643,7 +3558,9 @@
                     {
                       "label": "Painting Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-5-0"
                     }
                   ]
                 }
@@ -2658,7 +3575,9 @@
                     {
                       "label": "ART 494LAB - Senior Thesis",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "ART 494",
+                      "id": "box-7-0-0"
                     }
                   ]
                 },
@@ -2667,7 +3586,9 @@
                     {
                       "label": "Painting Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-1-0"
                     }
                   ]
                 },
@@ -2676,7 +3597,9 @@
                     {
                       "label": "Painting Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-2-0"
                     }
                   ]
                 },
@@ -2685,7 +3608,9 @@
                     {
                       "label": "Painting Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-3-0"
                     }
                   ]
                 },
@@ -2694,7 +3619,9 @@
                     {
                       "label": "Elective",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-4-0"
                     }
                   ]
                 }
@@ -2702,6 +3629,33 @@
               "total_credits_raw": "120"
             }
           ]
+        }
+      ],
+      "edges": [
+        {
+          "from": "box-1-2-0",
+          "to": "box-2-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-0-0",
+          "to": "box-5-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-4-1-0",
+          "to": "box-5-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-0-0",
+          "to": "box-6-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-5-0-0",
+          "to": "box-6-2-0",
+          "type": "prereq"
         }
       ]
     },
@@ -2722,7 +3676,9 @@
                     {
                       "label": "UB Seminar",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-0-0"
                     }
                   ]
                 },
@@ -2731,7 +3687,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-0-1-0"
                     }
                   ]
                 },
@@ -2740,7 +3698,9 @@
                     {
                       "label": "TH 106LEC - Introduction to Entertainment Technology",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "TH 106",
+                      "id": "box-0-2-0"
                     }
                   ]
                 },
@@ -2749,12 +3709,16 @@
                     {
                       "label": "TH 135LAB - Production Practicum",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "TH 135",
+                      "id": "box-0-3-0"
                     },
                     {
                       "label": "TH 136LAB - Production Practicum",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "TH 136",
+                      "id": "box-0-3-1"
                     }
                   ]
                 },
@@ -2763,7 +3727,9 @@
                     {
                       "label": "DAC 201LEC - Modern Dance 1",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 201",
+                      "id": "box-0-4-0"
                     }
                   ]
                 },
@@ -2772,7 +3738,9 @@
                     {
                       "label": "DAC 213LEC - Ballet 1",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 213",
+                      "id": "box-0-5-0"
                     }
                   ]
                 },
@@ -2781,7 +3749,9 @@
                     {
                       "label": "DAC 263LEC - Jazz Dance 1",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 263",
+                      "id": "box-0-6-0"
                     }
                   ]
                 }
@@ -2796,7 +3766,9 @@
                     {
                       "label": "DAC 202LEC - Modern Dance 2",
                       "credits": "2-3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 202",
+                      "id": "box-1-0-0"
                     }
                   ]
                 },
@@ -2805,7 +3777,9 @@
                     {
                       "label": "DAC 211LEC - Tap Dance 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 211",
+                      "id": "box-1-1-0"
                     }
                   ]
                 },
@@ -2814,7 +3788,9 @@
                     {
                       "label": "DAC 214LEC - Ballet 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 214",
+                      "id": "box-1-2-0"
                     }
                   ]
                 },
@@ -2823,7 +3799,9 @@
                     {
                       "label": "DAC 264LEC - Jazz Dance 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 264",
+                      "id": "box-1-3-0"
                     }
                   ]
                 },
@@ -2832,7 +3810,9 @@
                     {
                       "label": "ENG 105LEC - Writing and Rhetoric",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": "ENG 105",
+                      "id": "box-1-4-0"
                     }
                   ]
                 },
@@ -2841,7 +3821,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-1-5-0"
                     }
                   ]
                 }
@@ -2861,7 +3843,9 @@
                     {
                       "label": "DAC 345SEM - Modern Dance 3",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 345",
+                      "id": "box-2-0-0"
                     }
                   ]
                 },
@@ -2870,7 +3854,9 @@
                     {
                       "label": "DAC 371LEC - Jazz Dance 3",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 371",
+                      "id": "box-2-1-0"
                     }
                   ]
                 },
@@ -2879,7 +3865,9 @@
                     {
                       "label": "DAC 310SEM - Tap 3",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 310",
+                      "id": "box-2-2-0"
                     }
                   ]
                 },
@@ -2888,7 +3876,9 @@
                     {
                       "label": "DAC 341SEM - Ballet 3",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 341",
+                      "id": "box-2-3-0"
                     }
                   ]
                 },
@@ -2897,7 +3887,9 @@
                     {
                       "label": "Math & Quantitative Reasoning",
                       "credits": "4",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-2-4-0"
                     }
                   ]
                 },
@@ -2906,12 +3898,16 @@
                     {
                       "label": "TH 236LAB - Production Practicum",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "TH 236",
+                      "id": "box-2-5-0"
                     },
                     {
                       "label": "TH 336LAB - Production Practicum",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "TH 336",
+                      "id": "box-2-5-1"
                     }
                   ]
                 }
@@ -2926,7 +3922,9 @@
                     {
                       "label": "DAC 330SEM - Global Dance Studies",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 330",
+                      "id": "box-3-0-0"
                     }
                   ]
                 },
@@ -2935,7 +3933,9 @@
                     {
                       "label": "DAC 342SEM - Ballet 4",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 342",
+                      "id": "box-3-1-0"
                     }
                   ]
                 },
@@ -2944,7 +3944,9 @@
                     {
                       "label": "DAC 346SEM - Modern Dance 4",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 346",
+                      "id": "box-3-2-0"
                     }
                   ]
                 },
@@ -2953,7 +3955,9 @@
                     {
                       "label": "DAC 372LEC - Jazz Dance 4",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 372",
+                      "id": "box-3-3-0"
                     }
                   ]
                 },
@@ -2962,7 +3966,9 @@
                     {
                       "label": "Scientific Literacy and Inquiry 1",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-4-0"
                     }
                   ]
                 },
@@ -2971,7 +3977,9 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-3-5-0"
                     }
                   ]
                 }
@@ -2991,27 +3999,37 @@
                     {
                       "label": "(Choose 2 of the following): DAC 410SEM - Modern Dance 5",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-0-0"
                     },
                     {
                       "label": "DAC 417LEC - Jazz Dance 5",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 417",
+                      "id": "box-4-0-1"
                     },
                     {
                       "label": "DAC 421SEM - Ballet 5",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 421",
+                      "id": "box-4-0-2"
                     },
                     {
                       "label": "DAC 432LEC - Applied Kinesiology and Anatomy for Dancers",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 432",
+                      "id": "box-4-0-3"
                     },
                     {
                       "label": "DAC 441SEM - Choreography 1",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 441",
+                      "id": "box-4-0-4"
                     }
                   ]
                 },
@@ -3020,12 +4038,16 @@
                     {
                       "label": "DAC 350LEC - Introduction to Movement Analysis and Somatic Practice",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 350",
+                      "id": "box-4-1-0"
                     },
                     {
                       "label": "DAC 415SEM - Mind-Body Integration",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 415",
+                      "id": "box-4-1-1"
                     }
                   ]
                 },
@@ -3034,7 +4056,9 @@
                     {
                       "label": "Scientific Literacy and Inquiry 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-2-0"
                     }
                   ]
                 },
@@ -3043,7 +4067,9 @@
                     {
                       "label": "Scientific Literacy and Inquiry Lab Credit: 1",
                       "credits": null,
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-4-3-0"
                     }
                   ]
                 }
@@ -3058,22 +4084,30 @@
                     {
                       "label": "(Choose 1 of the following): DAC 411SEM - Modern Dance 6",
                       "credits": "2-3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-0-0"
                     },
                     {
                       "label": "DAC 418LEC - Jazz Dance 6",
                       "credits": "2-3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 418",
+                      "id": "box-5-0-1"
                     },
                     {
                       "label": "DAC 422SEM - Ballet 6",
                       "credits": "2-3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 422",
+                      "id": "box-5-0-2"
                     },
                     {
                       "label": "DAC 311SEM - Tap Dance 4",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 311",
+                      "id": "box-5-0-3"
                     }
                   ]
                 },
@@ -3082,7 +4116,9 @@
                     {
                       "label": "DAC 337SEM - Dance Studio - Zodiaque",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 337",
+                      "id": "box-5-1-0"
                     }
                   ]
                 },
@@ -3091,22 +4127,30 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-2-0"
                     },
                     {
                       "label": "DAC 381SEM - Social Dance Forms 1",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 381",
+                      "id": "box-5-2-1"
                     },
                     {
                       "label": "DAC 442SLB - Choreography 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 442",
+                      "id": "box-5-2-2"
                     },
                     {
                       "label": "DAC 454SEM - Teaching Methods in Dance",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 454",
+                      "id": "box-5-2-3"
                     }
                   ]
                 },
@@ -3115,12 +4159,16 @@
                     {
                       "label": "TH 236LAB - Production Practicum",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "TH 236",
+                      "id": "box-5-3-0"
                     },
                     {
                       "label": "TH 336LAB - Production Practicum",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "TH 336",
+                      "id": "box-5-3-1"
                     }
                   ]
                 },
@@ -3129,7 +4177,9 @@
                     {
                       "label": "Communication Literacy",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-5-4-0"
                     }
                   ]
                 }
@@ -3149,7 +4199,9 @@
                     {
                       "label": "DAC 337SEM - Dance Studio - Zodiaque",
                       "credits": "2-4",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 337",
+                      "id": "box-6-0-0"
                     }
                   ]
                 },
@@ -3158,7 +4210,9 @@
                     {
                       "label": "DAC 432LEC - Applied Kinesiology and Anatomy for Dancers",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 432",
+                      "id": "box-6-1-0"
                     }
                   ]
                 },
@@ -3167,17 +4221,23 @@
                     {
                       "label": "(Choose 1 of the following): DAC 410SEM - Modern Dance 5",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-6-2-0"
                     },
                     {
                       "label": "DAC 417LEC - Jazz Dance 5",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 417",
+                      "id": "box-6-2-1"
                     },
                     {
                       "label": "DAC 421SEM - Ballet 5",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 421",
+                      "id": "box-6-2-2"
                     }
                   ]
                 },
@@ -3186,12 +4246,16 @@
                     {
                       "label": "TH 236LAB - Production Practicum",
                       "credits": "1-2",
-                      "note": null
+                      "note": null,
+                      "course_key": "TH 236",
+                      "id": "box-6-3-0"
                     },
                     {
                       "label": "TH 336LAB - Production Practicum",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "TH 336",
+                      "id": "box-6-3-1"
                     }
                   ]
                 }
@@ -3206,7 +4270,9 @@
                     {
                       "label": "DAC 338SEM - Dance Studio - Zodiaque",
                       "credits": "2-4",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 338",
+                      "id": "box-7-0-0"
                     }
                   ]
                 },
@@ -3215,22 +4281,30 @@
                     {
                       "label": "Pathway",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": null,
+                      "id": "box-7-1-0"
                     },
                     {
                       "label": "DAC 381SEM - Social Dance Forms 1",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 381",
+                      "id": "box-7-1-1"
                     },
                     {
                       "label": "DAC 442SLB - Choreography 2",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 442",
+                      "id": "box-7-1-2"
                     },
                     {
                       "label": "DAC 454SEM - Teaching Methods in Dance",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 454",
+                      "id": "box-7-1-3"
                     }
                   ]
                 },
@@ -3239,7 +4313,9 @@
                     {
                       "label": "DAC 430LEC - Dance History",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "DAC 430",
+                      "id": "box-7-2-0"
                     }
                   ]
                 },
@@ -3248,12 +4324,16 @@
                     {
                       "label": "TH 203LEC - Visual Imagination",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "TH 203",
+                      "id": "box-7-3-0"
                     },
                     {
                       "label": "TH 108LEC - Acting I",
                       "credits": "3",
-                      "note": null
+                      "note": null,
+                      "course_key": "TH 108",
+                      "id": "box-7-3-1"
                     }
                   ]
                 },
@@ -3262,7 +4342,9 @@
                     {
                       "label": "UBC 399MNT - UB Curriculum Capstone",
                       "credits": "1",
-                      "note": null
+                      "note": null,
+                      "course_key": "UBC 399",
+                      "id": "box-7-4-0"
                     }
                   ]
                 }
@@ -3270,6 +4352,123 @@
               "total_credits_raw": "125"
             }
           ]
+        }
+      ],
+      "edges": [
+        {
+          "from": "box-0-2-0",
+          "to": "box-0-3-0",
+          "type": "coreq"
+        },
+        {
+          "from": "box-0-2-0",
+          "to": "box-0-3-1",
+          "type": "coreq"
+        },
+        {
+          "from": "box-0-4-0",
+          "to": "box-1-0-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-5-0",
+          "to": "box-1-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-6-0",
+          "to": "box-1-3-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-1-3-0",
+          "to": "box-2-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-3-0",
+          "to": "box-3-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-0-0",
+          "to": "box-3-2-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-1-0",
+          "to": "box-3-3-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-3-0",
+          "to": "box-4-0-1",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-1-0",
+          "to": "box-4-0-2",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-3-0",
+          "to": "box-4-0-3",
+          "type": "prereq"
+        },
+        {
+          "from": "box-4-0-1",
+          "to": "box-5-0-1",
+          "type": "prereq"
+        },
+        {
+          "from": "box-6-2-1",
+          "to": "box-5-0-1",
+          "type": "prereq"
+        },
+        {
+          "from": "box-4-0-2",
+          "to": "box-5-0-2",
+          "type": "prereq"
+        },
+        {
+          "from": "box-6-2-2",
+          "to": "box-5-0-2",
+          "type": "prereq"
+        },
+        {
+          "from": "box-2-2-0",
+          "to": "box-5-0-3",
+          "type": "prereq"
+        },
+        {
+          "from": "box-4-0-4",
+          "to": "box-5-2-2",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-3-0",
+          "to": "box-6-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-3-0",
+          "to": "box-6-2-1",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-1-0",
+          "to": "box-6-2-2",
+          "type": "prereq"
+        },
+        {
+          "from": "box-4-0-4",
+          "to": "box-7-1-2",
+          "type": "prereq"
+        },
+        {
+          "from": "box-0-2-0",
+          "to": "box-7-3-0",
+          "type": "prereq"
         }
       ]
     }
