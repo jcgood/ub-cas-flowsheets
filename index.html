@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CAS Major Flowsheets (Proof of Concept)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --cas-blue: #005bbb;
+    --bg: #f6f8fb;
+    --panel-bg: #ffffff;
+    --border: #d7deea;
+    --text: #1b2430;
+    --text-dim: #5b6675;
+    --chip-course-bg: #eaf1fd;
+    --chip-course-border: #b9d3f7;
+    --chip-generic-bg: #f2f2f2;
+    --chip-generic-border: #d6d6d6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    background: var(--cas-blue);
+    color: #fff;
+    padding: 1.5rem 2rem 1.1rem;
+  }
+  header h1 {
+    margin: 0 0 0.3rem;
+    font-size: 1.5rem;
+  }
+  header p {
+    margin: 0;
+    font-size: 0.88rem;
+    opacity: 0.92;
+    max-width: 62rem;
+    line-height: 1.4;
+  }
+  .disclaimer {
+    background: #fff7e6;
+    border-bottom: 1px solid #f0d9a0;
+    color: #6b4e00;
+    font-size: 0.82rem;
+    padding: 0.6rem 2rem;
+    line-height: 1.4;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    background: #eef2f8;
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-btn {
+    border: 1px solid var(--border);
+    background: #fff;
+    color: var(--text);
+    padding: 0.45rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .nav-btn:hover { border-color: var(--cas-blue); }
+  .nav-btn.active {
+    background: var(--cas-blue);
+    border-color: var(--cas-blue);
+    color: #fff;
+  }
+  .nav-degree {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    padding: 0 0.3rem;
+  }
+  main {
+    padding: 1.5rem 2rem 3rem;
+    max-width: 78rem;
+    margin: 0 auto;
+  }
+  .panel { display: none; }
+  .panel.active { display: block; }
+  .year-block {
+    background: var(--panel-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 1.1rem;
+    overflow: hidden;
+  }
+  .year-label {
+    background: #f0f4fa;
+    color: var(--cas-blue);
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .semester-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .semester {
+    padding: 0.9rem 1rem 1rem;
+  }
+  .semester:first-child {
+    border-right: 1px solid var(--border);
+  }
+  .sem-header {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-dim);
+  }
+  .slot-list {
+    list-style: none;
+    margin: 0 0 0.6rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .chip {
+    border: 1px solid var(--chip-course-border);
+    background: var(--chip-course-bg);
+    border-radius: 6px;
+    padding: 0.35rem 0.55rem;
+    font-size: 0.82rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  .chip-generic {
+    border-color: var(--chip-generic-border);
+    background: var(--chip-generic-bg);
+    font-style: italic;
+    color: var(--text-dim);
+  }
+  .chip-credits {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+  .chip-note {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+  }
+  .or-group { display: flex; flex-direction: column; gap: 0.25rem; }
+  .or-sep {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-dim);
+    text-align: center;
+  }
+  .sem-total {
+    font-size: 0.78rem;
+    color: var(--cas-blue);
+    font-weight: 600;
+    border-top: 1px dashed var(--border);
+    padding-top: 0.4rem;
+  }
+  .warnings {
+    margin-top: 1rem;
+    background: #fff3f3;
+    border: 1px solid #f3caca;
+    border-radius: 8px;
+    padding: 0.7rem 1rem;
+    font-size: 0.8rem;
+    color: #7a2020;
+  }
+  .prog-error { color: #a33; }
+  footer {
+    padding: 1.2rem 2rem 2rem;
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    max-width: 78rem;
+    margin: 0 auto;
+  }
+  @media (max-width: 640px) {
+    .semester-row { grid-template-columns: 1fr; }
+    .semester:first-child { border-right: none; border-bottom: 1px solid var(--border); }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>CAS Major Flowsheets — Proof of Concept</h1>
+  <p>Semester-by-semester sample sequencing for a pilot set of College of Arts and Sciences majors, modeled on the School of Engineering &amp; Applied Sciences' own advisement flowsheets.</p>
+</header>
+<div class="disclaimer">
+  <strong>Unofficial / independently produced.</strong> Not a University at Buffalo publication and not endorsed by UB, the College of Arts and Sciences, or the UB Curriculum Office. Derived automatically from the Undergraduate Catalog's own "Curricular Plan" section for each major, which the catalog itself describes as a roadmap, not a guarantee — actual requirements are governed by the official Undergraduate Catalog. Always confirm requirements with your academic advisor.
+</div>
+<nav><button class="nav-btn active" data-target="panel-biochemistry-bs" data-degree="BS">Biochemistry BS<span class="nav-degree">BS</span></button><button class="nav-btn" data-target="panel-computational-physics-bs" data-degree="BS">Computational Physics BS<span class="nav-degree">BS</span></button><button class="nav-btn" data-target="panel-linguistics-ba" data-degree="BA">Linguistics BA<span class="nav-degree">BA</span></button><button class="nav-btn" data-target="panel-linguistics-ba-chinese-language-and-linguistics-concentration" data-degree="BA">Linguistics BA — Chinese Language and Linguistics Concentration<span class="nav-degree">BA</span></button><button class="nav-btn" data-target="panel-linguistics-ba-japanese-language-and-linguistics-concentration" data-degree="BA">Linguistics BA — Japanese Language and Linguistics Concentration<span class="nav-degree">BA</span></button><button class="nav-btn" data-target="panel-fine-arts-bfa-painting-concentration" data-degree="BFA">Fine Arts BFA — Painting Concentration<span class="nav-degree">BFA</span></button><button class="nav-btn" data-target="panel-dance-bfa" data-degree="BFA">Dance BFA<span class="nav-degree">BFA</span></button></nav>
+<main><section class="panel active" id="panel-biochemistry-bs">
+    <div class="year-block">
+      <div class="year-label">Year 1</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">UB Seminar</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">BIO 200LLB - Evolutionary Biology</span><span class="chip-credits">5 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">CHE 101LR - General Chemistry</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">CHE 113LAB - General Chemistry</span><span class="chip-credits">1 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">MTH 121LR - Survey of Calculus and Its Applications I</span><span class="chip-credits">4 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">MTH 141LR - College Calculus I</span><span class="chip-credits">4 cr</span></div></div></li></ul>
+      <div class="sem-total">17 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">BIO 201LEC - Cell Biology</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">BIO 211LAB - Cell Biology Lab</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">CHE 102LR - General Chemistry</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">CHE 114LAB - General Chemistry</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">ENG 105LEC - Writing and Rhetoric</span><span class="chip-credits">4 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">MTH 122LR - Survey of Calculus and Its Applications II</span><span class="chip-credits">4 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">MTH 142LR - College Calculus 2</span><span class="chip-credits">4 cr</span></div></div></li></ul>
+      <div class="sem-total">17 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 2</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">CHE 203LR - Organic Chemistry</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">CHE 205LAB - Organic Chemistry 1 LAB</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">PHY 101LR - College Physics</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">PHY 151LAB - College Physics I Lab</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">16 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">CHE 204LR - Organic Chemistry</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">CHE 206LAB - Organic Chemistry 2 LAB</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">PHY 102LR - College Physics II</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">PHY 152LAB - College Physics II Lab</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">16 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 3</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">BCH 401LEC - Introduction to Life Science Research</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">BCH 403LEC - Biochemical Principles</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Communication Literacy 2</span><span class="chip-credits">3 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">CHE 319LEC - Physical Chemistry</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">CHE 349LEC - Physical Chemistry for Life Sciences</span><span class="chip-credits">3 cr</span></div></div></li></ul>
+      <div class="sem-total">14 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">BCH 404SEM - Research Topics in Biochemistry I</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">BCH 498TUT - Undergraduate Research Participation in Biochemistry</span><span class="chip-credits">1-8 cr</span><span class="chip-note">(complete for 2 credits)</span></div></li><li><div class="chip chip-course"><span class="chip-label">BCH 410LEC - Biomedical Genetics</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">UBC 399MNT - UB Curriculum Capstone</span><span class="chip-credits">1 cr</span></div></li></ul>
+      <div class="sem-total">13 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 4</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">BCH 405SEM - Research Topics in Biochemistry II</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">BCH 498TUT - Undergraduate Research Participation in Biochemistry</span><span class="chip-credits">1-8 cr</span><span class="chip-note">(complete for 3 credits)</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Restricted Chemistry Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Upper Division Restricted Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Upper Division Restricted Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">BCH 407SEM - Research Seminar Evaluations</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">BCH 498TUT - Undergraduate Research Participation in Biochemistry</span><span class="chip-credits">1-8 cr</span><span class="chip-note">(complete for 3 credits)</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Upper Division Restricted Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Upper Division Restricted Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Upper Division Restricted Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">120 credits</div>
+    </div></div>
+    </div></section><section class="panel" id="panel-computational-physics-bs">
+    <div class="year-block">
+      <div class="year-label">Year 1</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">UB Seminar</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">CSE 115LLR - Introduction to Computer Science I</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">MTH 141LR - College Calculus I</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Physics Sequence 1</span><span class="chip-credits">4 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">CSE 116LLB - Introduction to Computer Science II</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">MTH 142LR - College Calculus 2</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Physics Sequence 1</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">PHY 158LAB - General Physics II Lab</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">ENG 105LEC - Writing and Rhetoric</span><span class="chip-credits">4 cr</span></div></li></ul>
+      <div class="sem-total">17 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 2</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">CSE 191LR - Introduction to Discrete Structures</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">MTH 241LR - College Calculus 3</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">MTH 306LR - Introduction to Differential Equations</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">PHY 208LEC - General Physics IV</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">18 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">PHY 207LR - General Physics III</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">PHY 257LAB - General Physics III Lab</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">14 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 3</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">CSE 442LR - Software Engineering</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">PHY 301LEC - Intermediate Mechanics I</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">PHY 401LEC - Quantum Mechanics I - Fundamentals</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Communication Literacy 2</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">13 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">MTH 309LR - Introductory Linear Algebra</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">PHY 307LAB - Modern Physics Lab</span><span class="chip-credits">2 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">CSE 305LR - Introduction to Programming Languages</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">13 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 4</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">PHY 403LEC - Electricity and Magnetism I</span><span class="chip-credits">3 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">PHY 410LEC - Computational Physics I</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">MTH 437LR - Introduction to Numerical Analysis I</span><span class="chip-credits">4 cr</span></div></div></li><li><div class="chip chip-course"><span class="chip-label">PHY 405LEC - Thermal and Statistical Physics I</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">2 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">UBC 399MNT - UB Curriculum Capstone</span><span class="chip-credits">1 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">PHY 411LEC - Computational Physics II</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">PHY 408LAB - Advanced Laboratory</span><span class="chip-credits">3 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">EAS 305LR - Applied Probability and Statistics</span><span class="chip-credits">4 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">MTH 411LR - Introduction to Probability Theory</span><span class="chip-credits">4 cr</span></div></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">2 cr</span></div></li></ul>
+      <div class="sem-total">120 credits</div>
+    </div></div>
+    </div></section><section class="panel" id="panel-linguistics-ba">
+    <div class="year-block">
+      <div class="year-label">Year 1</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">UB Seminar</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Math &amp; Quantitative Reasoning</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Scientific Literacy 2</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Scientific Lab</span><span class="chip-credits">1 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">ENG 105LEC - Writing and Rhetoric</span><span class="chip-credits">4 cr</span></div><div class="or-sep">or</div><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></div></li></ul>
+      <div class="sem-total">14 or 15 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">LIN 205LEC - Introduction to Linguistic Analysis</span><span class="chip-credits">3 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">ENG 105LEC - Writing and Rhetoric</span><span class="chip-credits">4 cr</span></div><div class="or-sep">or</div><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="chip chip-generic"><span class="chip-label">Scientific Literacy 1</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 or 16 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 2</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">LIN 301LEC - Structure of English: The Sound System</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">LIN 302LEC - Structure of English: Grammar and Lexicon</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">LIN 432LEC - Phonology I</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">LIN 421LEC - Linguistic Anthropology</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 3</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">LIN 455LEC - Language Acquisition</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">LIN 356LEC - An Introduction to Contemporary Theories of Metaphor</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Liberal Arts Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Liberal Arts Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">LIN 439LEC - Historical Linguistics</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">LIN 496TUT - Internship</span><span class="chip-credits">2-6 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">LIN 345LEC - Artificial Intelligence and Natural Language</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">UBC 399MNT - UB Curriculum Capstone</span><span class="chip-credits">1 cr</span></div></li></ul>
+      <div class="sem-total">16 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 4</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">LIN 315LEC - Language in Its Social Setting</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">LIN 460SEM - Structure of a Particular Language</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective 300/400 Level</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective 300/400 Level</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">2 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">120 credits</div>
+    </div></div>
+    </div></section><section class="panel" id="panel-linguistics-ba-chinese-language-and-linguistics-concentration">
+    <div class="year-block">
+      <div class="year-label">Year 1</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">UB Seminar</span><span class="chip-credits">3 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">ENG 105LEC - Writing and Rhetoric</span><span class="chip-credits">4 cr</span></div><div class="or-sep">or</div><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="chip chip-course"><span class="chip-label">CHI 111DIS - First-Year Chinese 1st Semester</span><span class="chip-credits">6 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">LIN 205LEC - Introduction to Linguistic Analysis</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">14 or 15 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">Scientific Literacy 2</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Scientific Lab</span><span class="chip-credits">1 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">ENG 105LEC - Writing and Rhetoric</span><span class="chip-credits">4 cr</span></div><div class="or-sep">or</div><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="chip chip-course"><span class="chip-label">CHI 112DIS - First-Year Chinese 2nd Semester</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">LIN Any Level Course</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 or 16 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 2</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">Scientific Literacy 1</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">CHI 201LEC - Second-Year Chinese</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">LIN 301LEC - Structure of English: The Sound System</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">LIN 302LEC - Structure of English: Grammar and Lexicon</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">16 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Math &amp; Quantitative Reasoning</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Communication Literacy 2</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">CHI 202LEC - Second-Year Chinese</span><span class="chip-credits">4 cr</span></div></li></ul>
+      <div class="sem-total">13 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 3</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">300/400 Level LIN Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Specialization Language Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">LIN Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">LIN Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">UBC 399MNT - UB Curriculum Capstone</span><span class="chip-credits">1 cr</span></div></li></ul>
+      <div class="sem-total">16 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">Specialization Language</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">CHI 410LEC - Introduction to Chinese Linguistics</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 4</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">Specialization Language Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Specialization Language Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">Specialization Language Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">CHI 494TUT - Senior Capstone Course</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">120 credits</div>
+    </div></div>
+    </div></section><section class="panel" id="panel-linguistics-ba-japanese-language-and-linguistics-concentration">
+    <div class="year-block">
+      <div class="year-label">Year 1</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">UB Seminar</span><span class="chip-credits">3 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">ENG 105LEC - Writing and Rhetoric</span><span class="chip-credits">4 cr</span></div><div class="or-sep">or</div><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="chip chip-course"><span class="chip-label">JPN 111DIS - First-Year Japanese 1st Semester</span><span class="chip-credits">6 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">LIN 205LEC - Introduction to Linguistic Analysis</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 or 16 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">Scientific Literacy 2</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Scientific Lab</span><span class="chip-credits">1 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">ENG 105LEC - Writing and Rhetoric</span><span class="chip-credits">4 cr</span></div><div class="or-sep">or</div><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="chip chip-course"><span class="chip-label">JPN 112DIS - First-Year Japanese 2nd Semester</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">LIN Any Level Course</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">13 or 14 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 2</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">Scientific Literacy 1</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">JPN 201LEC - Second-Year Japanese</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">LIN 301LEC - Structure of English: The Sound System</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">LIN 302LEC - Structure of English: Grammar and Lexicon</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">16 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Math &amp; Quantitative Reasoning</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Communication Literacy 2</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">JPN 202LEC - Second-Year Japanese</span><span class="chip-credits">4 cr</span></div></li></ul>
+      <div class="sem-total">14 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 3</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">JPN 411LEC - Introduction to Japanese Linguistics</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">JPN 421LEC - Japanese Language and Culture</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="chip chip-generic"><span class="chip-label">Specialization Language Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">LIN Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">LIN Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">2 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">UBC 399MNT - UB Curriculum Capstone</span><span class="chip-credits">1 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">LIN 410LEC - Morphology</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Specialization Language Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 4</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">Specialization Language Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Specialization Language Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">JPN 494TUT - Senior Capstone Course</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Specialization Language Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">120 credits</div>
+    </div></div>
+    </div></section><section class="panel" id="panel-fine-arts-bfa-painting-concentration">
+    <div class="year-block">
+      <div class="year-label">Year 1</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">UB Seminar</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">ART 120LAB - 3D Foundations</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">ART 108LAB - Time Based Foundations</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">ART 150LEC - Art Theory and Criticism</span><span class="chip-credits">3 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">ENG 105LEC - Writing and Rhetoric</span><span class="chip-credits">4 cr</span></div><div class="or-sep">or</div><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></div></li></ul>
+      <div class="sem-total">15 or 16 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">Math &amp; Quantitative Reasoning</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">ART 105LAB - 2D Foundations</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">ART 111LAB - Drawing Foundations</span><span class="chip-credits">3 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">ENG 105LEC - Writing and Rhetoric</span><span class="chip-credits">4 cr</span></div><div class="or-sep">or</div><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">16 or 17 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 2</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">ART 207LAB - Drawing II: Concepts</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">AHI 101LEC - Survey of Art History: Egypt to Northern Renaissance</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Scientific Literacy and Inquiry 1</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">ART 301LAB - Introduction to Painting</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">AHI 102LR - Survey of Art History: Italian Renaissance to Present</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Scientific Literacy and Inquiry 2</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Scientific Literacy and Inquiry Lab</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">ART Course at 300/400 level</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">16 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 3</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">ART 200LEC - Department of Art Speakers Series</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">ART 310LAB - Painting &amp; Popular Culture</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">ART Course at 300/400 level</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">13 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">ART 311LAB - Alternative Painting Strategies</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Art History Elective at 300/400 level</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">ART Course at 300/400 level</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">AHI or ART LEC or ART SEM at 300/400 level</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Communication Literacy 2</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">15 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 4</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">ART 200LEC - Department of Art Speakers Series</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">ART 494LAB - Senior Thesis</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">ART 312LAB - Self-Initiated Painting</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">UBC 399MNT - UB Curriculum Capstone</span><span class="chip-credits">1 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">ART course, any level</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Painting Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">14 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">ART 494LAB - Senior Thesis</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Painting Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Painting Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Painting Elective</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Elective</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">120 credits</div>
+    </div></div>
+    </div></section><section class="panel" id="panel-dance-bfa">
+    <div class="year-block">
+      <div class="year-label">Year 1</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-generic"><span class="chip-label">UB Seminar</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">TH 106LEC - Introduction to Entertainment Technology</span><span class="chip-credits">3 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">TH 135LAB - Production Practicum</span><span class="chip-credits">1 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">TH 136LAB - Production Practicum</span><span class="chip-credits">1 cr</span></div></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 201LEC - Modern Dance 1</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 213LEC - Ballet 1</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 263LEC - Jazz Dance 1</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">19 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">DAC 202LEC - Modern Dance 2</span><span class="chip-credits">2-3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 211LEC - Tap Dance 2</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 214LEC - Ballet 2</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 264LEC - Jazz Dance 2</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">ENG 105LEC - Writing and Rhetoric</span><span class="chip-credits">4 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">19 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 2</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">DAC 345SEM - Modern Dance 3</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 371LEC - Jazz Dance 3</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 310SEM - Tap 3</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 341SEM - Ballet 3</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Math &amp; Quantitative Reasoning</span><span class="chip-credits">4 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">TH 236LAB - Production Practicum</span><span class="chip-credits">1 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">TH 336LAB - Production Practicum</span><span class="chip-credits">1 cr</span></div></div></li></ul>
+      <div class="sem-total">17 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">DAC 330SEM - Global Dance Studies</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 342SEM - Ballet 4</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 346SEM - Modern Dance 4</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 372LEC - Jazz Dance 4</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Scientific Literacy and Inquiry 1</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">18 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 3</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="or-group"><div class="chip chip-generic"><span class="chip-label">(Choose 2 of the following): DAC 410SEM - Modern Dance 5</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 417LEC - Jazz Dance 5</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 421SEM - Ballet 5</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 432LEC - Applied Kinesiology and Anatomy for Dancers</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 441SEM - Choreography 1</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">DAC 350LEC - Introduction to Movement Analysis and Somatic Practice</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 415SEM - Mind-Body Integration</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="chip chip-generic"><span class="chip-label">Scientific Literacy and Inquiry 2</span><span class="chip-credits">3 cr</span></div></li><li><div class="chip chip-generic"><span class="chip-label">Scientific Literacy and Inquiry Lab Credit: 1</span></div></li></ul>
+      <div class="sem-total">13 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="or-group"><div class="chip chip-generic"><span class="chip-label">(Choose 1 of the following): DAC 411SEM - Modern Dance 6</span><span class="chip-credits">2-3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 418LEC - Jazz Dance 6</span><span class="chip-credits">2-3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 422SEM - Ballet 6</span><span class="chip-credits">2-3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 311SEM - Tap Dance 4</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 337SEM - Dance Studio - Zodiaque</span><span class="chip-credits">3 cr</span></div></li><li><div class="or-group"><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 381SEM - Social Dance Forms 1</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 442SLB - Choreography 2</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 454SEM - Teaching Methods in Dance</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">TH 236LAB - Production Practicum</span><span class="chip-credits">1 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">TH 336LAB - Production Practicum</span><span class="chip-credits">1 cr</span></div></div></li><li><div class="chip chip-generic"><span class="chip-label">Communication Literacy</span><span class="chip-credits">3 cr</span></div></li></ul>
+      <div class="sem-total">13 credits</div>
+    </div></div>
+    </div>
+    <div class="year-block">
+      <div class="year-label">Year 4</div>
+      <div class="semester-row">
+    <div class="semester">
+      <div class="sem-header">Fall</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">DAC 337SEM - Dance Studio - Zodiaque</span><span class="chip-credits">2-4 cr</span></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 432LEC - Applied Kinesiology and Anatomy for Dancers</span><span class="chip-credits">3 cr</span></div></li><li><div class="or-group"><div class="chip chip-generic"><span class="chip-label">(Choose 1 of the following): DAC 410SEM - Modern Dance 5</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 417LEC - Jazz Dance 5</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 421SEM - Ballet 5</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">TH 236LAB - Production Practicum</span><span class="chip-credits">1-2 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">TH 336LAB - Production Practicum</span><span class="chip-credits">1 cr</span></div></div></li></ul>
+      <div class="sem-total">13 credits</div>
+    </div>
+    <div class="semester">
+      <div class="sem-header">Spring</div>
+      <ul class="slot-list"><li><div class="chip chip-course"><span class="chip-label">DAC 338SEM - Dance Studio - Zodiaque</span><span class="chip-credits">2-4 cr</span></div></li><li><div class="or-group"><div class="chip chip-generic"><span class="chip-label">Pathway</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 381SEM - Social Dance Forms 1</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 442SLB - Choreography 2</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">DAC 454SEM - Teaching Methods in Dance</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="chip chip-course"><span class="chip-label">DAC 430LEC - Dance History</span><span class="chip-credits">3 cr</span></div></li><li><div class="or-group"><div class="chip chip-course"><span class="chip-label">TH 203LEC - Visual Imagination</span><span class="chip-credits">3 cr</span></div><div class="or-sep">or</div><div class="chip chip-course"><span class="chip-label">TH 108LEC - Acting I</span><span class="chip-credits">3 cr</span></div></div></li><li><div class="chip chip-course"><span class="chip-label">UBC 399MNT - UB Curriculum Capstone</span><span class="chip-credits">1 cr</span></div></li></ul>
+      <div class="sem-total">125 credits</div>
+    </div></div>
+    </div></section></main>
+<footer>
+  Source: University at Buffalo Undergraduate Catalog (catalogs.buffalo.edu), 2026-2027 catalog year. Proof-of-concept build — pilot set of 7 programs only.
+</footer>
+<script>
+  document.querySelectorAll(".nav-btn").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      document.querySelectorAll(".nav-btn").forEach(function (b) { b.classList.remove("active"); });
+      document.querySelectorAll(".panel").forEach(function (p) { p.classList.remove("active"); });
+      btn.classList.add("active");
+      document.getElementById(btn.dataset.target).classList.add("active");
+    });
+  });
+</script>
+</body>
+</html>
