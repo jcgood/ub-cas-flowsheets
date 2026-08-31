@@ -192,7 +192,7 @@
 <body>
 <header>
   <h1>CAS Major Flowsheets — Proof of Concept</h1>
-  <p>Semester-by-semester sample sequencing for a pilot set of College of Arts and Sciences majors, modeled on the School of Engineering &amp; Applied Sciences' own advisement flowsheets. Click any course box to trace its prerequisite/co-requisite connections.</p>
+  <p>Semester-by-semester sample sequencing for a pilot set of College of Arts and Sciences majors, modeled on the School of Engineering &amp; Applied Sciences' own advisement flowsheets. Hover a course to preview its prerequisite/co-requisite connections; click it to pin the highlight in place (click again, or click the background, to unpin).</p>
 </header>
 <div class="disclaimer">
   <strong>Unofficial / independently produced.</strong> Not a University at Buffalo publication and not endorsed by UB, the College of Arts and Sciences, or the UB Curriculum Office. Sequencing is derived from the Undergraduate Catalog's own "Curricular Plan" section (a roadmap, not a guarantee); prerequisite/co-requisite arrows are auto-extracted, best-effort, and may be incomplete or occasionally wrong. Always confirm requirements with your academic advisor and the official Undergraduate Catalog.
@@ -570,7 +570,7 @@
   document.querySelectorAll(".nav-btn").forEach(function (btn) {
     btn.addEventListener("click", function () {
       document.querySelectorAll(".nav-btn").forEach(function (b) { b.classList.remove("active"); });
-      document.querySelectorAll(".panel").forEach(function (p) { p.classList.remove("active"); });
+      document.querySelectorAll(".panel").forEach(function (p) { p.classList.remove("active"); delete p.dataset.pinned; });
       btn.classList.add("active");
       var panel = document.getElementById(btn.dataset.target);
       panel.classList.add("active");
@@ -578,16 +578,35 @@
     });
   });
 
-  document.querySelectorAll(".panel").forEach(function (panel) {
-    panel.addEventListener("click", function (evt) {
-      var box = evt.target.closest(".box");
-      if (!box) { clearHighlight(panel); return; }
-      if (box.classList.contains("highlight") && !box.classList.contains("dim")) {
-        var anyDim = panel.querySelector(".box.dim");
-        if (!anyDim) { clearHighlight(panel); return; }
+  // Hover previews a course's connections (like the Engineering flowsheet
+  // tool); click PINS a highlight so it survives the mouse moving away -
+  // click the same box again, or the panel background, to unpin.
+  document.querySelectorAll(".box").forEach(function (box) {
+    var panel = box.closest(".panel");
+    box.addEventListener("mouseenter", function () {
+      if (!panel.dataset.pinned) highlightFrom(panel, box.id);
+    });
+    box.addEventListener("mouseleave", function () {
+      if (!panel.dataset.pinned) clearHighlight(panel);
+    });
+    box.addEventListener("click", function (evt) {
+      evt.stopPropagation();
+      if (panel.dataset.pinned === box.id) {
+        delete panel.dataset.pinned;
+        clearHighlight(panel);
+      } else {
+        panel.dataset.pinned = box.id;
+        highlightFrom(panel, box.id);
       }
+    });
+  });
+
+  document.querySelectorAll(".panel").forEach(function (panel) {
+    panel.addEventListener("click", function () {
+      // A click that didn't hit a .box (handled above, which stops
+      // propagation) lands here and clears any pin.
+      delete panel.dataset.pinned;
       clearHighlight(panel);
-      highlightFrom(panel, box.id);
     });
   });
 
