@@ -6,29 +6,48 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root {
-    --cas-blue: #005bbb;
+    /* Every accent color below is checked directly against UB's own
+       brand page (buffalo.edu/brand/creative/color/color-palette.html,
+       2026-09-01) - exact HEX values, not approximated. Neutral UI chrome
+       (page background, borders, body text grays, warning/error banner
+       tints) is NOT drawn from the palette - that page governs brand
+       ACCENT colors, not a full application's neutral scale, and UB's
+       own secondary-palette usage note says these "should be used
+       occasionally and sparingly," not as a whole UI's base grays. */
+    --cas-blue: #005bbb;              /* UB Blue (primary palette) */
     --bg: #f6f8fb;
     --panel-bg: #ffffff;
     --border: #d7deea;
     --text: #1b2430;
     --text-dim: #5b6675;
     --box-course-bg: #eaf1fd;
-    --box-course-border: #7fa8e0;
+    --box-course-border: #2f9fd0;         /* Victor E. Blue (secondary palette) */
     --box-generic-bg: #f2f2f2;
     --box-generic-border: #cfcfcf;
-    /* Exact palette from academics.eng.buffalo.edu/frames/flowsheettest2.css */
-    --rel-active: #005bbb;
-    --rel-prereq-seq: #EBEC00;
-    --rel-prereq-imm: #FFC72C;
-    --rel-coreq-seq: #00ADA3;
-    --rel-coreq-imm: #006269;
-    --rel-postreq: #002F56;
-    --rel-postcoreq: #44A9D5;
+    /* Six relationship-highlight colors: originally copied verbatim from
+       academics.eng.buffalo.edu/frames/flowsheettest2.css (the real
+       Engineering flowsheet tool), then cross-checked against UB's own
+       brand page directly - 3 of the 6 turned out to be slightly
+       off-brand (that tool's own CSS has drifted from current official
+       values), corrected here to the exact current HEX. */
+    --rel-active: #005bbb;                /* UB Blue */
+    --rel-prereq-seq: #ebec00;            /* Greiner Green - exact match, unchanged */
+    --rel-prereq-imm: #ffc72c;            /* Solar Strand - exact match, unchanged */
+    --rel-coreq-seq: #00a69c;             /* Lake LaSalle - corrected from #00ADA3 */
+    --rel-coreq-imm: #006570;             /* Niagara Whirlpool - corrected from #006269 */
+    --rel-postreq: #002f56;               /* Harriman Blue - exact match, unchanged */
+    --rel-postcoreq: #2f9fd0;             /* Victor E. Blue - corrected from #44A9D5 */
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    /* UB's own typography brand page (buffalo.edu/brand/creative/
+       typography/font-substitutes.html) states plainly: "Arial is the
+       acceptable substitute for Sofia Pro" (UB's actual brand typeface -
+       a commercial font this static page has no license to embed). Using
+       UB's own designated substitute rather than an arbitrary system-font
+       stack. */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     background: var(--bg);
     color: var(--text);
   }
