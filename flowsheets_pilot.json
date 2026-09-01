@@ -188,9 +188,7 @@
                         "postreq_immediate": [
                           "box-1-5-0"
                         ],
-                        "postreq_sequence": [
-                          "box-4-4-1"
-                        ],
+                        "postreq_sequence": [],
                         "postcoreq": []
                       }
                     },
@@ -232,9 +230,7 @@
                           "box-1-5-1",
                           "box-4-4-0"
                         ],
-                        "postreq_sequence": [
-                          "box-4-4-1"
-                        ],
+                        "postreq_sequence": [],
                         "postcoreq": []
                       }
                     }
@@ -464,9 +460,7 @@
                         "prereq_sequence": [],
                         "coreq_immediate": [],
                         "coreq_sequence": [],
-                        "postreq_immediate": [
-                          "box-4-4-1"
-                        ],
+                        "postreq_immediate": [],
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
@@ -507,8 +501,7 @@
                         "coreq_immediate": [],
                         "coreq_sequence": [],
                         "postreq_immediate": [
-                          "box-4-4-0",
-                          "box-4-4-1"
+                          "box-4-4-0"
                         ],
                         "postreq_sequence": [],
                         "postcoreq": []
@@ -1158,50 +1151,6 @@
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
-                    },
-                    {
-                      "label": "CHE 349LEC - Physical Chemistry for Life Sciences",
-                      "credits": "3",
-                      "note": null,
-                      "course_key": "CHE 349",
-                      "id": "box-4-4-1",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Physical Chemistry for Life Sciences",
-                        "description": "A one-semester course in physical chemistry covering the same general topics as CHE 319 -CHE 320 , but in less depth, focusing on applications to biological systems. Three hours of lecture per week.",
-                        "credits": "3",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Fall",
-                        "requisites": "Pre-Requisite: CHE 202 or CHE 252 and MTH 122 or MTH 142 or MTH 138 and MTH 139 ; or permission of instructor.",
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7904&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Physical Chemistry (choose 1 of 2)",
-                            "courses": [
-                              "CHE 319LEC - Physical Chemistry",
-                              "CHE 349LEC - Physical Chemistry for Life Sciences"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [
-                          "box-1-5-0",
-                          "box-1-5-1"
-                        ],
-                        "prereq_sequence": [
-                          "box-0-4-0",
-                          "box-0-4-1"
-                        ],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
                     }
                   ]
                 }
@@ -1815,16 +1764,6 @@
           "type": "prereq"
         },
         {
-          "from": "box-1-5-0",
-          "to": "box-4-4-1",
-          "type": "prereq"
-        },
-        {
-          "from": "box-1-5-1",
-          "to": "box-4-4-1",
-          "type": "prereq"
-        },
-        {
           "from": "box-4-0-0",
           "to": "box-5-0-0",
           "type": "prereq"
@@ -1924,8 +1863,7 @@
                         "postreq_immediate": [
                           "box-1-0-0",
                           "box-2-0-0",
-                          "box-6-1-0",
-                          "box-6-1-1"
+                          "box-6-1-0"
                         ],
                         "postreq_sequence": [
                           "box-7-0-0"
@@ -1969,11 +1907,9 @@
                           "box-4-2-0",
                           "box-5-0-0",
                           "box-6-0-0",
-                          "box-6-1-1",
                           "box-6-2-0",
                           "box-7-1-0",
-                          "box-7-2-0",
-                          "box-7-2-1"
+                          "box-7-2-0"
                         ],
                         "postcoreq": []
                       }
@@ -2072,14 +2008,12 @@
                           "box-2-1-0",
                           "box-2-2-0",
                           "box-5-0-0",
-                          "box-7-2-0",
-                          "box-7-2-1"
+                          "box-7-2-0"
                         ],
                         "postreq_sequence": [
                           "box-4-1-0",
                           "box-4-2-0",
                           "box-6-0-0",
-                          "box-6-1-1",
                           "box-6-2-0",
                           "box-7-1-0"
                         ],
@@ -2257,8 +2191,7 @@
                         "coreq_immediate": [],
                         "coreq_sequence": [],
                         "postreq_immediate": [
-                          "box-6-0-0",
-                          "box-6-1-1"
+                          "box-6-0-0"
                         ],
                         "postreq_sequence": [],
                         "postcoreq": []
@@ -2297,7 +2230,6 @@
                           "box-4-1-0",
                           "box-4-2-0",
                           "box-6-0-0",
-                          "box-6-1-1",
                           "box-6-2-0"
                         ],
                         "postreq_sequence": [
@@ -2707,9 +2639,7 @@
                         ],
                         "coreq_immediate": [],
                         "coreq_sequence": [],
-                        "postreq_immediate": [
-                          "box-6-1-1"
-                        ],
+                        "postreq_immediate": [],
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
@@ -2895,52 +2825,6 @@
                         "postreq_immediate": [
                           "box-7-0-0"
                         ],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
-                    },
-                    {
-                      "label": "MTH 437LR - Introduction to Numerical Analysis I",
-                      "credits": "4",
-                      "note": null,
-                      "course_key": "MTH 437",
-                      "id": "box-6-1-1",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Introduction to Numerical Analysis I",
-                        "description": "A first course on the design and implementation of numerical methods to solve the most common types of problem arising in science and engineering. Most such problems cannot be solved in terms of a closed analytical formula, but many can be handled with numerical methods learned in this course. Topics for the two semesters include: how a computer does arithmetic, solving systems of simultaneous linear or nonlinear equations, finding eigenvalues and eigenvectors of (large) matrices, minimizing a function of many variables, fitting smooth functions to data points (interpolation and regression), computing integrals, solving ordinary differential equations (initial and boundary value problems), and solving partial differential equations of elliptic, parabolic, and hyperbolic types. We study how and why numerical methods work, and also their errors and limitations. Students gain practical experience through course projects that entail writing computer programs.",
-                        "credits": "4",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Fall",
-                        "requisites": "Pre-Requisite: CSE 115 or MTH 337 and MTH 241 and MTH 306 and MTH 309 .",
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7946&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Numerical Methods (choose 1 of 2)",
-                            "courses": [
-                              "MTH 437LR - Introduction to Numerical Analysis I",
-                              "PHY 410LEC - Computational Physics I"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [
-                          "box-0-1-0",
-                          "box-2-1-0",
-                          "box-2-2-0",
-                          "box-5-0-0"
-                        ],
-                        "prereq_sequence": [
-                          "box-0-2-0",
-                          "box-1-1-0"
-                        ],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
@@ -3199,48 +3083,6 @@
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
-                    },
-                    {
-                      "label": "MTH 411LR - Introduction to Probability Theory",
-                      "credits": "4",
-                      "note": null,
-                      "course_key": "MTH 411",
-                      "id": "box-7-2-1",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Introduction to Probability Theory",
-                        "description": "A first course in probability. Introduces the basic concepts of probability theory and addresses many concrete problems. A list of basic concepts includes axioms of probability, conditional probability, independence, random variables (continuous and discrete), distribution functions, expectation, variance, joint distribution functions, limit theorems. This course is dual-listed with MTH 511.",
-                        "credits": "4",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Fall, Spring, Summer",
-                        "requisites": "Pre-Requisite: MTH 142 or MTH 154 or MTH 138 and MTH 139 .",
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7946&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Probability/Statistics Requirement (choose 1 of 2)",
-                            "courses": [
-                              "EAS 305LR - Applied Probability and Statistics",
-                              "MTH 411LR - Introduction to Probability Theory"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [
-                          "box-1-1-0"
-                        ],
-                        "prereq_sequence": [
-                          "box-0-2-0"
-                        ],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
                     }
                   ]
                 },
@@ -3387,26 +3229,6 @@
           "type": "coreq"
         },
         {
-          "from": "box-0-1-0",
-          "to": "box-6-1-1",
-          "type": "prereq"
-        },
-        {
-          "from": "box-2-1-0",
-          "to": "box-6-1-1",
-          "type": "prereq"
-        },
-        {
-          "from": "box-2-2-0",
-          "to": "box-6-1-1",
-          "type": "prereq"
-        },
-        {
-          "from": "box-5-0-0",
-          "to": "box-6-1-1",
-          "type": "prereq"
-        },
-        {
           "from": "box-2-2-0",
           "to": "box-6-2-0",
           "type": "prereq"
@@ -3439,11 +3261,6 @@
         {
           "from": "box-1-1-0",
           "to": "box-7-2-0",
-          "type": "prereq"
-        },
-        {
-          "from": "box-1-1-0",
-          "to": "box-7-2-1",
           "type": "prereq"
         }
       ]
@@ -6968,44 +6785,6 @@
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
-                    },
-                    {
-                      "label": "JPN 421LEC - Japanese Language and Culture",
-                      "credits": "3",
-                      "note": null,
-                      "course_key": "JPN 421",
-                      "id": "box-4-0-1",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Japanese Language and Culture",
-                        "description": "This course explores topics related to language and society, and intercultural communication, and provides students with opportunities to address questions concerning these topics. The primary goal of this course is to enhance students\u2019 knowledge of intercultural and sociolinguistic aspects that contribute to the property and use of the Japanese language. Although this course is appropriate for students of Japanese and/or linguistics, the course is appropriate for students who have a serious interest in issues of language, society, and communication, and their relationship. Prior knowledge of Japanese is not required and English translation is provided for Japanese language data used for discussions and analyses. Taught in English. This course is the same as AS 422 , and course repeat rules will apply. Students should consult with their major department regarding any restrictions on their degree requirements.",
-                        "credits": "3",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Spring",
-                        "requisites": null,
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8002&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Japanese Language and Linguistics Core (choose 1 of 2)",
-                            "courses": [
-                              "JPN 411LEC - Introduction to Japanese Linguistics",
-                              "JPN 421LEC - Japanese Language and Culture"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
                     }
                   ]
                 },
@@ -8986,8 +8765,7 @@
                         ],
                         "postreq_sequence": [],
                         "postcoreq": [
-                          "box-0-3-0",
-                          "box-0-3-1"
+                          "box-0-3-0"
                         ]
                       }
                     }
@@ -9009,46 +8787,6 @@
                         "grading": "Graded (GRD)",
                         "typically_offered": "Fall",
                         "requisites": "Co-Requisite: Student must register for TH 106 and TH 136 or TH 135LAB in the same term.",
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Prerequisite Courses (choose 1 of 2)",
-                            "courses": [
-                              "TH 135LAB - Production Practicum",
-                              "TH 136LAB - Production Practicum"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [
-                          "box-0-2-0"
-                        ],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
-                    },
-                    {
-                      "label": "TH 136LAB - Production Practicum",
-                      "credits": "1",
-                      "note": null,
-                      "course_key": "TH 136",
-                      "id": "box-0-3-1",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Production Practicum",
-                        "description": "Practical experience on productions based on lectures in TH 106 . There is a fee associated with this class.",
-                        "credits": "1",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Spring",
-                        "requisites": "Co-Requisite: Student must register for TH 106 and TH 136LAB or TH 135 in the same term.",
                         "flexible": true,
                         "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
                         "groups": [
@@ -9172,7 +8910,6 @@
                           "box-3-3-0",
                           "box-4-0-1",
                           "box-4-0-3",
-                          "box-5-0-1",
                           "box-6-1-0",
                           "box-6-2-1"
                         ],
@@ -9313,7 +9050,6 @@
                           "box-3-3-0",
                           "box-4-0-1",
                           "box-4-0-3",
-                          "box-5-0-1",
                           "box-6-1-0",
                           "box-6-2-1"
                         ],
@@ -9414,7 +9150,11 @@
                         "postreq_immediate": [
                           "box-3-2-0"
                         ],
-                        "postreq_sequence": [],
+                        "postreq_sequence": [
+                          "box-4-0-0",
+                          "box-5-0-0",
+                          "box-6-2-0"
+                        ],
                         "postcoreq": []
                       }
                     }
@@ -9453,7 +9193,6 @@
                         "postreq_sequence": [
                           "box-4-0-1",
                           "box-4-0-3",
-                          "box-5-0-1",
                           "box-6-1-0",
                           "box-6-2-1"
                         ],
@@ -9485,9 +9224,7 @@
                         "prereq_sequence": [],
                         "coreq_immediate": [],
                         "coreq_sequence": [],
-                        "postreq_immediate": [
-                          "box-5-0-3"
-                        ],
+                        "postreq_immediate": [],
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
@@ -9522,7 +9259,6 @@
                         ],
                         "postreq_sequence": [
                           "box-4-0-2",
-                          "box-5-0-2",
                           "box-6-2-2"
                         ],
                         "postcoreq": []
@@ -9571,44 +9307,6 @@
                         "grading": "Graded (GRD)",
                         "typically_offered": "Spring",
                         "requisites": "Pre-requisite: Majors and permission of instructor",
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Dance Core - TH Practicum (choose 236LAB or 336LAB each time; complete 3 times)",
-                            "courses": [
-                              "TH 236LAB - Production Practicum",
-                              "TH 336LAB - Production Practicum"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
-                    },
-                    {
-                      "label": "TH 336LAB - Production Practicum",
-                      "credits": "1",
-                      "note": null,
-                      "course_key": "TH 336",
-                      "id": "box-2-5-1",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Production Practicum",
-                        "description": "Practical experience building productions. There is a fee associated with this class.",
-                        "credits": "1",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Spring",
-                        "requisites": null,
                         "flexible": true,
                         "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
                         "groups": [
@@ -9700,9 +9398,7 @@
                           "box-4-0-2",
                           "box-6-2-2"
                         ],
-                        "postreq_sequence": [
-                          "box-5-0-2"
-                        ],
+                        "postreq_sequence": [],
                         "postcoreq": []
                       }
                     }
@@ -9733,8 +9429,13 @@
                         "prereq_sequence": [],
                         "coreq_immediate": [],
                         "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
+                        "postreq_immediate": [
+                          "box-4-0-0",
+                          "box-6-2-0"
+                        ],
+                        "postreq_sequence": [
+                          "box-5-0-0"
+                        ],
                         "postcoreq": []
                       }
                     }
@@ -9774,9 +9475,7 @@
                           "box-6-1-0",
                           "box-6-2-1"
                         ],
-                        "postreq_sequence": [
-                          "box-5-0-1"
-                        ],
+                        "postreq_sequence": [],
                         "postcoreq": []
                       }
                     }
@@ -9846,22 +9545,33 @@
                 {
                   "options": [
                     {
-                      "label": "(Choose 2 of the following): DAC 410SEM - Modern Dance 5",
+                      "label": "DAC 410SEM - Modern Dance 5",
                       "credits": "3",
                       "note": null,
-                      "course_key": null,
+                      "course_key": "DAC 410",
                       "id": "box-4-0-0",
                       "detail": {
-                        "kind": "generic",
-                        "description": "\"(Choose 2 of the following): DAC 410SEM - Modern Dance 5\" is a flexible requirement slot defined by this major's own requirements, not a specific course - see the Undergraduate Catalog for the exact eligible options.",
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177"
+                        "kind": "course",
+                        "title": "Modern Dance 5",
+                        "description": "A continuation of DAC 345 -DAC 346 . Studies technique and style of increased difficulty and variety in combinations of extended length, and pays attention to precision of performance and projection. There may be a fee associated with this class.",
+                        "credits": "2-3",
+                        "grading": "Graded (GRD)",
+                        "typically_offered": null,
+                        "requisites": "Pre-Requisite:DAC 346",
+                        "flexible": false
                       },
                       "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
+                        "prereq_immediate": [
+                          "box-3-2-0"
+                        ],
+                        "prereq_sequence": [
+                          "box-2-0-0"
+                        ],
                         "coreq_immediate": [],
                         "coreq_sequence": [],
-                        "postreq_immediate": [],
+                        "postreq_immediate": [
+                          "box-5-0-0"
+                        ],
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
@@ -9893,9 +9603,7 @@
                         ],
                         "coreq_immediate": [],
                         "coreq_sequence": [],
-                        "postreq_immediate": [
-                          "box-5-0-1"
-                        ],
+                        "postreq_immediate": [],
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
@@ -9925,9 +9633,7 @@
                         ],
                         "coreq_immediate": [],
                         "coreq_sequence": [],
-                        "postreq_immediate": [
-                          "box-5-0-2"
-                        ],
+                        "postreq_immediate": [],
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
@@ -9985,10 +9691,7 @@
                         "prereq_sequence": [],
                         "coreq_immediate": [],
                         "coreq_sequence": [],
-                        "postreq_immediate": [
-                          "box-5-2-2",
-                          "box-7-1-2"
-                        ],
+                        "postreq_immediate": [],
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
@@ -10010,45 +9713,6 @@
                         "credits": "3",
                         "grading": "Graded",
                         "typically_offered": "Fall",
-                        "requisites": null,
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Dance Core (choose 1 of 3) - Movement/Somatic",
-                            "courses": [
-                              "DAC 350LEC - Introduction to Movement Analysis and Somatic Practice",
-                              "DAC 415SEM - Mind-Body Integration",
-                              "DAC 445SEM - Advanced Choreographic Projects"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
-                    },
-                    {
-                      "label": "DAC 415SEM - Mind-Body Integration",
-                      "credits": "3",
-                      "note": null,
-                      "course_key": "DAC 415",
-                      "id": "box-4-1-1",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Mind-Body Integration",
-                        "description": "Surveys systems of alignment, placement, movement efficiency, and tension reduction. Gives developing artists a strong movement foundation from which to build in their particular disciplines. Gives preference to theatre, dance, and music majors. Welcomes nonmajors on a space-available basis.",
-                        "credits": "3",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": null,
                         "requisites": null,
                         "flexible": true,
                         "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
@@ -10136,40 +9800,19 @@
                 {
                   "options": [
                     {
-                      "label": "(Choose 1 of the following): DAC 411SEM - Modern Dance 6",
+                      "label": "DAC 411SEM - Modern Dance 6",
                       "credits": "2-3",
                       "note": null,
-                      "course_key": null,
+                      "course_key": "DAC 411",
                       "id": "box-5-0-0",
                       "detail": {
-                        "kind": "generic",
-                        "description": "\"(Choose 1 of the following): DAC 411SEM - Modern Dance 6\" is a flexible requirement slot defined by this major's own requirements, not a specific course - see the Undergraduate Catalog for the exact eligible options.",
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177"
-                      },
-                      "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
-                    },
-                    {
-                      "label": "DAC 418LEC - Jazz Dance 6",
-                      "credits": "2-3",
-                      "note": null,
-                      "course_key": "DAC 418",
-                      "id": "box-5-0-1",
-                      "detail": {
                         "kind": "course",
-                        "title": "Jazz Dance 6",
-                        "description": "A continuation of DAC 371 -DAC 372 . Studies technique and style of increased complexity, and pays attention to technical precision, performance, and stylistic execution.",
+                        "title": "Modern Dance 6",
+                        "description": "A continuation of DAC 345 -DAC 346 . Studies technique and style of increased difficulty and variety in combinations of extended length, and pays attention to precision of performance and projection.",
                         "credits": "2-3",
                         "grading": "Graded (GRD)",
                         "typically_offered": null,
-                        "requisites": "Pre-Requisite:DAC 417 . Theater & Dance Majors only.",
+                        "requisites": "Pre-Requisite: DAC 410 . Dance majors only.",
                         "flexible": true,
                         "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
                         "groups": [
@@ -10188,103 +9831,13 @@
                       },
                       "relationships": {
                         "prereq_immediate": [
-                          "box-4-0-1",
-                          "box-6-2-1"
+                          "box-4-0-0",
+                          "box-6-2-0"
                         ],
                         "prereq_sequence": [
-                          "box-0-6-0",
-                          "box-1-3-0",
-                          "box-2-1-0",
-                          "box-3-3-0"
+                          "box-2-0-0",
+                          "box-3-2-0"
                         ],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
-                    },
-                    {
-                      "label": "DAC 422SEM - Ballet 6",
-                      "credits": "2-3",
-                      "note": null,
-                      "course_key": "DAC 422",
-                      "id": "box-5-0-2",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Ballet 6",
-                        "description": "A continuation of DAC 342 . Studies technique of increased difficulty, variety, and complexity, and pays attention to precision of execution, performance, and style.",
-                        "credits": "2-3",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": null,
-                        "requisites": "Pre-Requisite: DAC 421 and dance majors only.",
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Dance Core (choose 1 of 4) - Level 6 Technique",
-                            "courses": [
-                              "DAC 311SEM - Tap Dance 4",
-                              "DAC 411SEM - Modern Dance 6",
-                              "DAC 418LEC - Jazz Dance 6",
-                              "DAC 422SEM - Ballet 6"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [
-                          "box-4-0-2",
-                          "box-6-2-2"
-                        ],
-                        "prereq_sequence": [
-                          "box-2-3-0",
-                          "box-3-1-0"
-                        ],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
-                    },
-                    {
-                      "label": "DAC 311SEM - Tap Dance 4",
-                      "credits": "3",
-                      "note": null,
-                      "course_key": "DAC 311",
-                      "id": "box-5-0-3",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Tap Dance 4",
-                        "description": "Expands the tap dancer\u2019s movement, vocabulary, and historical understanding of this dance form. Emphasizes in particular the aural, visual, and expressive elements of tap dance.",
-                        "credits": "3",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": null,
-                        "requisites": "DAC310 Tap 3",
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Dance Core (choose 1 of 4) - Level 6 Technique",
-                            "courses": [
-                              "DAC 311SEM - Tap Dance 4",
-                              "DAC 411SEM - Modern Dance 6",
-                              "DAC 418LEC - Jazz Dance 6",
-                              "DAC 422SEM - Ballet 6"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [
-                          "box-2-2-0"
-                        ],
-                        "prereq_sequence": [],
                         "coreq_immediate": [],
                         "coreq_sequence": [],
                         "postreq_immediate": [],
@@ -10398,86 +9951,6 @@
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
-                    },
-                    {
-                      "label": "DAC 442SLB - Choreography 2",
-                      "credits": "3",
-                      "note": null,
-                      "course_key": "DAC 442",
-                      "id": "box-5-2-2",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Choreography 2",
-                        "description": "Explores the process of making dances. Studies the elements of dance composition, including the development of solo and group studies for class presentation.",
-                        "credits": "3",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Spring",
-                        "requisites": "Pre-Requisite: DAC 441 .",
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Dance Core (choose 1 of 3) - Capstone Studies",
-                            "courses": [
-                              "DAC 381SEM - Social Dance Forms 1",
-                              "DAC 442SLB - Choreography 2",
-                              "DAC 454SEM - Teaching Methods in Dance"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [
-                          "box-4-0-4"
-                        ],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
-                    },
-                    {
-                      "label": "DAC 454SEM - Teaching Methods in Dance",
-                      "credits": "3",
-                      "note": null,
-                      "course_key": "DAC 454",
-                      "id": "box-5-2-3",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Teaching Methods in Dance",
-                        "description": "For upper-level dance students interested in expanding their knowledge and practical experience in preparation for a career in the field of dance education. Includes lesson plan development, injury prevention, and experience in practical teaching situations.",
-                        "credits": "3",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Spring",
-                        "requisites": null,
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Dance Core (choose 1 of 3) - Capstone Studies",
-                            "courses": [
-                              "DAC 381SEM - Social Dance Forms 1",
-                              "DAC 442SLB - Choreography 2",
-                              "DAC 454SEM - Teaching Methods in Dance"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
                     }
                   ]
                 },
@@ -10497,44 +9970,6 @@
                         "grading": "Graded (GRD)",
                         "typically_offered": "Spring",
                         "requisites": "Pre-requisite: Majors and permission of instructor",
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Dance Core - TH Practicum (choose 236LAB or 336LAB each time; complete 3 times)",
-                            "courses": [
-                              "TH 236LAB - Production Practicum",
-                              "TH 336LAB - Production Practicum"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
-                    },
-                    {
-                      "label": "TH 336LAB - Production Practicum",
-                      "credits": "1",
-                      "note": null,
-                      "course_key": "TH 336",
-                      "id": "box-5-3-1",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Production Practicum",
-                        "description": "Practical experience building productions. There is a fee associated with this class.",
-                        "credits": "1",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Spring",
-                        "requisites": null,
                         "flexible": true,
                         "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
                         "groups": [
@@ -10679,22 +10114,33 @@
                 {
                   "options": [
                     {
-                      "label": "(Choose 1 of the following): DAC 410SEM - Modern Dance 5",
+                      "label": "DAC 410SEM - Modern Dance 5",
                       "credits": "3",
                       "note": null,
-                      "course_key": null,
+                      "course_key": "DAC 410",
                       "id": "box-6-2-0",
                       "detail": {
-                        "kind": "generic",
-                        "description": "\"(Choose 1 of the following): DAC 410SEM - Modern Dance 5\" is a flexible requirement slot defined by this major's own requirements, not a specific course - see the Undergraduate Catalog for the exact eligible options.",
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177"
+                        "kind": "course",
+                        "title": "Modern Dance 5",
+                        "description": "A continuation of DAC 345 -DAC 346 . Studies technique and style of increased difficulty and variety in combinations of extended length, and pays attention to precision of performance and projection. There may be a fee associated with this class.",
+                        "credits": "2-3",
+                        "grading": "Graded (GRD)",
+                        "typically_offered": null,
+                        "requisites": "Pre-Requisite:DAC 346",
+                        "flexible": false
                       },
                       "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
+                        "prereq_immediate": [
+                          "box-3-2-0"
+                        ],
+                        "prereq_sequence": [
+                          "box-2-0-0"
+                        ],
                         "coreq_immediate": [],
                         "coreq_sequence": [],
-                        "postreq_immediate": [],
+                        "postreq_immediate": [
+                          "box-5-0-0"
+                        ],
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
@@ -10726,9 +10172,7 @@
                         ],
                         "coreq_immediate": [],
                         "coreq_sequence": [],
-                        "postreq_immediate": [
-                          "box-5-0-1"
-                        ],
+                        "postreq_immediate": [],
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
@@ -10758,9 +10202,7 @@
                         ],
                         "coreq_immediate": [],
                         "coreq_sequence": [],
-                        "postreq_immediate": [
-                          "box-5-0-2"
-                        ],
+                        "postreq_immediate": [],
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
@@ -10783,44 +10225,6 @@
                         "grading": "Graded (GRD)",
                         "typically_offered": "Spring",
                         "requisites": "Pre-requisite: Majors and permission of instructor",
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Dance Core - TH Practicum (choose 236LAB or 336LAB each time; complete 3 times)",
-                            "courses": [
-                              "TH 236LAB - Production Practicum",
-                              "TH 336LAB - Production Practicum"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
-                    },
-                    {
-                      "label": "TH 336LAB - Production Practicum",
-                      "credits": "1",
-                      "note": null,
-                      "course_key": "TH 336",
-                      "id": "box-6-3-1",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Production Practicum",
-                        "description": "Practical experience building productions. There is a fee associated with this class.",
-                        "credits": "1",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Spring",
-                        "requisites": null,
                         "flexible": true,
                         "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
                         "groups": [
@@ -10957,86 +10361,6 @@
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
-                    },
-                    {
-                      "label": "DAC 442SLB - Choreography 2",
-                      "credits": "3",
-                      "note": null,
-                      "course_key": "DAC 442",
-                      "id": "box-7-1-2",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Choreography 2",
-                        "description": "Explores the process of making dances. Studies the elements of dance composition, including the development of solo and group studies for class presentation.",
-                        "credits": "3",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Spring",
-                        "requisites": "Pre-Requisite: DAC 441 .",
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Dance Core (choose 1 of 3) - Capstone Studies",
-                            "courses": [
-                              "DAC 381SEM - Social Dance Forms 1",
-                              "DAC 442SLB - Choreography 2",
-                              "DAC 454SEM - Teaching Methods in Dance"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [
-                          "box-4-0-4"
-                        ],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
-                    },
-                    {
-                      "label": "DAC 454SEM - Teaching Methods in Dance",
-                      "credits": "3",
-                      "note": null,
-                      "course_key": "DAC 454",
-                      "id": "box-7-1-3",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Teaching Methods in Dance",
-                        "description": "For upper-level dance students interested in expanding their knowledge and practical experience in preparation for a career in the field of dance education. Includes lesson plan development, injury prevention, and experience in practical teaching situations.",
-                        "credits": "3",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Spring",
-                        "requisites": null,
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Dance Core (choose 1 of 3) - Capstone Studies",
-                            "courses": [
-                              "DAC 381SEM - Social Dance Forms 1",
-                              "DAC 442SLB - Choreography 2",
-                              "DAC 454SEM - Teaching Methods in Dance"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
                     }
                   ]
                 },
@@ -11111,44 +10435,6 @@
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
-                    },
-                    {
-                      "label": "TH 108LEC - Acting I",
-                      "credits": "3",
-                      "note": null,
-                      "course_key": "TH 108",
-                      "id": "box-7-3-1",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Acting I",
-                        "description": "Nature and elements of behavior-based acting; practical investigation and involvement; physical games; imaginative exercises; improvisations; preliminary introduction to scene work. Required of all majors and minors.",
-                        "credits": "3",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Fall",
-                        "requisites": null,
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=7956&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Dance Core (choose 1 of 2)",
-                            "courses": [
-                              "TH 108LEC - Acting I",
-                              "TH 203LEC - Visual Imagination"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
                     }
                   ]
                 },
@@ -11195,11 +10481,6 @@
           "type": "coreq"
         },
         {
-          "from": "box-0-2-0",
-          "to": "box-0-3-1",
-          "type": "coreq"
-        },
-        {
           "from": "box-0-4-0",
           "to": "box-1-0-0",
           "type": "prereq"
@@ -11235,6 +10516,11 @@
           "type": "prereq"
         },
         {
+          "from": "box-3-2-0",
+          "to": "box-4-0-0",
+          "type": "prereq"
+        },
+        {
           "from": "box-3-3-0",
           "to": "box-4-0-1",
           "type": "prereq"
@@ -11250,38 +10536,23 @@
           "type": "prereq"
         },
         {
-          "from": "box-4-0-1",
-          "to": "box-5-0-1",
+          "from": "box-4-0-0",
+          "to": "box-5-0-0",
           "type": "prereq"
         },
         {
-          "from": "box-6-2-1",
-          "to": "box-5-0-1",
-          "type": "prereq"
-        },
-        {
-          "from": "box-4-0-2",
-          "to": "box-5-0-2",
-          "type": "prereq"
-        },
-        {
-          "from": "box-6-2-2",
-          "to": "box-5-0-2",
-          "type": "prereq"
-        },
-        {
-          "from": "box-2-2-0",
-          "to": "box-5-0-3",
-          "type": "prereq"
-        },
-        {
-          "from": "box-4-0-4",
-          "to": "box-5-2-2",
+          "from": "box-6-2-0",
+          "to": "box-5-0-0",
           "type": "prereq"
         },
         {
           "from": "box-3-3-0",
           "to": "box-6-1-0",
+          "type": "prereq"
+        },
+        {
+          "from": "box-3-2-0",
+          "to": "box-6-2-0",
           "type": "prereq"
         },
         {
@@ -11292,11 +10563,6 @@
         {
           "from": "box-3-1-0",
           "to": "box-6-2-2",
-          "type": "prereq"
-        },
-        {
-          "from": "box-4-0-4",
-          "to": "box-7-1-2",
           "type": "prereq"
         },
         {
@@ -15265,44 +14531,6 @@
                             "postreq_sequence": [],
                             "postcoreq": []
                           }
-                        },
-                        {
-                          "label": "JPN 421LEC - Japanese Language and Culture",
-                          "credits": "3",
-                          "note": null,
-                          "course_key": "JPN 421",
-                          "id": "box-7-2-1",
-                          "detail": {
-                            "kind": "course",
-                            "title": "Japanese Language and Culture",
-                            "description": "This course explores topics related to language and society, and intercultural communication, and provides students with opportunities to address questions concerning these topics. The primary goal of this course is to enhance students\u2019 knowledge of intercultural and sociolinguistic aspects that contribute to the property and use of the Japanese language. Although this course is appropriate for students of Japanese and/or linguistics, the course is appropriate for students who have a serious interest in issues of language, society, and communication, and their relationship. Prior knowledge of Japanese is not required and English translation is provided for Japanese language data used for discussions and analyses. Taught in English. This course is the same as AS 422 , and course repeat rules will apply. Students should consult with their major department regarding any restrictions on their degree requirements.",
-                            "credits": "3",
-                            "grading": "Graded (GRD)",
-                            "typically_offered": "Spring",
-                            "requisites": null,
-                            "flexible": true,
-                            "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
-                            "groups": [
-                              {
-                                "requirement_type": "choice_required",
-                                "group": "Language Sequence: Japanese electives (choose 1 of 2)",
-                                "courses": [
-                                  "JPN 411LEC - Introduction to Japanese Linguistics",
-                                  "JPN 421LEC - Japanese Language and Culture"
-                                ],
-                                "courses_truncated": false
-                              }
-                            ]
-                          },
-                          "relationships": {
-                            "prereq_immediate": [],
-                            "prereq_sequence": [],
-                            "coreq_immediate": [],
-                            "coreq_sequence": [],
-                            "postreq_immediate": [],
-                            "postreq_sequence": [],
-                            "postcoreq": []
-                          }
                         }
                       ]
                     },
@@ -16660,84 +15888,6 @@
                             "kind": "course",
                             "title": "The Structure of Modern German Grammar",
                             "description": "Incorporates linguistic analysis of the phonetic, phonological, morphological, and syntactic structure of German. Includes a survey of the more important theories of German syntax, as well as preliminary investigation into semantics, if time allows.",
-                            "credits": "3",
-                            "grading": "Graded (GRD)",
-                            "typically_offered": "Occasionally",
-                            "requisites": null,
-                            "flexible": true,
-                            "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
-                            "groups": [
-                              {
-                                "requirement_type": "choice_required",
-                                "group": "Language Sequence: German electives (choose 1 of 3)",
-                                "courses": [
-                                  "GER 408LEC - The Structure of Modern German Grammar",
-                                  "GER 414SEM - History of the English Language",
-                                  "GER 415LEC - History of the German Language"
-                                ],
-                                "courses_truncated": false
-                              }
-                            ]
-                          },
-                          "relationships": {
-                            "prereq_immediate": [],
-                            "prereq_sequence": [],
-                            "coreq_immediate": [],
-                            "coreq_sequence": [],
-                            "postreq_immediate": [],
-                            "postreq_sequence": [],
-                            "postcoreq": []
-                          }
-                        },
-                        {
-                          "label": "GER 414SEM - History of the English Language",
-                          "credits": "3",
-                          "note": null,
-                          "course_key": "GER 414",
-                          "id": "box-7-2-1",
-                          "detail": {
-                            "kind": "course",
-                            "title": "History of the English Language",
-                            "description": "Introduces the linguistic and cultural development of the English language from its beginnings to the present. This course is the same as LIN 414 , and course repeat rules will apply. Students should consult with their major department regarding any restrictions on their degree requirements.",
-                            "credits": "3",
-                            "grading": "Graded (GRD)",
-                            "typically_offered": null,
-                            "requisites": null,
-                            "flexible": true,
-                            "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
-                            "groups": [
-                              {
-                                "requirement_type": "choice_required",
-                                "group": "Language Sequence: German electives (choose 1 of 3)",
-                                "courses": [
-                                  "GER 408LEC - The Structure of Modern German Grammar",
-                                  "GER 414SEM - History of the English Language",
-                                  "GER 415LEC - History of the German Language"
-                                ],
-                                "courses_truncated": false
-                              }
-                            ]
-                          },
-                          "relationships": {
-                            "prereq_immediate": [],
-                            "prereq_sequence": [],
-                            "coreq_immediate": [],
-                            "coreq_sequence": [],
-                            "postreq_immediate": [],
-                            "postreq_sequence": [],
-                            "postcoreq": []
-                          }
-                        },
-                        {
-                          "label": "GER 415LEC - History of the German Language",
-                          "credits": "3",
-                          "note": null,
-                          "course_key": "GER 415",
-                          "id": "box-7-2-2",
-                          "detail": {
-                            "kind": "course",
-                            "title": "History of the German Language",
-                            "description": "Introduces the linguistic and cultural development of the German language from its beginnings to the present. Instruction is usually in German.",
                             "credits": "3",
                             "grading": "Graded (GRD)",
                             "typically_offered": "Occasionally",
@@ -18158,44 +17308,6 @@
                             "kind": "course",
                             "title": "Introduction to Korean Linguistics",
                             "description": "Lays the groundwork for an understanding of how the Korean language operates. No prior knowledge of Korean is necessary, but does require a familiarity with basic linguistic theory. Students are introduced to major phonological, morphological, syntactic, semantic, and pragmatic characteristics of Korean in light of linguistic/cognitive universals and cross-linguistic variations.",
-                            "credits": "3",
-                            "grading": "Graded (GRD)",
-                            "typically_offered": "Occasionally",
-                            "requisites": null,
-                            "flexible": true,
-                            "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
-                            "groups": [
-                              {
-                                "requirement_type": "choice_required",
-                                "group": "Language Sequence: Korean electives (choose 1 of 2)",
-                                "courses": [
-                                  "KOR 411LEC - Introduction to Korean Linguistics",
-                                  "KOR 421LEC - Korean Language and Culture"
-                                ],
-                                "courses_truncated": false
-                              }
-                            ]
-                          },
-                          "relationships": {
-                            "prereq_immediate": [],
-                            "prereq_sequence": [],
-                            "coreq_immediate": [],
-                            "coreq_sequence": [],
-                            "postreq_immediate": [],
-                            "postreq_sequence": [],
-                            "postcoreq": []
-                          }
-                        },
-                        {
-                          "label": "KOR 421LEC - Korean Language and Culture",
-                          "credits": "3",
-                          "note": null,
-                          "course_key": "KOR 421",
-                          "id": "box-7-2-1",
-                          "detail": {
-                            "kind": "course",
-                            "title": "Korean Language and Culture",
-                            "description": "Introduces Korean culture and society, including readings and discussions of Korean history, politics, economy, art, literature, and language. Taught in English. This course is the same as AS 423 , and course repeat rules will apply. Students should consult with their major department regarding any restrictions on their degree requirements.",
                             "credits": "3",
                             "grading": "Graded (GRD)",
                             "typically_offered": "Occasionally",
@@ -21461,9 +20573,7 @@
                               "box-2-2-0",
                               "box-3-2-0",
                               "box-4-2-0",
-                              "box-4-2-1",
-                              "box-5-2-0",
-                              "box-5-2-1"
+                              "box-5-2-0"
                             ],
                             "postcoreq": []
                           }
@@ -21583,9 +20693,7 @@
                             "postreq_sequence": [
                               "box-3-2-0",
                               "box-4-2-0",
-                              "box-4-2-1",
-                              "box-5-2-0",
-                              "box-5-2-1"
+                              "box-5-2-0"
                             ],
                             "postcoreq": []
                           }
@@ -21761,9 +20869,7 @@
                             ],
                             "postreq_sequence": [
                               "box-4-2-0",
-                              "box-4-2-1",
-                              "box-5-2-0",
-                              "box-5-2-1"
+                              "box-5-2-0"
                             ],
                             "postcoreq": []
                           }
@@ -21935,9 +21041,7 @@
                             "coreq_sequence": [],
                             "postreq_immediate": [
                               "box-4-2-0",
-                              "box-4-2-1",
-                              "box-5-2-0",
-                              "box-5-2-1"
+                              "box-5-2-0"
                             ],
                             "postreq_sequence": [],
                             "postcoreq": []
@@ -22141,90 +21245,6 @@
                             "postreq_sequence": [],
                             "postcoreq": []
                           }
-                        },
-                        {
-                          "label": "SPA 208LEC - Spanish Composition and Language Workshop",
-                          "credits": "3",
-                          "note": null,
-                          "course_key": "SPA 208",
-                          "id": "box-4-2-1",
-                          "detail": {
-                            "kind": "course",
-                            "title": "Spanish Composition and Language Workshop",
-                            "description": "This course focuses primarily on the development of writing skills, with an additional focus on reading comprehension and a review of advanced grammar topics. Students will also continue to develop their conversational abilities. SPA 207 &nbsp;& SPA 208 can be taken in either order, they do not need to be taken sequentially.",
-                            "credits": "3",
-                            "grading": "Graded (GRD)",
-                            "typically_offered": "Fall, Spring",
-                            "requisites": "Pre-Requisite: SPA 202 or permission from the department.",
-                            "flexible": true,
-                            "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
-                            "groups": [
-                              {
-                                "requirement_type": "choice_required",
-                                "group": "Language Sequence: Spanish electives (choose 2 of 3)",
-                                "courses": [
-                                  "SPA 207LEC - Spanish Conversation and Language Workshop",
-                                  "SPA 208LEC - Spanish Composition and Language Workshop",
-                                  "SPA 210LEC - How to Read a Spanish Text"
-                                ],
-                                "courses_truncated": false
-                              }
-                            ]
-                          },
-                          "relationships": {
-                            "prereq_immediate": [
-                              "box-3-2-0"
-                            ],
-                            "prereq_sequence": [
-                              "box-0-3-0",
-                              "box-1-2-0",
-                              "box-2-2-0"
-                            ],
-                            "coreq_immediate": [],
-                            "coreq_sequence": [],
-                            "postreq_immediate": [],
-                            "postreq_sequence": [],
-                            "postcoreq": []
-                          }
-                        },
-                        {
-                          "label": "SPA 210LEC - How to Read a Spanish Text",
-                          "credits": "3",
-                          "note": null,
-                          "course_key": "SPA 210",
-                          "id": "box-4-2-2",
-                          "detail": {
-                            "kind": "course",
-                            "title": "How to Read a Spanish Text",
-                            "description": "Develops students\u2019 ability to analyze a piece of Spanish literature; considers prose and poetry from Peninsular Spanish and/or Spanish American literature.",
-                            "credits": "3",
-                            "grading": "Graded (GRD)",
-                            "typically_offered": "Fall, Spring",
-                            "requisites": null,
-                            "flexible": true,
-                            "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
-                            "groups": [
-                              {
-                                "requirement_type": "choice_required",
-                                "group": "Language Sequence: Spanish electives (choose 2 of 3)",
-                                "courses": [
-                                  "SPA 207LEC - Spanish Conversation and Language Workshop",
-                                  "SPA 208LEC - Spanish Composition and Language Workshop",
-                                  "SPA 210LEC - How to Read a Spanish Text"
-                                ],
-                                "courses_truncated": false
-                              }
-                            ]
-                          },
-                          "relationships": {
-                            "prereq_immediate": [],
-                            "prereq_sequence": [],
-                            "coreq_immediate": [],
-                            "coreq_sequence": [],
-                            "postreq_immediate": [],
-                            "postreq_sequence": [],
-                            "postcoreq": []
-                          }
                         }
                       ]
                     },
@@ -22413,90 +21433,6 @@
                               "box-1-2-0",
                               "box-2-2-0"
                             ],
-                            "coreq_immediate": [],
-                            "coreq_sequence": [],
-                            "postreq_immediate": [],
-                            "postreq_sequence": [],
-                            "postcoreq": []
-                          }
-                        },
-                        {
-                          "label": "SPA 208LEC - Spanish Composition and Language Workshop",
-                          "credits": "3",
-                          "note": null,
-                          "course_key": "SPA 208",
-                          "id": "box-5-2-1",
-                          "detail": {
-                            "kind": "course",
-                            "title": "Spanish Composition and Language Workshop",
-                            "description": "This course focuses primarily on the development of writing skills, with an additional focus on reading comprehension and a review of advanced grammar topics. Students will also continue to develop their conversational abilities. SPA 207 &nbsp;& SPA 208 can be taken in either order, they do not need to be taken sequentially.",
-                            "credits": "3",
-                            "grading": "Graded (GRD)",
-                            "typically_offered": "Fall, Spring",
-                            "requisites": "Pre-Requisite: SPA 202 or permission from the department.",
-                            "flexible": true,
-                            "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
-                            "groups": [
-                              {
-                                "requirement_type": "choice_required",
-                                "group": "Language Sequence: Spanish electives (choose 2 of 3)",
-                                "courses": [
-                                  "SPA 207LEC - Spanish Conversation and Language Workshop",
-                                  "SPA 208LEC - Spanish Composition and Language Workshop",
-                                  "SPA 210LEC - How to Read a Spanish Text"
-                                ],
-                                "courses_truncated": false
-                              }
-                            ]
-                          },
-                          "relationships": {
-                            "prereq_immediate": [
-                              "box-3-2-0"
-                            ],
-                            "prereq_sequence": [
-                              "box-0-3-0",
-                              "box-1-2-0",
-                              "box-2-2-0"
-                            ],
-                            "coreq_immediate": [],
-                            "coreq_sequence": [],
-                            "postreq_immediate": [],
-                            "postreq_sequence": [],
-                            "postcoreq": []
-                          }
-                        },
-                        {
-                          "label": "SPA 210LEC - How to Read a Spanish Text",
-                          "credits": "3",
-                          "note": null,
-                          "course_key": "SPA 210",
-                          "id": "box-5-2-2",
-                          "detail": {
-                            "kind": "course",
-                            "title": "How to Read a Spanish Text",
-                            "description": "Develops students\u2019 ability to analyze a piece of Spanish literature; considers prose and poetry from Peninsular Spanish and/or Spanish American literature.",
-                            "credits": "3",
-                            "grading": "Graded (GRD)",
-                            "typically_offered": "Fall, Spring",
-                            "requisites": null,
-                            "flexible": true,
-                            "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
-                            "groups": [
-                              {
-                                "requirement_type": "choice_required",
-                                "group": "Language Sequence: Spanish electives (choose 2 of 3)",
-                                "courses": [
-                                  "SPA 207LEC - Spanish Conversation and Language Workshop",
-                                  "SPA 208LEC - Spanish Composition and Language Workshop",
-                                  "SPA 210LEC - How to Read a Spanish Text"
-                                ],
-                                "courses_truncated": false
-                              }
-                            ]
-                          },
-                          "relationships": {
-                            "prereq_immediate": [],
-                            "prereq_sequence": [],
                             "coreq_immediate": [],
                             "coreq_sequence": [],
                             "postreq_immediate": [],
@@ -22898,11 +21834,6 @@
               "type": "prereq"
             },
             {
-              "from": "box-3-2-0",
-              "to": "box-4-2-1",
-              "type": "prereq"
-            },
-            {
               "from": "box-3-1-0",
               "to": "box-5-1-0",
               "type": "prereq"
@@ -22910,11 +21841,6 @@
             {
               "from": "box-3-2-0",
               "to": "box-5-2-0",
-              "type": "prereq"
-            },
-            {
-              "from": "box-3-2-0",
-              "to": "box-5-2-1",
               "type": "prereq"
             },
             {
@@ -24544,11 +23470,7 @@
                               "box-2-2-0",
                               "box-3-2-0",
                               "box-4-2-0",
-                              "box-4-2-1",
-                              "box-4-2-2",
-                              "box-5-2-0",
-                              "box-5-2-1",
-                              "box-5-2-2"
+                              "box-5-2-0"
                             ],
                             "postcoreq": []
                           }
@@ -24668,11 +23590,7 @@
                             "postreq_sequence": [
                               "box-3-2-0",
                               "box-4-2-0",
-                              "box-4-2-1",
-                              "box-4-2-2",
-                              "box-5-2-0",
-                              "box-5-2-1",
-                              "box-5-2-2"
+                              "box-5-2-0"
                             ],
                             "postcoreq": []
                           }
@@ -24848,11 +23766,7 @@
                             ],
                             "postreq_sequence": [
                               "box-4-2-0",
-                              "box-4-2-1",
-                              "box-4-2-2",
-                              "box-5-2-0",
-                              "box-5-2-1",
-                              "box-5-2-2"
+                              "box-5-2-0"
                             ],
                             "postcoreq": []
                           }
@@ -25024,11 +23938,7 @@
                             "coreq_sequence": [],
                             "postreq_immediate": [
                               "box-4-2-0",
-                              "box-4-2-1",
-                              "box-4-2-2",
-                              "box-5-2-0",
-                              "box-5-2-1",
-                              "box-5-2-2"
+                              "box-5-2-0"
                             ],
                             "postreq_sequence": [],
                             "postcoreq": []
@@ -25177,96 +24087,6 @@
                             "grading": "Graded (GRD)",
                             "typically_offered": "Fall",
                             "requisites": "Pre-requisite:FR 202 or permission of the department",
-                            "flexible": true,
-                            "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
-                            "groups": [
-                              {
-                                "requirement_type": "choice_required",
-                                "group": "Language Sequence: French electives (choose 2 of 3)",
-                                "courses": [
-                                  "FR 211LEC - Languages, Texts, and Contexts of the French-Speaking World I",
-                                  "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II",
-                                  "FR 213LEC - Languages, Texts, and Contexts of the French-Speaking World III"
-                                ],
-                                "courses_truncated": false
-                              }
-                            ]
-                          },
-                          "relationships": {
-                            "prereq_immediate": [
-                              "box-3-2-0"
-                            ],
-                            "prereq_sequence": [
-                              "box-0-3-0",
-                              "box-1-2-0",
-                              "box-2-2-0"
-                            ],
-                            "coreq_immediate": [],
-                            "coreq_sequence": [],
-                            "postreq_immediate": [],
-                            "postreq_sequence": [],
-                            "postcoreq": []
-                          }
-                        },
-                        {
-                          "label": "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II",
-                          "credits": "3",
-                          "note": null,
-                          "course_key": "FR 212",
-                          "id": "box-4-2-1",
-                          "detail": {
-                            "kind": "course",
-                            "title": "Languages, Texts, and Contexts of the French-Speaking World II",
-                            "description": "This course is part of the FR 211 , FR 212, FR 213 three-course module: these three courses can be taken in any order, they do not need to be taken sequentially. This particular course enriches specific intermediate-level skills for more advanced use: hypothesizing, navigation of uncertainty, and the perception and expression of both objectivity and subjectivity. Course goals are achieved through reading, discussion, and written analysis of texts like plays, films, music, interviews, and performances from the French-speaking world, as well as through debates and staged readings.",
-                            "credits": "3",
-                            "grading": "Graded (GRD)",
-                            "typically_offered": "Spring",
-                            "requisites": "Pre-requisite: FR 202 or permission of the department",
-                            "flexible": true,
-                            "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
-                            "groups": [
-                              {
-                                "requirement_type": "choice_required",
-                                "group": "Language Sequence: French electives (choose 2 of 3)",
-                                "courses": [
-                                  "FR 211LEC - Languages, Texts, and Contexts of the French-Speaking World I",
-                                  "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II",
-                                  "FR 213LEC - Languages, Texts, and Contexts of the French-Speaking World III"
-                                ],
-                                "courses_truncated": false
-                              }
-                            ]
-                          },
-                          "relationships": {
-                            "prereq_immediate": [
-                              "box-3-2-0"
-                            ],
-                            "prereq_sequence": [
-                              "box-0-3-0",
-                              "box-1-2-0",
-                              "box-2-2-0"
-                            ],
-                            "coreq_immediate": [],
-                            "coreq_sequence": [],
-                            "postreq_immediate": [],
-                            "postreq_sequence": [],
-                            "postcoreq": []
-                          }
-                        },
-                        {
-                          "label": "FR 213LEC - Languages, Texts, and Contexts of the French-Speaking World III",
-                          "credits": "3",
-                          "note": null,
-                          "course_key": "FR 213",
-                          "id": "box-4-2-2",
-                          "detail": {
-                            "kind": "course",
-                            "title": "Languages, Texts, and Contexts of the French-Speaking World III",
-                            "description": "This course is part of the FR 211 , FR 212 , FR 213 three-course module: these three courses can be taken in any order, they do not need to be taken sequentially. This particular course enriches specific intermediate-level skills for more advanced use: it focuses on investigating, persuading, and argumentation. It allows students to practice the forms of discourse necessary for defense and justification at the same time that it encourages critical thinking by scrutinizing and analyzing modes of persuasion intended to manipulate and evade. Course goals are achieved through the study of texts like essays, novels, films, and performances coming from various social contexts of French-language cultures as well as through the honing of written and verbal skills of inquiry, research analysis and synthesis necessary for exploring texts and their contexts.",
-                            "credits": "3",
-                            "grading": "Graded (GRD)",
-                            "typically_offered": "Spring",
-                            "requisites": "Prerequisites: FR 202 or permission of the department.",
                             "flexible": true,
                             "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
                             "groups": [
@@ -25461,96 +24281,6 @@
                             "grading": "Graded (GRD)",
                             "typically_offered": "Fall",
                             "requisites": "Pre-requisite:FR 202 or permission of the department",
-                            "flexible": true,
-                            "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
-                            "groups": [
-                              {
-                                "requirement_type": "choice_required",
-                                "group": "Language Sequence: French electives (choose 2 of 3)",
-                                "courses": [
-                                  "FR 211LEC - Languages, Texts, and Contexts of the French-Speaking World I",
-                                  "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II",
-                                  "FR 213LEC - Languages, Texts, and Contexts of the French-Speaking World III"
-                                ],
-                                "courses_truncated": false
-                              }
-                            ]
-                          },
-                          "relationships": {
-                            "prereq_immediate": [
-                              "box-3-2-0"
-                            ],
-                            "prereq_sequence": [
-                              "box-0-3-0",
-                              "box-1-2-0",
-                              "box-2-2-0"
-                            ],
-                            "coreq_immediate": [],
-                            "coreq_sequence": [],
-                            "postreq_immediate": [],
-                            "postreq_sequence": [],
-                            "postcoreq": []
-                          }
-                        },
-                        {
-                          "label": "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II",
-                          "credits": "3",
-                          "note": null,
-                          "course_key": "FR 212",
-                          "id": "box-5-2-1",
-                          "detail": {
-                            "kind": "course",
-                            "title": "Languages, Texts, and Contexts of the French-Speaking World II",
-                            "description": "This course is part of the FR 211 , FR 212, FR 213 three-course module: these three courses can be taken in any order, they do not need to be taken sequentially. This particular course enriches specific intermediate-level skills for more advanced use: hypothesizing, navigation of uncertainty, and the perception and expression of both objectivity and subjectivity. Course goals are achieved through reading, discussion, and written analysis of texts like plays, films, music, interviews, and performances from the French-speaking world, as well as through debates and staged readings.",
-                            "credits": "3",
-                            "grading": "Graded (GRD)",
-                            "typically_offered": "Spring",
-                            "requisites": "Pre-requisite: FR 202 or permission of the department",
-                            "flexible": true,
-                            "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
-                            "groups": [
-                              {
-                                "requirement_type": "choice_required",
-                                "group": "Language Sequence: French electives (choose 2 of 3)",
-                                "courses": [
-                                  "FR 211LEC - Languages, Texts, and Contexts of the French-Speaking World I",
-                                  "FR 212LEC - Languages, Texts, and Contexts of the French-Speaking World II",
-                                  "FR 213LEC - Languages, Texts, and Contexts of the French-Speaking World III"
-                                ],
-                                "courses_truncated": false
-                              }
-                            ]
-                          },
-                          "relationships": {
-                            "prereq_immediate": [
-                              "box-3-2-0"
-                            ],
-                            "prereq_sequence": [
-                              "box-0-3-0",
-                              "box-1-2-0",
-                              "box-2-2-0"
-                            ],
-                            "coreq_immediate": [],
-                            "coreq_sequence": [],
-                            "postreq_immediate": [],
-                            "postreq_sequence": [],
-                            "postcoreq": []
-                          }
-                        },
-                        {
-                          "label": "FR 213LEC - Languages, Texts, and Contexts of the French-Speaking World III",
-                          "credits": "3",
-                          "note": null,
-                          "course_key": "FR 213",
-                          "id": "box-5-2-2",
-                          "detail": {
-                            "kind": "course",
-                            "title": "Languages, Texts, and Contexts of the French-Speaking World III",
-                            "description": "This course is part of the FR 211 , FR 212 , FR 213 three-course module: these three courses can be taken in any order, they do not need to be taken sequentially. This particular course enriches specific intermediate-level skills for more advanced use: it focuses on investigating, persuading, and argumentation. It allows students to practice the forms of discourse necessary for defense and justification at the same time that it encourages critical thinking by scrutinizing and analyzing modes of persuasion intended to manipulate and evade. Course goals are achieved through the study of texts like essays, novels, films, and performances coming from various social contexts of French-language cultures as well as through the honing of written and verbal skills of inquiry, research analysis and synthesis necessary for exploring texts and their contexts.",
-                            "credits": "3",
-                            "grading": "Graded (GRD)",
-                            "typically_offered": "Spring",
-                            "requisites": "Prerequisites: FR 202 or permission of the department.",
                             "flexible": true,
                             "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=8490&returnto=1177",
                             "groups": [
@@ -26001,16 +24731,6 @@
               "type": "prereq"
             },
             {
-              "from": "box-3-2-0",
-              "to": "box-4-2-1",
-              "type": "prereq"
-            },
-            {
-              "from": "box-3-2-0",
-              "to": "box-4-2-2",
-              "type": "prereq"
-            },
-            {
               "from": "box-3-1-0",
               "to": "box-5-1-0",
               "type": "prereq"
@@ -26018,16 +24738,6 @@
             {
               "from": "box-3-2-0",
               "to": "box-5-2-0",
-              "type": "prereq"
-            },
-            {
-              "from": "box-3-2-0",
-              "to": "box-5-2-1",
-              "type": "prereq"
-            },
-            {
-              "from": "box-3-2-0",
-              "to": "box-5-2-2",
               "type": "prereq"
             },
             {
@@ -29089,90 +27799,6 @@
                         "postreq_sequence": [],
                         "postcoreq": []
                       }
-                    },
-                    {
-                      "label": "MTH 131LR - Mathematical Analysis for Management",
-                      "credits": "4",
-                      "note": null,
-                      "course_key": "MTH 131",
-                      "id": "box-1-2-1",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Mathematical Analysis for Management",
-                        "description": "For students in Management. Limits, continuity, differentiation of algebraic and exponential functions. Applications, partial derivatives and applications. Introduces integration.",
-                        "credits": "4",
-                        "grading": "Graded",
-                        "typically_offered": "Fall, Spring, Summer, Winter",
-                        "requisites": "Pre-Requisite: Score of 70/100 or better on both the Fundamentals and the Algebra portions of the Math Readiness Assessment, or a C or better in ULC 148 , MTH 108 , MTH 113 , MTH 114 , MTH 115 , a D or better in MTH 121 or MTH 131, or MTH 141 or a score of 3 on AP Calculus or a score of 4 or 5 on AP Pre-Calculus.",
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=9576&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Math Core (choose 1 of 3)",
-                            "courses": [
-                              "MTH 121LR - Survey of Calculus and Its Applications I",
-                              "MTH 131LR - Mathematical Analysis for Management",
-                              "MTH 141LR - College Calculus I"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [
-                          "box-4-1-0",
-                          "box-5-0-0"
-                        ],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
-                    },
-                    {
-                      "label": "MTH 141LR - College Calculus I",
-                      "credits": "4",
-                      "note": null,
-                      "course_key": "MTH 141",
-                      "id": "box-1-2-2",
-                      "detail": {
-                        "kind": "course",
-                        "title": "College Calculus I",
-                        "description": "Beginning of a three-semester sequence in calculus for students of mathematics, natural sciences, and engineering. Covers differentiation and integration with applications. This course is the same as MTH 136 + 137 and course repeat rules will apply. Students should consult with their major department regarding any restrictions on their degree requirements.",
-                        "credits": "4",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Fall, Spring, Summer, Winter",
-                        "requisites": "Pre-Requisite: Score of 70/100 or better on all three components of the Math Readiness Assessment (exam results are valid for one year), or a C or better in ULC 148, MTH 108 MTH 114 MTH 115, MTH 121, MTH 131, or D or better in MTH 141, or a score of 3 on AP Calculus OR or a score of 4 or 5 on AP Pre-Calculus OR a C or concurrent registration in MTH 109 with either C or better in MTH 113 or MRA scores of 70 or better in Math Fundamentals and Algebra and between 50-69 in Trigonometry.",
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=9576&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "Math Core (choose 1 of 3)",
-                            "courses": [
-                              "MTH 121LR - Survey of Calculus and Its Applications I",
-                              "MTH 131LR - Mathematical Analysis for Management",
-                              "MTH 141LR - College Calculus I"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [
-                          "box-4-1-0",
-                          "box-5-0-0"
-                        ],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
                     }
                   ]
                 },
@@ -29338,44 +27964,6 @@
                         "credits": "3",
                         "grading": "Graded (GRD)",
                         "typically_offered": "Fall",
-                        "requisites": null,
-                        "flexible": true,
-                        "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=9576&returnto=1177",
-                        "groups": [
-                          {
-                            "requirement_type": "choice_required",
-                            "group": "AI & Philosophy, Politics and Economics Core (choose 1 of 2)",
-                            "courses": [
-                              "PSC 200LEC - Empirical Political Science",
-                              "PSC 408LLB - Basic Statistics for Social Science"
-                            ],
-                            "courses_truncated": false
-                          }
-                        ]
-                      },
-                      "relationships": {
-                        "prereq_immediate": [],
-                        "prereq_sequence": [],
-                        "coreq_immediate": [],
-                        "coreq_sequence": [],
-                        "postreq_immediate": [],
-                        "postreq_sequence": [],
-                        "postcoreq": []
-                      }
-                    },
-                    {
-                      "label": "PSC 408LLB - Basic Statistics for Social Science",
-                      "credits": "4",
-                      "note": null,
-                      "course_key": "PSC 408",
-                      "id": "box-2-2-1",
-                      "detail": {
-                        "kind": "course",
-                        "title": "Basic Statistics for Social Science",
-                        "description": "This course is a gentle but thorough introduction to statistics, building towards understanding and using multiple regression, that assumes no particular mathematical training beyond high-school algebra. Using political science and social science examples and data, the course examines descriptive statistics, the logic of hypothesis testing, bivariate statistics (such as t-tests, correlation, and contingency tables), and regression analysis. Finally, the course finishes with an introduction to multivariate statistics. The labs will introduce students to statistical programs that graphically represent and analyze data, such as Excel and R. Upon the conclusion of this course, students should have an understanding of how different types of statistics can or cannot be used, and a mathematical understanding of the statistics applied in the real world. The goals of the course are for students to be better able to read current scholarship in political science and to be able to use statistics in their research papers throughout their university studies and in the professional world.",
-                        "credits": "4",
-                        "grading": "Graded (GRD)",
-                        "typically_offered": "Fall, Spring",
                         "requisites": null,
                         "flexible": true,
                         "catalog_url": "https://catalogs.buffalo.edu/preview_program.php?catoid=21&poid=9576&returnto=1177",
@@ -29666,9 +28254,7 @@
                       },
                       "relationships": {
                         "prereq_immediate": [
-                          "box-1-2-0",
-                          "box-1-2-1",
-                          "box-1-2-2"
+                          "box-1-2-0"
                         ],
                         "prereq_sequence": [],
                         "coreq_immediate": [],
@@ -29827,9 +28413,7 @@
                       },
                       "relationships": {
                         "prereq_immediate": [
-                          "box-1-2-0",
-                          "box-1-2-1",
-                          "box-1-2-2"
+                          "box-1-2-0"
                         ],
                         "prereq_sequence": [],
                         "coreq_immediate": [],
@@ -30217,27 +28801,7 @@
           "type": "prereq"
         },
         {
-          "from": "box-1-2-1",
-          "to": "box-4-1-0",
-          "type": "prereq"
-        },
-        {
-          "from": "box-1-2-2",
-          "to": "box-4-1-0",
-          "type": "prereq"
-        },
-        {
           "from": "box-1-2-0",
-          "to": "box-5-0-0",
-          "type": "prereq"
-        },
-        {
-          "from": "box-1-2-1",
-          "to": "box-5-0-0",
-          "type": "prereq"
-        },
-        {
-          "from": "box-1-2-2",
           "to": "box-5-0-0",
           "type": "prereq"
         },
