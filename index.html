@@ -1333,6 +1333,11 @@
   // box) just re-previews. ".rel-scope" is normally the whole program
   // panel, but for a multi-language-track program it's each track's own
   // panel instead (see build_relationship_map()'s docstring for why).
+  // TODO (pilot-phase, noted 2026-08-31, not yet done): this whole
+  // touch-vs-hover branch has only been verified by code review and a
+  // narrow-viewport desktop-browser check, never on an actual
+  // touchscreen device. Test on a real phone/tablet before this ships
+  // beyond pilot scale.
   var isTouchDevice = window.matchMedia("(hover: none)").matches;
   if (isTouchDevice) {
     document.querySelectorAll(".touch-hint").forEach(function (el) { el.classList.add("show"); });
