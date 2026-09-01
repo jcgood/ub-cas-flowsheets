@@ -133,6 +133,12 @@
     border-radius: 4px;
     padding: 0 0.3rem;
   }
+  /* The 0.75 opacity above is fine at rest (dark text on white, plenty
+     of headroom) but dims white-on-UB-Blue below the 4.5:1 WCAG AA text
+     threshold on the active button - an axe-core sweep caught this
+     (catalogs/scripts/run_accessibility_audit.py). Full opacity only
+     when active, where the underlying color already clears 4.5:1. */
+  .nav-btn.active .nav-degree { opacity: 1; }
   .legend {
     display: flex;
     gap: 0.9rem;
@@ -174,7 +180,12 @@
   }
   .semester-col.term-fall .col-header { background: var(--col-fall-tint); }
   .semester-col.term-spring .col-header { background: var(--col-spring-tint); }
-  .col-year { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-dim); }
+  /* var(--text-dim) reads fine on the plain --col-header background but
+     dropped below 4.5:1 on the Fall/Spring tint washes (axe-core caught
+     this too) - var(--text) at this small a font-size everywhere instead
+     of only over the tints, for one consistent rule rather than a
+     term-conditional override. */
+  .col-year { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text); }
   .col-term { font-size: 0.85rem; font-weight: 700; color: var(--cas-blue); }
   .col-slots {
     display: flex;
@@ -228,7 +239,13 @@
   .box-flex-tag {
     font-size: 0.6rem;
     font-style: italic;
-    color: #9a7300;
+    /* #9a7300 (still used for .box-flexible's BORDER, a non-text UI
+       component that only needs 3:1) fell to 3.83:1 as TEXT on
+       --box-course-bg, below the 4.5:1 WCAG AA text threshold (axe-core
+       caught this) - #6b4e00 is the same warm-brown hue already used
+       elsewhere on this page's light backgrounds (.disclaimer,
+       .lang-view-note) at a comfortably passing shade. */
+    color: #6b4e00;
     margin-top: 0.1rem;
   }
   .box-code { display: block; font-weight: 700; }
