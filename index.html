@@ -98,17 +98,29 @@
     display: block;
   }
   .picker-search:focus { outline: 2px solid var(--cas-blue); outline-offset: 1px; }
-  .picker-groups { display: flex; flex-direction: column; gap: 0.6rem; }
+  .picker-groups { display: flex; flex-direction: column; gap: 0.3rem; }
+  /* .picker-group is a native <details> now (collapsed by default, one
+     per department) rather than an always-expanded <div> - see
+     build_picker_html()'s docstring for why. <summary> already has a
+     built-in keyboard-operable disclosure triangle and expanded/collapsed
+     state announcement, so none of that needs reimplementing here. */
+  .picker-group {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.5rem 0.7rem;
+  }
   .picker-group-label {
     font-size: 0.72rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: var(--text-dim);
     font-weight: 700;
-    margin-bottom: 0.35rem;
+    cursor: pointer;
   }
+  .picker-group-label:focus-visible { outline: 2px solid var(--cas-blue); outline-offset: 2px; }
   .picker-group-count { font-weight: 400; text-transform: none; letter-spacing: normal; }
-  .picker-group-items { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .picker-group-items { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
   .picker-group.picker-group-empty { display: none; }
   .picker-no-results { display: none; font-size: 0.85rem; color: var(--text-dim); padding-top: 0.4rem; }
   .nav-btn {
@@ -408,7 +420,7 @@
 <div class="disclaimer">
   <strong>Unofficial / independently produced.</strong> Not a University at Buffalo publication and not endorsed by UB, the College of Arts and Sciences, or the UB Curriculum Office. Sequencing is derived from the Undergraduate Catalog's own "Curricular Plan" section (a roadmap, not a guarantee); relationship highlighting is auto-extracted, best-effort, and may be incomplete or occasionally wrong. Always confirm requirements with your academic advisor and the official Undergraduate Catalog.
 </div>
-<div class="picker"><label for="major-search" class="sr-only">Search majors by name</label><input type="text" id="major-search" class="picker-search" placeholder="Search majors by name..." autocomplete="off"><div class="picker-groups"><div class="picker-group" data-group="BS"><div class="picker-group-label">BS <span class="picker-group-count">(10)</span></div><div class="picker-group-items"><button class="nav-btn active" data-slug="biochemistry-bs" data-search="biochemistry bs">Biochemistry BS<span class="nav-degree">BS</span></button><button class="nav-btn" data-slug="computational-physics-bs" data-search="computational physics bs">Computational Physics BS<span class="nav-degree">BS</span></button><button class="nav-btn" data-slug="ai-and-quantitative-economics-bs" data-search="ai and quantitative economics bs">AI and Quantitative Economics BS<span class="nav-degree">BS</span></button><button class="nav-btn" data-slug="ai-and-geospatial-analytics-bs" data-search="ai and geospatial analytics bs">AI and Geospatial Analytics BS<span class="nav-degree">BS</span></button><button class="nav-btn" data-slug="ai-and-language-and-intercultural-competence-bs" data-search="ai and language and intercultural competence bs">AI and Language and Intercultural Competence BS<span class="nav-degree">BS</span></button><button class="nav-btn" data-slug="ai-and-language-technology-bs" data-search="ai and language technology bs">AI and Language Technology BS<span class="nav-degree">BS</span></button><button class="nav-btn" data-slug="ai-and-logic-and-ontology-bs" data-search="ai and logic and ontology bs">AI and Logic and Ontology BS<span class="nav-degree">BS</span></button><button class="nav-btn" data-slug="ai-and-philosophy-politics-and-economics-bs" data-search="ai and philosophy, politics and economics bs">AI and Philosophy, Politics and Economics BS<span class="nav-degree">BS</span></button><button class="nav-btn" data-slug="ai-and-policy-analysis-bs" data-search="ai and policy analysis bs">AI and Policy Analysis BS<span class="nav-degree">BS</span></button><button class="nav-btn" data-slug="ai-and-responsible-communication-bs" data-search="ai and responsible communication bs">AI and Responsible Communication BS<span class="nav-degree">BS</span></button></div></div><div class="picker-group" data-group="BA"><div class="picker-group-label">BA <span class="picker-group-count">(3)</span></div><div class="picker-group-items"><button class="nav-btn" data-slug="linguistics-ba" data-search="linguistics ba">Linguistics BA<span class="nav-degree">BA</span></button><button class="nav-btn" data-slug="linguistics-ba-chinese-language-and-linguistics-concentration" data-search="linguistics ba — chinese language and linguistics concentration">Linguistics BA — Chinese Language and Linguistics Concentration<span class="nav-degree">BA</span></button><button class="nav-btn" data-slug="linguistics-ba-japanese-language-and-linguistics-concentration" data-search="linguistics ba — japanese language and linguistics concentration">Linguistics BA — Japanese Language and Linguistics Concentration<span class="nav-degree">BA</span></button></div></div><div class="picker-group" data-group="BFA"><div class="picker-group-label">BFA <span class="picker-group-count">(2)</span></div><div class="picker-group-items"><button class="nav-btn" data-slug="fine-arts-bfa-painting-concentration" data-search="fine arts bfa — painting concentration">Fine Arts BFA — Painting Concentration<span class="nav-degree">BFA</span></button><button class="nav-btn" data-slug="dance-bfa" data-search="dance bfa">Dance BFA<span class="nav-degree">BFA</span></button></div></div></div><div class="picker-no-results" id="picker-no-results">No majors match your search.</div></div>
+<div class="picker"><label for="major-search" class="sr-only">Search majors by name</label><input type="text" id="major-search" class="picker-search" placeholder="Search majors by name..." autocomplete="off"><div class="picker-groups"><details class="picker-group" data-group="Art"><summary class="picker-group-label">Art <span class="picker-group-count">(1)</span></summary><div class="picker-group-items"><button class="nav-btn" data-slug="fine-arts-bfa-painting-concentration" data-search="fine arts bfa — painting concentration">Fine Arts BFA — Painting Concentration<span class="nav-degree">BFA</span></button></div></details><details class="picker-group" data-group="Biochemistry" open data-default-open><summary class="picker-group-label">Biochemistry <span class="picker-group-count">(1)</span></summary><div class="picker-group-items"><button class="nav-btn active" data-slug="biochemistry-bs" data-search="biochemistry bs">Biochemistry BS<span class="nav-degree">BS</span></button></div></details><details class="picker-group" data-group="Communication"><summary class="picker-group-label">Communication <span class="picker-group-count">(1)</span></summary><div class="picker-group-items"><button class="nav-btn" data-slug="ai-and-responsible-communication-bs" data-search="ai and responsible communication bs">AI and Responsible Communication BS<span class="nav-degree">BS</span></button></div></details><details class="picker-group" data-group="Economics"><summary class="picker-group-label">Economics <span class="picker-group-count">(1)</span></summary><div class="picker-group-items"><button class="nav-btn" data-slug="ai-and-quantitative-economics-bs" data-search="ai and quantitative economics bs">AI and Quantitative Economics BS<span class="nav-degree">BS</span></button></div></details><details class="picker-group" data-group="Geography"><summary class="picker-group-label">Geography <span class="picker-group-count">(1)</span></summary><div class="picker-group-items"><button class="nav-btn" data-slug="ai-and-geospatial-analytics-bs" data-search="ai and geospatial analytics bs">AI and Geospatial Analytics BS<span class="nav-degree">BS</span></button></div></details><details class="picker-group" data-group="Linguistics"><summary class="picker-group-label">Linguistics <span class="picker-group-count">(4)</span></summary><div class="picker-group-items"><button class="nav-btn" data-slug="ai-and-language-technology-bs" data-search="ai and language technology bs">AI and Language Technology BS<span class="nav-degree">BS</span></button><button class="nav-btn" data-slug="linguistics-ba" data-search="linguistics ba">Linguistics BA<span class="nav-degree">BA</span></button><button class="nav-btn" data-slug="linguistics-ba-chinese-language-and-linguistics-concentration" data-search="linguistics ba — chinese language and linguistics concentration">Linguistics BA — Chinese Language and Linguistics Concentration<span class="nav-degree">BA</span></button><button class="nav-btn" data-slug="linguistics-ba-japanese-language-and-linguistics-concentration" data-search="linguistics ba — japanese language and linguistics concentration">Linguistics BA — Japanese Language and Linguistics Concentration<span class="nav-degree">BA</span></button></div></details><details class="picker-group" data-group="Philosophy"><summary class="picker-group-label">Philosophy <span class="picker-group-count">(2)</span></summary><div class="picker-group-items"><button class="nav-btn" data-slug="ai-and-logic-and-ontology-bs" data-search="ai and logic and ontology bs">AI and Logic and Ontology BS<span class="nav-degree">BS</span></button><button class="nav-btn" data-slug="ai-and-philosophy-politics-and-economics-bs" data-search="ai and philosophy, politics and economics bs">AI and Philosophy, Politics and Economics BS<span class="nav-degree">BS</span></button></div></details><details class="picker-group" data-group="Physics"><summary class="picker-group-label">Physics <span class="picker-group-count">(1)</span></summary><div class="picker-group-items"><button class="nav-btn" data-slug="computational-physics-bs" data-search="computational physics bs">Computational Physics BS<span class="nav-degree">BS</span></button></div></details><details class="picker-group" data-group="Political Science"><summary class="picker-group-label">Political Science <span class="picker-group-count">(1)</span></summary><div class="picker-group-items"><button class="nav-btn" data-slug="ai-and-policy-analysis-bs" data-search="ai and policy analysis bs">AI and Policy Analysis BS<span class="nav-degree">BS</span></button></div></details><details class="picker-group" data-group="Romance Languages and Literatures"><summary class="picker-group-label">Romance Languages and Literatures <span class="picker-group-count">(1)</span></summary><div class="picker-group-items"><button class="nav-btn" data-slug="ai-and-language-and-intercultural-competence-bs" data-search="ai and language and intercultural competence bs">AI and Language and Intercultural Competence BS<span class="nav-degree">BS</span></button></div></details><details class="picker-group" data-group="Theatre and Dance"><summary class="picker-group-label">Theatre and Dance <span class="picker-group-count">(1)</span></summary><div class="picker-group-items"><button class="nav-btn" data-slug="dance-bfa" data-search="dance bfa">Dance BFA<span class="nav-degree">BFA</span></button></div></details></div><div class="picker-no-results" id="picker-no-results">No majors match your search.</div></div>
 <div class="legend">
   <div class="legend-item"><span class="legend-swatch" style="background:var(--rel-active)"></span> course you're pointing at</div>
   <div class="legend-item"><span class="legend-swatch" style="background:var(--rel-prereq-imm)"></span> prerequisite</div>
@@ -727,7 +739,16 @@
 
   bindPanelHandlers(document.getElementById("panel-container"));
 
-  // --- Search-filterable, degree-grouped major picker ---
+  // --- Search-filterable, department-grouped major picker ---
+  // .picker-group is a <details> now: collapsed by default so browsing
+  // ~380 majors at full scale doesn't dump every button on screen at
+  // once (see build_picker_html()'s docstring). Typing a query force-
+  // opens any group with a match (so results are visible without an
+  // extra click) and force-closes every group again once the query is
+  // cleared, back to the same collapsed browsing state the page loaded
+  // in - a group the user opened by hand before typing doesn't stay
+  // pinned open, which keeps this predictable rather than needing to
+  // track "did the user open this, or did search open it."
   var searchInput = document.getElementById("major-search");
   if (searchInput) {
     searchInput.addEventListener("input", function () {
@@ -741,6 +762,7 @@
           if (match) groupHasVisible = true;
         });
         group.classList.toggle("picker-group-empty", !groupHasVisible);
+        group.open = q ? groupHasVisible : group.hasAttribute("data-default-open");
         if (groupHasVisible) anyVisible = true;
       });
       var noResults = document.getElementById("picker-no-results");
