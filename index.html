@@ -37,13 +37,20 @@
     --rel-coreq-imm: #006570;             /* Niagara Whirlpool - corrected from #006269 */
     --rel-postreq: #002f56;               /* Harriman Blue - exact match, unchanged */
     --rel-postcoreq: #2f9fd0;             /* Victor E. Blue - corrected from #44A9D5 */
-    /* Fall/Spring column-header tints - light washes (not full-strength
-       fills) of two more UB secondary-palette colors, per CLAUDE.md's UB
-       Brand Compliance section: neither passes WCAG contrast as TEXT on
-       white, but that's fine here since they're background tints behind
-       the existing --cas-blue term label, not text color themselves. */
+    /* Fall/Spring/Summer column-header tints - light washes (not
+       full-strength fills) of three more UB secondary-palette colors, per
+       CLAUDE.md's UB Brand Compliance section: none of the three passes
+       WCAG contrast as TEXT on white, but that's fine here since they're
+       background tints behind the existing --cas-blue term label, not
+       text color themselves. Bronze Buffalo (Summer, added 2026-09-03)
+       was picked over Capen Brick specifically for hue distinctiveness
+       from Fall's Letchworth Autumn - both are in the same red-orange
+       family, which would read as barely-different columns at a glance;
+       see ub-brand/palette.json for the full palette and what else in
+       this repo already claims which color. */
     --col-fall-tint: rgba(229, 106, 84, 0.28);    /* Letchworth Autumn */
     --col-spring-tint: rgba(109, 160, 75, 0.28);  /* Olmsted Green */
+    --col-summer-tint: rgba(173, 132, 31, 0.28);  /* Bronze Buffalo */
   }
   * { box-sizing: border-box; }
   .sr-only {
@@ -258,6 +265,7 @@
   }
   .semester-col.term-fall .col-header { background: var(--col-fall-tint); }
   .semester-col.term-spring .col-header { background: var(--col-spring-tint); }
+  .semester-col.term-summer .col-header { background: var(--col-summer-tint); }
   /* var(--text-dim) reads fine on the plain --col-header background but
      dropped below 4.5:1 on the Fall/Spring tint washes (axe-core caught
      this too) - var(--text) at this small a font-size everywhere instead
